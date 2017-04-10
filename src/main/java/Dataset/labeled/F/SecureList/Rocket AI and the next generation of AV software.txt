@@ -1,0 +1,42 @@
+
+The annual Conference on Artificial Intelligence and Neural Information Processing Systems (NIPS) was held in Barcelona on 5–10 December 2016. This is, most likely, one of the two most important conferences in the AI field. This year, 5,680 AI experts attended the conference (the second of these large conferences is known as ICML).
+
+This is not the first year that Kaspersky Lab is taking part in the conference – it is paramount for our experts to be well informed on the most up-to-date approaches to machine learning. This time, there were five Kaspersky Lab employees at NIPS, each from a different department and each working with machine learning implementation in order to protect users from cyberthreats.
+
+However, my intent is to tell you not about the benefit of attending the conference but about an amusing incident that was devised and put into action by AI luminaries.
+
+Rocket AI is the Next Generation of Applied AI
+
+This story was covered in detail by Medium, and I shall only briefly relate the essence of the matter.
+
+Right as the conference was happening, the www.rocketai.org website was created with this bubble on the main page (see picture below):
+
+Rocket AI and the next generation of AV software
+
+Please note that this is not just AI, but the next generation of AI. The idea of the product is described below.
+
+Rocket AI and the next generation of AV software
+
+The Temporally Recurrent Optimal Learning™ approach (abbreviated as “TROL(L)”), which was not yet known to science, was actively promoted on Twitter by conference participants. Within several hours, this resulted in five large companies contacting the project’s authors with investment offers. The value of the “project” was estimated at tens of millions of dollars.
+
+Rocket AI and the next generation of AV software
+
+Now, it’s time to lay the cards on the table: the Rocket AI project was created by experts in machine learning as a prank whose goal was to draw attention to the issue that was put perfectly into words by an author at Medium.com: “Artificial Intelligence has become the most hyped sector of technology. With national press reporting on its dramatic potential, large corporations and investors are desperately trying to break into this field. Many start-ups go to great lengths to emphasize their use of “machine learning” in their pitches, however trivial it may seem. The tech press celebrates companies with no products, that contribute no new technology, and at overly-inflated cost.”
+
+In reality, the field of machine learning features nothing new; popular approaches to artificial intelligence are actually decades-old ideas.
+
+“Clever teams are exploiting the obscurity and cachet of this field to raise more money, knowing that investors and the press have little understanding of how machine learning works in practice,” the author added.
+
+An Anti-Virus of the Very Next Generation
+
+It may seem that the outcome of the prank brought out nothing new: investors feel weakness for everything they hear about. Investment bubbles have existed and will continue to exist. Just our generation saw the advent of dotcoms, biometrics, and bitcoins. We have AI now, and I am sure that 2017 will give us something new as well.
+
+Yet, after I had taken a peek at data-security start-ups, which are springing up like mushrooms after a rain and which claim that they employ the “very real” AI (of the very next generation), an amusing idea crossed my mind.
+
+What would happen if we did the same thing that the respected AI experts did? We could come to agreements with other representatives in the cybersecurity area (I would like to point out the principle of “coopetition”, which combines market competition and cooperation in the areas of inspection and user protection) and create a joint project. Meet Rocket AV.
+
+Rocket AI and the next generation of AV software
+
+If respected IT experts were to advertise it all over their Twitter accounts, then — who knows? — maybe we could attract tens of millions of dollars’ worth of investments.
+
+But no, it’d probably be better for us to continue doing what we are best at: protecting users from cyberthreats. This is the essence of True CyberSecurity.

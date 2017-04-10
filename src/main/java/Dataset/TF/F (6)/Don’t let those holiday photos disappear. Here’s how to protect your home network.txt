@@ -1,0 +1,55 @@
+The holidays are upon us, which means you're probably getting ready to add a new assortment of memories to your photo albums. However, unlike years ago when these moments were stored in physical binders, people today upload their holiday pictures to their computers and social media sites.
+
+There's nothing wrong with sharing your fun photos, but it is risky if you don't have the proper security protocols in place to protect them from being stolen by hackers.
+
+If you want to protect all of your precious holiday photos (and other data), here are five ways to keep your home network and personal computers secure:
+
+1. Protect the router
+There are multiple access points into your home, and one of them is through what Cara West-Wainwright of Trend Micro calls your "cyber front door – the home router." You need to defend your router at all times. Unfortunately a survey conducted by prpl, an open-source technology community, found that 20 percent of respondents said they don't update their routers at least once a year.
+
+West-Wainwright suggested several ways to keep hackers away:
+
+Use a hard-to-guess router name and change it regularly.
+Update router firmware.
+Shut firewall ports.
+Create a lengthy password that uses multiple combinations of numbers, letters and special characters.
+Disable Universal Plug 'n' Play, which is typically enabled by default on most new routers.
+For separate guest networks, choose a different password.
+Along with these tips, PCWorld also provided other ideas, including using routers that aren't provided by internet service providers, switching on HTTPS access and changing the LAN IP address.
+
+2. Create longer passwords
+We suggest that you avoid using your birthday as a password as well as passcodes such as "123" or "ABC." Yet, time and again, people create poor, easy-to-decipher passwords that cyber criminals can easily hack.
+
+In 2015, SplashData released its annual list of worst passwords. The top three included "123456" "password" and "12345678." The next several were variations of the same number combinations and other common words like "football," "baseball" and "welcome." Even "passw0rd" cracked the top 25, as if changing the letter "O" to zero would confuse and deter IT criminals. It did not.
+
+Passwords need to be more complicated than the ones we listed, and you should use a different password for each site that requires a code. This is especially important for sites that contain critical information such as credit card or bank data.
+
+If you're not sure how to create an effective password, start by developing one that isn't an obvious combination of words or phrases. We also believe it's critical to use one that has many numbers, symbols and both capital and lower-case letters.
+
+3. Don't use public Wi-Fi…most of the time
+It's unreasonable to propose you avoid using public Wi-Fi all the time (even though that's the safest action to take). However, we do suggest avoiding public Wi-Fi to shop, exchange personal information, conduct business or bank online.
+
+Free Wi-Fi isn't secure, noted Norton, for a couple of reasons. First, your online actions probably aren't encrypted, or the networks my use older methods of encryption. This can expose your information to cybercriminals lurking nearby.
+
+You may also accidently log onto an unsecured Wi-Fi hotspot under surveillance by a cybercriminal. These are called man-in-the-middle attacks where the IT criminal sits and waits for an unsuspecting person to join the hotspot. Once the target does, the attacker intercepts the signal. This allows these criminals unprecedented access to your information and actions.
+
+You probably won't use a rogue hotspot when you're at home, but it's still something to keep in mind if you're using a personal laptop in public. If you log onto public Wi-Fi, protect your network by only using sites that begin with Hypertext Transfer Protocol Secure (HTTPS), and use a virtual private network (VPN) that protects data by encrypting it.
+
+4. Use common sense
+You have to use common sense even when you're navigating the internet from the comforts of your own home. We're not surprised if people believe they're protected inside their residences, especially after they've locked the doors and windows. But attackers – in this case, cyber attackers – can still break in through an IT network.
+
+If you want to truly defend your house, you need to be smart. Here are a few tips:
+
+Don't trust everyone
+Don't provide personal information to any person or business that you don't trust unless they're reputable. Just remember, once you've handed over everything from your contact information to Social Security number, you have little control over where it goes.
+
+Don't open attachments or links from suspicious entities
+If you've signed up to receive email alerts from trustworthy retailers, you're probably safe to click on links. However, if you have your doubts, the Department of Homeland Security suggests that you contact the retailer directly and ask whether it sent the email. If it didn't, opt out of the email alerts immediately.
+
+The same advice applies to employees who may be working at home. A few years ago cybercriminals breached Target, and the company notified millions of customers that their data had been compromised. How did the attack happen?
+
+According to ZDNet, the attackers snuck through a third-party vendor – a refrigerator contractor – after an employee at the company accidently clicked on a phishing email. And from there, the attackers went to work.
+
+Don't save passwords or credit card information online: Sure, if you typically use one online retailer to do your shopping, it may seem easier to just save your credit card information and passwords so you don't have to manually input them each time to shop. However, this is a big mistake. If IT criminals gain access to the company's database, they can easily swipe this information.
+
+Protecting your home computer isn't difficult to do if you follow at the minimum the steps we outlined in this article. The holidays are important not just because they're fun but also because this is when you make memories that can be passed down from one generation to another. Don't let cybercriminals take this away from you.

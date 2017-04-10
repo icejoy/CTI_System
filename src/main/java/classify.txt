@@ -1,0 +1,161 @@
+0:
+
+src/main/java/Dataset/labeled/F/GrahamCluley/Encryption is a good thing.txt
+src/main/java/Dataset/labeled/F/GrahamCluley/Leave a bad review_ This IoT garage door opener maker may brick your device.txt
+src/main/java/Dataset/labeled/F/GrahamCluley/Why it's a good idea to clear your browser history and cookies.txt
+src/main/java/Dataset/labeled/F/infosecISLAND/4 Things that Make Cloud Compliance Harder Than You Think.txt
+src/main/java/Dataset/labeled/F/infosecISLAND/Access Management and the Automation of Things.txt
+src/main/java/Dataset/labeled/F/infosecISLAND/Are Job Seekers at Risk of a Cyber Breach_.txt
+src/main/java/Dataset/labeled/F/infosecISLAND/Ask a Security Professional- WordPress Database Security Part One — Anatomy of WordPress.txt
+src/main/java/Dataset/labeled/F/infosecISLAND/Ask a Security Professional- WordPress Database Security Part Two — Best Practices.txt
+src/main/java/Dataset/labeled/F/infosecISLAND/Cybersecurity Industry Must Adopt Cyberdefense Tech that Utilizes Analytics, Artificial Intelligence.txt
+src/main/java/Dataset/labeled/F/infosecISLAND/Exchanges in History- What Third Party Cyber Risk Management (TPRM) Programs Can Learn from the Past.txt
+src/main/java/Dataset/labeled/F/infosecISLAND/GRC- Going Beyond the Acronym.txt
+src/main/java/Dataset/labeled/F/infosecISLAND/Stop Doing Four Things—and Convince Your Execs and Board to Properly Fund Cybersecurity.txt
+src/main/java/Dataset/labeled/F/infosecISLAND/Why Is Digital Property Monitored Less than Physical Property_.txt
+src/main/java/Dataset/labeled/F/KASPERSKY/A Caribbean cyber-summit_ Gotta love it.txt
+src/main/java/Dataset/labeled/F/KASPERSKY/Expert tips to avoid falling victim to ransomware.txt
+src/main/java/Dataset/labeled/F/KASPERSKY/Fingers and eyes at MWC 2017.txt
+src/main/java/Dataset/labeled/F/KASPERSKY/How to remove CoinVault ransomware and restore your files.txt
+src/main/java/Dataset/labeled/F/KASPERSKY/International Tinfoil Hat Day 2017.txt
+src/main/java/Dataset/labeled/F/KASPERSKY/Keeping blockchain on track while the hype fades.txt
+src/main/java/Dataset/labeled/F/KASPERSKY/My Precious Data- Digital clutter and its dangers.txt
+src/main/java/Dataset/labeled/F/KASPERSKY/My Precious Data_ Digital clutter and its dangers.txt
+src/main/java/Dataset/labeled/F/KASPERSKY/The Antarctic Biennale_ Cybersecurity meets science and art.txt
+src/main/java/Dataset/labeled/F/KASPERSKY/The secret life of apps.txt
+src/main/java/Dataset/labeled/F/KASPERSKY/Tip of the week_ Browser extension features.txt
+src/main/java/Dataset/labeled/F/KASPERSKY/Too many passwords Try our Password Manager for iOS.txt
+src/main/java/Dataset/labeled/F/KASPERSKY/Watching the World Cup or Downloading Nasty Adware_.txt
+src/main/java/Dataset/labeled/F/SecureList/Deceive in order to detect.txt
+src/main/java/Dataset/labeled/F/SecureList/Dissecting Malware.txt
+src/main/java/Dataset/labeled/F/SecureList/Features of secure OS realization.txt
+src/main/java/Dataset/labeled/F/SecureList/How to succeed in online investigations and digital forensics.txt
+src/main/java/Dataset/labeled/F/SecureList/Machine learning versus spam.txt
+src/main/java/Dataset/labeled/F/SecureList/Rocket AI and the next generation of AV software.txt
+src/main/java/Dataset/labeled/F/SecureList/The cost of launching a DDoS attack.txt
+src/main/java/Dataset/labeled/F/SecureList/The Mistakes of Smart Medicine.txt
+src/main/java/Dataset/labeled/F/ThreatPost/CHROME SECURITY TEAM TACKLES ‘FRIENDLY FIRE’ TO KEEP BROWSER SAFE.txt
+src/main/java/Dataset/labeled/F/ThreatPost/Half of Android Devices Unpatched Last Year.txt
+src/main/java/Dataset/labeled/F/TrendMicro/A Tribute To My Friend Raimund Genes.txt
+src/main/java/Dataset/labeled/F/TrendMicro/Another Challenge For IoT Open Backdoors.txt
+src/main/java/Dataset/labeled/F/TrendMicro/CTO Insights The General Data Protection Regulation (GDPR) Is Coming, What Now.txt
+src/main/java/Dataset/labeled/F/TrendMicro/Devices Exposing Critical Industries and U.S. Cities.txt
+src/main/java/Dataset/labeled/F/TrendMicro/Don’t let those holiday photos disappear. Here’s how to protect your home network.txt
+src/main/java/Dataset/labeled/F/TrendMicro/Five Questions with XentIT.txt
+src/main/java/Dataset/labeled/F/TrendMicro/From hackers’ point of views- New study exposes their strategies.txt
+src/main/java/Dataset/labeled/F/TrendMicro/Healthcare Under Attack- Trend Micro Reveals All in New Report.txt
+src/main/java/Dataset/labeled/F/TrendMicro/How to keep non-tech savvy family members safe from cybercriminals.txt
+src/main/java/Dataset/labeled/F/TrendMicro/Industry Recognition adds to Trends Micro’s Exceptional Employer Reputation.txt
+src/main/java/Dataset/labeled/F/TrendMicro/Is West Africa Poised for an Underground Market.txt
+src/main/java/Dataset/labeled/F/TrendMicro/Mediaserver Vulnerabilities Highlight Android’s March Security Bulletin.txt
+src/main/java/Dataset/labeled/F/TrendMicro/Moving To Serverless Cloud Apps.txt
+src/main/java/Dataset/labeled/F/TrendMicro/Securing Our Smart Cities- Why We All Need to Be Aware of the Threats Out There.txt
+src/main/java/Dataset/labeled/F/TrendMicro/Server security, that stands the test of time.txt
+src/main/java/Dataset/labeled/F/TrendMicro/SHA-1- 9,223,372,036,854,775,808 Reasons Not To Worry.txt
+src/main/java/Dataset/labeled/F/TrendMicro/Shopping online at work can expose your company to cyber criminals.txt
+src/main/java/Dataset/labeled/F/TrendMicro/Taiwanese Trenders Volunteer to Help Young Students Learn to Code.txt
+src/main/java/Dataset/labeled/F/TrendMicro/The Healthcare Underground Electronic Health Records for Sale.txt
+src/main/java/Dataset/labeled/F/TrendMicro/Trend Micro TippingPoint® Named a Leader in 2017 Gartner Magic Quadrant for Intrusion Detection and Prevention Systems (IDPS).txt
+src/main/java/Dataset/labeled/F/TrendMicro/What Would You Change About the Internet_.txt
+src/main/java/Dataset/labeled/F/TrendMicro/When the Chips are Down, We Pull Together- Trend Micro’s Corporate Responsibility.txt
+src/main/java/Dataset/labeled/F/TrendMicro/Why hackers are increasingly targeting electronic health records.txt
+src/main/java/Dataset/labeled/T/GrahamCluley/Scareware scammers lock iOS Safari to extort ransom from users.txt
+src/main/java/Dataset/labeled/T/GrahamCluley/Smart sex toy's security flaws fulfil every hacker's fantasy
+src/main/java/Dataset/labeled/T/SecureList/New(ish) Mirai Spreader Poses New Risks.txt
+
+==========
+1:
+
+src/main/java/Dataset/labeled/F/infosecISLAND/Bracing for the Future of Information Security Threats.txt
+src/main/java/Dataset/labeled/F/infosecISLAND/Security Policies Matter for Disaster Recovery.txt
+src/main/java/Dataset/labeled/F/KASPERSKY/10 Experts Who Love Kaspersky Internet Security 2015.txt
+src/main/java/Dataset/labeled/F/KASPERSKY/95% of Android phones can be hacked with one just MMS, millions at risk.txt
+src/main/java/Dataset/labeled/F/KASPERSKY/Fact or Fiction can a virus actually damage PC hardware.txt
+src/main/java/Dataset/labeled/F/KASPERSKY/How to explore the Internet safely on your iPad and iPhone.txt
+src/main/java/Dataset/labeled/F/KASPERSKY/It’s tax scam time.txt
+src/main/java/Dataset/labeled/F/KASPERSKY/Why you should NOT pay ransom to malware creators.txt
+src/main/java/Dataset/labeled/F/ThreatPost/Policy Experts Push To Make Vulnerability Equities Process Law.txt
+src/main/java/Dataset/labeled/F/ThreatPost/Setting Expectations Between States on Cyberwar.txt
+src/main/java/Dataset/labeled/F/ThreatPost/WikiLeaks Dump Shows CIA Interdiction of iPhone Supply Chain.txt
+src/main/java/Dataset/labeled/F/TrendMicro/Data Privacy Day 2017- Tips for Protecting Small Businesses.txt
+src/main/java/Dataset/labeled/F/TrendMicro/Everyone Is $$$ To Cybercriminals Using Ransomware.txt
+src/main/java/Dataset/labeled/F/TrendMicro/Millennials may be tech-savvy, but they could learn a thing or two from baby boomers.txt
+src/main/java/Dataset/labeled/F/TrendMicro/Routers Under Attack Current Security Flaws and How to Fix Them.txt
+src/main/java/Dataset/labeled/F/TrendMicro/Stolen Memories- Why cyber thieves attack personal over financial data.txt
+src/main/java/Dataset/labeled/F/TrendMicro/The Server Compute Evolution Continues…as does Trend Micro’s Market Leadership in Server Security.txt
+src/main/java/Dataset/labeled/F/TrendMicro/Threat Actors will come up with new Targeted Attack Tactics that Circumvent Current Anti-evasion Solutions.txt
+src/main/java/Dataset/labeled/F/TrendMicro/Trend Micro Highest Among Leaders in the 2017 Gartner Magic Quadrant for Endpoint Protection Platforms.txt
+src/main/java/Dataset/labeled/F/TrendMicro/Trend Micro Named as a Leader in IDC MarketScape on Worldwide Email Security.txt
+src/main/java/Dataset/labeled/T/GrahamCluley/Phishers target World of Warcraft users with fake in-game pet offer.txt
+src/main/java/Dataset/labeled/T/infosecISLAND/Malvertising and Exploit Kits Still a Significant Threat- FireEye.txt
+src/main/java/Dataset/labeled/T/infosecISLAND/Neutrino Bot Gets Protective Loader.txt
+src/main/java/Dataset/labeled/T/KASPERSKY/The continual evolution of mobile malware.txt
+src/main/java/Dataset/labeled/T/SecureList/Lazarus Under The Hood.txt
+src/main/java/Dataset/labeled/T/SecureList/Ransomware in targeted attacks.txt
+src/main/java/Dataset/labeled/T/ThreatPost/Blank Slate Spam Campaign Spreads Cerber Ransomware.txt
+src/main/java/Dataset/labeled/T/TrendMicro/CERBER Changes Course, Triple Checks for Security Software.txt
+src/main/java/Dataset/labeled/T/TrendMicro/Let’s Encrypt Now Being Abused By Malvertisers.txt
+
+==========
+2:
+
+src/main/java/Dataset/labeled/F/KASPERSKY/5 Myths of Antivirus.txt
+src/main/java/Dataset/labeled/F/KASPERSKY/How Kaspersky Internet Security protects from ransomware.txt
+src/main/java/Dataset/labeled/F/KASPERSKY/Is your PC a part of a botnet_ Check it!.txt
+src/main/java/Dataset/labeled/F/KASPERSKY/Legal malware and cyber-mercenaries.txt
+src/main/java/Dataset/labeled/F/KASPERSKY/No More Ransom saves the day.txt
+src/main/java/Dataset/labeled/F/KASPERSKY/What are exploits and why they are so scary_.txt
+src/main/java/Dataset/labeled/F/SecureList/Threat Landscape for Industrial Automation Systems, H2 2016.txt
+src/main/java/Dataset/labeled/F/SecureList/Top 8 Reasons You Don’t Want to Miss SAS 2017.txt
+src/main/java/Dataset/labeled/F/ThreatPost/Half of Ransomware Victims Pay Criminals’ Demands to Recover Data.txt
+src/main/java/Dataset/labeled/F/ThreatPost/InterContinental Hotels Confirms Credit Card Breach.txt
+src/main/java/Dataset/labeled/F/ThreatPost/Nation States Distancing Themselves from APTs.txt
+src/main/java/Dataset/labeled/F/ThreatPost/Russian-Speaking Turla Joins APT Elite.txt
+src/main/java/Dataset/labeled/F/TrendMicro/Achieving Real-Time Threat Prevention with TippingPoint Machine Learning.txt
+src/main/java/Dataset/labeled/F/TrendMicro/Adobe and Apple to Outpace Microsoft in 2017 Vulnerability Discoveries. So What Now_.txt
+src/main/java/Dataset/labeled/F/TrendMicro/Five Cybersecurity Resolutions Every CISO Should Have On Their List.txt
+src/main/java/Dataset/labeled/F/TrendMicro/Is Your Organization Prepared When the Extortionists Come Calling_.txt
+src/main/java/Dataset/labeled/T/GrahamCluley/Triada Android spyware evades anti-virus detection by using DroidPlugin sandbox.txt
+src/main/java/Dataset/labeled/T/KASPERSKY/Allegedly 40 apps on App Store are infected.txt
+src/main/java/Dataset/labeled/T/KASPERSKY/Is your PC a part of a botnet Check it.txt
+src/main/java/Dataset/labeled/T/KASPERSKY/Naikon APT steals geopolitical data from the South China Sea.txt
+src/main/java/Dataset/labeled/T/KASPERSKY/TeslaCrypt 2.0 ransomware_ stronger and more dangerous.txt
+src/main/java/Dataset/labeled/T/KASPERSKY/What are exploits and why they are so scary.txt
+src/main/java/Dataset/labeled/T/SecureList/ATMitch- remote administration of ATMs.txt
+src/main/java/Dataset/labeled/T/SecureList/Breaking The Weakest Link Of The Strongest Chain.txt
+src/main/java/Dataset/labeled/T/SecureList/Expensive free apps.txt
+src/main/java/Dataset/labeled/T/SecureList/Fileless attacks against enterprise networks.txt
+src/main/java/Dataset/labeled/T/SecureList/KopiLuwak- A New JavaScript Payload from Turla.txt
+src/main/java/Dataset/labeled/T/SecureList/Penquin’s Moonlit Maze.txt
+src/main/java/Dataset/labeled/T/SecureList/Previously unknown ransomware technique.txt
+src/main/java/Dataset/labeled/T/ThreatPost/ANDROID VARIANT OF NOTORIOUS PEGASUS SPYWARE FOUND.txt
+src/main/java/Dataset/labeled/T/ThreatPost/Fileless Banking Malware Attackers Break In, Cash Out, Disappear.txt
+src/main/java/Dataset/labeled/T/TrendMicro/MajikPOS Combines PoS Malware and RATs to Pull Off its Malicious Tricks.txt
+src/main/java/Dataset/labeled/T/TrendMicro/RATANKBA_ Delving into Large-scale Watering Holes against Enterprises.txt
+src/main/java/Dataset/labeled/T/TrendMicro/The Eye of the Storm_ A Look at EyePyramid, the Malware Supposedly Used in High-Profile Hacks in Italy.txt
+src/main/java/Dataset/labeled/T/TrendMicro/TorrentLocker Changes Attack Method, Targets Leading European Countries.txt
+
+==========
+3:
+
+src/main/java/Dataset/labeled/F/KASPERSKY/Deep Dive- 5 Threats Affecting Hardware.txt
+src/main/java/Dataset/labeled/F/ThreatPost/DETAILS AROUND ROMANIAN PHISHING KIT CREATOR, CAMPAIGN REVEALED.txt
+src/main/java/Dataset/labeled/F/TrendMicro/Time to Upgrade as Microsoft Ends Vista Support.txt
+src/main/java/Dataset/labeled/F/TrendMicro/Will 2017 be the Year IoT Threats Go Mainstream_.txt
+src/main/java/Dataset/labeled/T/GrahamCluley/Malware campaign targets open source developers on GitHub.txt
+src/main/java/Dataset/labeled/T/KASPERSKY/Desert Falcons_ The Middle East’s Preeminent APT.txt
+src/main/java/Dataset/labeled/T/KASPERSKY/iOS Vulnerability Behind WireLurker Apple Malware Revealed.txt
+src/main/java/Dataset/labeled/T/KASPERSKY/No monkeys for CozyDuke.txt
+src/main/java/Dataset/labeled/T/KASPERSKY/ZCryptor_ The conqueror worm.txt
+src/main/java/Dataset/labeled/T/SecureList/From Shamoon to StoneDrill.txt
+src/main/java/Dataset/labeled/T/ThreatPost/Android Trojan Switcher Infects Routers via DNS Hijacking.txt
+src/main/java/Dataset/labeled/T/ThreatPost/Data Stealing Malware TeamSpy Resurfaces in Spam Campaign.txt
+src/main/java/Dataset/labeled/T/ThreatPost/Dridex Trojan Gets A Major ‘AtomBombing’ Update.txt
+src/main/java/Dataset/labeled/T/ThreatPost/Necurs Botnet Learns New DDoS Trick.txt
+src/main/java/Dataset/labeled/T/ThreatPost/NetWire RAT Back, Stealing Payment Card Data.txt
+src/main/java/Dataset/labeled/T/ThreatPost/NEW RAT TARGETS KOREANS AND IS SKILLED AT EVADING DETECTION.txt
+src/main/java/Dataset/labeled/T/ThreatPost/Zeus Variant ‘Floki Bot’ Targets PoS Data.txt
+src/main/java/Dataset/labeled/T/TrendMicro/FighterPOS PoS Malware Gets Worm Routine.txt
+src/main/java/Dataset/labeled/T/TrendMicro/Lurk_ Retracing the Group’s Five-Year Campaign.txt
+
+==========

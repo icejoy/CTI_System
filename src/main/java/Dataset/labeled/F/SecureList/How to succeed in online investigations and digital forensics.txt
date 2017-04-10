@@ -1,0 +1,31 @@
+Link analysis training from Maltego developers
+
+Maltego, the tool best known for deep data mining and link analysis, has helped law enforcement and intelligence agencies, banking organizations, financial institutions and others in security-related work since it was released in 2008.
+
+To benefit from using Maltego, come to SAS 2017 for intensive Digital Intelligence Gathering training from the experts who created the tool from scratch: there won’t be any questions that they can’t answer. The course runs for two days, from April 1st and 2nd 2017 on St. Maarten. Book a seat now — the class is limited to 15 people maximum!
+
+Down with the Excel worksheets
+
+Maltego brings power to any online investigation, processing publicly available information that is hard to see with the naked eye. But it’s not just about mining — it’s also about analyzing and visualizing relationships between people and groups of people, companies, organizations, web sites, Internet infrastructure (domains, DNS names, netblocks, IP addresses) and affiliations (documents and files). The tool grabs information from DNS and whois records, search engines, social networks, online APIs and metadata. The results are provided in different graphical orders for better clustering, which brings into view hidden connections even if they are three or four degrees of separation, and even attempts makes attribution attainable.
+
+Why do you need the training before you start using Maltego
+
+During the two-day course participants will discover the entire Maltego ecosystem and learn how to use the tool properly to get most out of it. The trainers guarantee that you will go out with an understanding of how to apply the tool in your organizations and how to accurately interpret this kind of node based graph:
+
+How to succeed in online investigations and digital forensics
+
+Source: www.paterva.com
+
+All practical exercises will involve real world data.
+
+Trainers
+
+Roelof Temmingh, Managing Director and founder of Paterva, the South African company that introduced Maltego to the world in 2008, and Andrew MacPherson, the operations manager at Paterva and lead Maltego server developer.
+
+Roelof and Andrew invite pen-testers, LEAs, intelligence agencies and security experts from any industry dealing with digital data gathering.
+
+Technical skills
+
+Applicants should meet the following prerequisites. They should have knowledge of common Internet services (HTTP, DNS), search engines (Google hacking), basic IT security principles (such as port scanning), scripting or programming experience (Python, PERL). You’ll need a PC or Mac with an external mouse and at least 2GB of RAM, a decent resolution display and some space to install the latest version of Maltego.
+
+Book a seat at sas.kaspersky.com now to see data in its true colors.

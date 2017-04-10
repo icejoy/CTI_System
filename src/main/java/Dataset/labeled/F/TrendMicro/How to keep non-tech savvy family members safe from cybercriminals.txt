@@ -1,0 +1,72 @@
+Today, the internet has reached almost every part of the globe. A report by ITU noted that over 3 billion people are clicking and scrolling through web pages, and "internet penetration" has increased from 6.5 to 43 percent of the population globally from 2000 to 2015.
+
+And while this outreach has connected us like never before, it's also brought with it a tremendous challenge: protecting ourselves from cybercriminals.
+
+Within the past year, close to 700 million people were affected by cyber crime, which is up from nearly 600 million the year before, reported Norton. And most of them (80 percent) experienced at least some kind of action taken against them, whether it was stolen money, identity theft or compromised bank accounts and credit cards.
+
+It's absolutely critical that people take the time to defend themselves because their wallets and their livelihoods are counting on it.
+
+The question is, how can people stay protected?
+
+We suggest that family members take time to teach each other about cyber security. And there's a wealth of information they can turn to to stay informed about the latest trends in IT security, cyber crime and protective solutions. This approach is especially useful for those who may not be tech-savvy, which will be the topic of today's discussion.
+
+People today need to be connected
+First and foremost, families (particularly parents) need to understand that it's simply not practical to force members of their families to disconnect from the internet completely forever, or even over long periods of time. Nearly 90 percent of people own in-home Wi-Fi, according to Norton. At some point children will need to conduct research online for school, whether that's at home or at an educational institution.
+
+Instead, we suggest taking a more logical approach: Understand who is most at risk, take steps to minimize exposure and learn how to respond to threats and breaches.
+
+Millennials most likely to be victimized
+Millennials helped usher in the age of the internet, so it's no surprise they're most likely to rely on it the most and thus the most likely to come under attack by a cybercriminal.
+
+A report from Forcepoint noted that millennials make up about 25 percent of today's federal workforce, and in the next 10 years that number will increase to 75 percent. It also found that most millennials are likely to swap IT security for increased productivity – most conduct business online at work without notifying security teams.
+
+In the near future, younger generations (think Gen Y) will also be exposed to these types of IT threats, and it's scary to think that – at some point – most of society could be made up of people who simply don't place enough value in IT security.
+
+The question then becomes: How do we increase awareness? We suggest that parents take the time to begin teaching their children the importance of staying secure online at an early age. 
+
+Start early
+Today, kids simply can't escape the internet. Think about when you were a child. Your friends may have never had the internet or, at best, only a few of them had access to it. But today, children walk around with smartphones (or use their parents'), go online at school, the library and at home.
+
+This kind of exposure leaves them vulnerable to expert cybercriminals, many of whom understand not only how to break through complex IT security walls but also take advantage of unsuspecting, uninformed people.
+
+David Emm, senior security researcher at Kaspersky Lab, believes it's critical parents begin to talk about the intricacies of online security early with their children.
+
+"I think one of the key things is to start the process of discussing online safety with your children at an early age, when they start to do anything that involves the internet," said Emm, according to Business Insider. "They might still be using the computer with you, rather than independently and this offers an opportunity to highlight the fact that the online world parallels the real world and that there are both safe and unsafe things out there."
+
+Emm went onto say that this time could be well spent discussing everything from internet security protection to passwords.
+
+Lynette Owens, founder and global director of Trend Micro's Internet Safety for Kids and Families program, also believes it's crucial that parents and teachers start the conversation with kids about what privacy is and how to value, respect and protect it.
+
+"The online privacy of our kids is one of the most challenging areas to tackle," said Owens. "But discussing online safety at an early age and establishing guidelines can go a long way. There are tools and settings on online services and social media apps that can help you limit what information you are sharing – and who with – so spend the time familiarizing yourself with the safety features available on every app and site."
+
+Owens went onto say that by helping children develop into critical thinkers, it could help them better understand what they're using online and its potential pitfalls. 
+
+"Parents need to help their kids become critical thinkers of what they see and post online," Owens said. "Talk with your kids about how they're using apps and the internet, and with other parents about what they let their kids use – or not use – and why.  And if something ever goes wrong, make sure your kids can come to you for help."
+
+Steps you can take
+If you're not sure where to begin, start by setting some ground rules for your children. Rik Ferguson, vice president of security research, discusses a number of internet rules parents and children can adhere to, to protect everyone from cybercriminals.
+
+"Ensuring internet safety for kids is more complex than ever before. Because it now includes all of your family's home computers, cell phones and tablets. Every device should be a part of the safety program," said Ferguson. 
+
+Ferguson suggested that families should keep their home's computer in a "high-traffic area of their home" and manage their children's online actions through an administrative account. This will provide parents with greater access to and control over their children's online whereabouts.
+
+Going further, parents should limit their children's time online and the type of activities they can conduct, such as the websites they can visit. However, parents shouldn't just tell their kids to not visit a certain site. They must explain why they need to stay away from certain corners of the internet by citing how dangerous they can be.
+
+It's not easy to protect kids, but doing everything possible is critical to a family's safety.
+
+Along with Ferguson's above recommendations, he also proposes the idea of parents spending time with their kids when they're scanning cyberspace. Doing so accomplishes two things:
+
+Parents get to learn how their children use the internet: By understanding their online scrolling habits, they're able to better adjust their security protocols through the administrative account of their security software.
+Children get to learn how to use the internet properly because parents are leading by example. They can (and should) tell their kids what sites to go to, how to engage in online search and how to message friends and family. By limiting trial and error, parents can also decrease the chances their children make mistakes and stumble into dark areas of the web or, just as bad, come face to face with internet predators.
+How can everyone else stay safe?
+In this article, we've covered extensively how to protect younger generations from IT security threats. But what about adults who may not use the internet too often? It's probably slightly inappropriate for other adults to restrict their internet usage like they might with a child.
+
+In this case, we suggest that family members educate them about online safety protocols. Richard Medugno of Trend Micro made several great recommendations for children but ones that can also be applied to adults:
+
+Don't create a screen name that includes personal information.
+Don't give personal information to people you don't know.
+Don't share passwords.
+Don't meet people online without discussing with a close friend or relative first.
+Don't send photos to strangers.
+Don't download suspicious materials.
+As the world become more connected, it also becomes more exposed to cyber security threats. Remember, if you want to stay safe, you must protect yourself at all times. Let this article be a starting point – one layer of defense – in your efforts to ward off IT criminals.

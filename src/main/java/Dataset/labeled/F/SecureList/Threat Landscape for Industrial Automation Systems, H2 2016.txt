@@ -1,0 +1,57 @@
+The Kaspersky Lab Industrial Control Systems Cyber Emergency Response Team (Kaspersky Lab ICS CERT) is starting a series of regular publications about our research devoted to the threat landscape for industrial organizations.
+
+All statistical data used in the report was obtained using Kaspersky Security Network (KSN), a distributed antivirus network. Data was received from those KSN users who consented to have their data collected anonymously.
+
+The research carried out in the second half of 2016 by Kaspersky Lab ICS CERT experts clearly demonstrates a number of trends in the evolution of industrial enterprise security.
+
+On average, in the second half of 2016 Kaspersky Lab products across the globe blocked attempted attacks on 39.2% of protected computers that Kaspersky Lab ICS CERT classifies as being part of industrial enterprise technology infrastructure.
+
+This group includes computers that run Windows and perform one or more of the following functions:
+
+Supervisory Control and Data Acquisition (SCADA) servers,
+Data storage servers (Historian),
+Data gateways (OPC),
+Stationary engineer and operator workstations,
+Mobile engineer and operator workstations,
+Human Machine Interface (HMI).
+The group also includes computers of external 3-d party contractors, SCADA vendors and system integrators as well as internal SCADA administrators.
+
+Every month, an average of one industrial computer in five (20.1%) is attacked by malware. We have seen stable growth in the percentage of industrial computers attacked since the beginning of our observations, highlighting the importance of cybersecurity issues.
+
+Threat Landscape for Industrial Automation Systems, H2 2016
+
+Percentage of industrial computers attacked by month (second half of 2016)
+
+Isolation of industrial networks can no longer be considered an effective protective measure. The proportion of malware infection attempts involving portable media, infection of backup copies, use of sophisticated schemes for transferring data from isolated networks in complex attacks – all of this demonstrates that risks cannot be avoided by simply disconnecting a system from the Internet.
+Threat Landscape for Industrial Automation Systems, H2 2016
+
+Sources of threats blocked on industrial computers (second half of 2016)
+
+Remarkably, there is very little difference between the rankings of malware detected on industrial computers and those of malware detected on corporate computers. We believe that this demonstrates the absence of significant differences between computers on corporate networks and those on industrial networks in terms of the risk of chance infections. However, it is obvious that even a chance infection on an industrial network can lead to dangerous consequences.
+Threat Landscape for Industrial Automation Systems, H2 2016
+
+Distribution of industrial computers attacked by classes of malware used in attacks (second half of 2016)
+
+According to our data, targeted attacks on companies in different industrial sectors are increasingly common. These are organized attacks that can target one enterprise, several enterprises, companies in one industrial sector or a broad range of industrial enterprises.
+
+The Kaspersky Lab ICS CERT detected a series of phishing attacks which began no later than June 2016 and which are still active. The attacks target primarily industrial companies – metallurgical, electric power, construction, engineering and others. We estimate the number of companies attacked at over 500 in more than 50 countries around the world.
+
+None of the malicious programs used in the attack – trojan spies and backdoors from different families, such as ZeuS, Pony/FareIT, Luminosity RAT, NetWire RAT, HawkEye, and ISR Stealer – are unique to this malicious campaign. They are all very popular among cybercriminals. However, these programs are packed with unique modifications of VB and MSIL packers that are used only in this attack. Our experience of investigating targeted attacks shows that cyberespionage is often used to prepare subsequent attack stages.
+
+One quarter of all targeted attacks uncovered by Kaspersky Lab in 2016 targeted, among others, different industries – machine building, energy, chemical, transport and others.
+
+In 2016, Kaspersky Lab evaluated the current state of IT security components in the industrial control systems of different vendors. As a result of this research, 75 vulnerabilities were identified in ICS components. 58 of them were marked as maximum critical vulnerabilities (CVSS v3.0 severity score 7.0 or higher).
+
+Threat Landscape for Industrial Automation Systems, H2 2016
+
+Distribution of vulnerabilities uncovered by Kaspersky Lab in 2016 according to the ways in which they can be used
+
+Of the 75 vulnerabilities identified by the middle of March 2017 by Kaspersky Lab, industrial software vendors closed 30.
+
+The approach of industrial software vendors to closing vulnerabilities and the situation with fixing known vulnerabilities at enterprises is by no means reassuring. The approach to addressing vulnerabilities as part of the software development cycle has not yet been sufficiently refined: vendors do not prioritize the closing of identified vulnerabilities based on their severity, they prefer to fix vulnerabilities in the next release of their product rather than releasing a fix or patch that is critical from an IT security viewpoint.
+
+Another issue is the installation of updates and security patches at enterprises. Based on our research and ICS IT security audits, we believe that for ICS owners, the process of installing critical updates is either too labor-intensive or not a high-priority task in the system’s overall lifecycle. As a result, at some enterprises critical updates of various industrial system components are not installed for years, making these enterprises vulnerable in the event of cyberattacks.
+
+The industrial network is increasingly similar to the corporate network – both in terms of usage scenarios and in terms of technologies used. New technologies are being used that improve process transparency and efficiency at the enterprise level, as well as providing flexibility and fault tolerance of the functions performed at medium and lower industrial automation levels. The upshot of all this is that the cyber threat landscape for industrial systems is increasingly similar to the threat landscape for corporate networks. Consequently, we can expect not only the emergence of new threats specifically designed for industrial enterprises but also the evolution of existing, traditional IT threats, which involves their adaptation for attacks against industrial enterprises and physical world objects.
+
+The emergence of large-scale malicious campaigns targeting industrial enterprises indicates that black hats see this area as promising. This is a serious challenge for the entire community of industrial automation system developers, owners and operators of such systems, and security vendors. We are still remarkably languid and slow-moving in most cases, which is fraught with dangers under the circumstances.

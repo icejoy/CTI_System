@@ -1,0 +1,50 @@
+Leave a bad review? This IoT garage door opener maker may brick your device
+The maker of an Internet of Things (IoT) garage door opener bricked a customer's device after they posted a negative review on the product's forum board.
+
+First a little background. In the spotlight is a device known as Garadget.
+
+According to its Indiegogo page, Garadget communicates with its cloud server via a user's Wi-Fi network. It attaches to the bottom of a regular garage door opener. From this position, it can supposedly open and close a garage door when a user issues a command using the corresponding Android or iOS app by beaming a laser off a reflective pad.
+
+Here's a promo for the device:
+
+
+The developer of Garadget is a man named Denis Grisak. He says he "traded most of [his] spare time and personal budget for the excitement of designing a new product." It's therefore no surprise he's enthusiastic about the device's public release.
+
+Even so, that's no excuse for how Grisak treated one customer.
+
+On 1 April, a user by the name of R Martin left the following review on Garadget's community forum:
+
+"Just installed and attempting to register a door when the app started doing this. Have uninstalled and reinstalled iphone app, powered phone off/on - wondering what kind of piece of shi* I just purchased here... [censorship added]"
+
+That same day, he left a bad review of the device on Amazon. He wasn't the only one. Other Amazon users left equally poor reviews of Garadget weeks and months before he did.
+
+Bad amazon reviews
+
+But that apparently didn't stop Grisak from taking Martin's reviews personally.
+
+In response, Grisak left this response on the community board:
+
+"Martin,
+
+"The abusive language here and in your negative Amazon review, submitted minutes after experiencing a technical difficulty, only demonstrates your poor impulse control. I'm happy to provide the technical support to the customers on my Saturday night but I'm not going to tolerate any tantrums.
+
+"At this time your only option is return Garadget to Amazon for refund. Your unit ID 2f0036... will be denied server connection."
+
+The device needs to communicate with the cloud server to work. By denying access to those servers, the Garadget grump "bricked," or rendered as useless as an expensive brick, Martin's unit. That's bad enough. In posting his response, however, Grisak forgot that the rest of the web was watching. Within no time, his post had gone viral on Hacker News and had received thousands of retweets on Twitter.
+
+4 Apr
+ Internet of Shit @internetofshit
+Here's the review: "it doesn't work properly"
+
+Banned. From a door. pic.twitter.com/2en9Qxd61P
+ Follow
+ Internet of Shit @internetofshit
+HOW DARE YOU LEAVE A BAD REVIEW OF OUR GARAGE DOOR OPENER, SEND IT BACK pic.twitter.com/TUmm2EFZ66
+8:03 PM - 4 Apr 2017
+View image on Twitter
+  1,118 1,118 Retweets   1,522 1,522 likes
+It's no surprise we're now seeing product reviews like this one:
+
+"Would normally have recommended this device but unfortunately this device relies on manufacturer's cloud services and if you do something trivial to piss off the manufacturer they will brick your device. Look elsewhere."
+
+Grisak's device isn't unique in being buggy. As we all know, most IoT products act up and/or suffer from vulnerabilities. (Some worse than others.) But customer relations can make or break a company, especially when exchanges are publicly available on the web. It looks like Garadget's developer is learning this the hard way. Let's hope other manufacturers don't make the same mistake.

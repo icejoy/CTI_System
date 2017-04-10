@@ -1,0 +1,58 @@
+A distributed denial-of-service (DDoS) attack is one of the most popular tools in the cybercriminal arsenal. The motives behind such attacks can vary – from cyber-hooliganism to extortion. There have been cases where criminal groups have threatened their victims with a DDoS attack unless the latter paid 5 bitcoins (more than $5,000). Often, a DDoS attack is used to distract IT staff while another cybercrime such as data theft or malware injection is carried out.
+
+Almost anyone can fall victim to a DDoS attack. They are relatively cheap and easy to organize, and can be highly effective if reliable protection is not in place. Based on analysis of the data obtained from open sources (for example, offers to organize DDoS attacks on Internet forums or in Tor), we managed to find out the current cost of a DDoS attack on the black market. We also established what exactly the cybercriminals behind DDoS attacks offer their customers.
+
+DDoS as a service
+
+Ordering a DDoS attack is usually done using a full-fledged web service, eliminating the need for direct contact between the organizer and the customer. The majority of offers that we came across left links to these resources rather than contact details. Customers can use them to make payments, get reports on work done or utilize additional services. In fact, the functionality of these web services looks similar to that offered by legal services.
+
+The cost of launching a DDoS attack
+
+Example of a web service for ordering DDoS attacks that looks more like the web page of an IT startup than a cybercriminal operation
+
+These web services are fully functional web applications that allow registered customers to manage their balance and plan their DDoS attack budget. Some developers even offer bonus points for each attack conducted using their service. In other words, cybercriminals have their own loyalty and customer service programs.
+
+The cost of launching a DDoS attack
+
+DDoS service advertised on a Russian public forum offering attacks from $50 per day
+
+Some of the services we identified contained information on the number of registered users, as well as data on the number of attacks carried out per day. Many of the web services offering DDoS attacks claimed to have tens of thousands of registered accounts. However, these figures may be inflated by the owners of services to make their resources look more popular.
+
+The cost of launching a DDoS attack
+
+Statistics provided by one service to demonstrate its popularity with DDoS customers (479270 implemented attacks)
+
+The cost of launching a DDoS attack
+
+Statistics provided by one service to demonstrate the popularity of DDoS attack scenarios
+
+The cost of launching a DDoS attack
+
+Information about the popularity of a DDoS service
+
+Rates for DDoS
+
+The special features emphasized in the adverts for DDoS services can give a particular service an advantage over its competitors and sway the customer’s choice:
+
+The target and its characteristics. A cybercriminal that agrees to attack a government resource will attract customers who are interested in this particular service. The attacker can ask for more money for this type of service than they would for an attack on an online store. The cost of the service may also depend on the type of anti-DDoS protection the potential victim has: if the target uses traffic filtering systems to protect its resources, the cybercriminals have to come up with ways of bypassing them to ensure an effective attack, and this also means an increase in the price.
+
+Attack sources and their characteristics. This factor can determine the price the attackers ask for conducting their attacks. The cheaper it is for a criminal to maintain a botnet (defined, for example, by the average cost of infecting a device and including it in a botnet), the more likely they are to ask for bargain-basement prices for their services. For example, a botnet of 1000 surveillance cameras may be cheaper in terms of organization than a botnet of 100 servers. This is because cameras and other IoT devices are currently less secure – a fact that is often ignored by their owners.
+
+Attack scenario. Requests for atypical DDoS attacks (for example, the customer may ask the botnet owner to alternate between different methods of DDoS attacks within a short period of time or implement several methods simultaneously) can increase costs.
+
+The average cost of a DDoS attack as a service in a particular country. Competition can cause cybercriminals to raise or lower the cost of their services. They also try to take into consideration the ability of their audience to pay and devise their pricing policy accordingly (for example, a DDoS attack will cost US customers more than a similar offer in Russia).
+
+Along with specific botnet features, the organizers of DDoS services also offer customers a tariff plan in which the buyer pays a per-second rental price for botnet capacity. For example, a DDoS attack of 300 seconds using a botnet with a total bandwidth of 125 Gbps will cost €5, with all other characteristics (power and scenarios) remaining the same for all tariffs.
+
+The cost of launching a DDoS attack
+
+The price list for one of the biggest services offering DDoS attacks
+
+A DDoS attack lasting 10,800 seconds will cost the client $60, or approximately $20 per hour, and the attack specifications (scenario and computing power used) were not always stated on the customer-facing resource. Apparently, not all cybercriminals consider it appropriate to disclose the inner workings of their botnet (it’s also possible that some owners don’t actually understand the technical characteristics of their botnets). In particular, they don’t disclose the type of bots included in a botnet.
+
+The price includes implementation of the following rather trivial scenarios:
+
+SYN-flood;
+UDP-flood;
+NTP-amplification;
+Multi-vector amplification (several amplification scenarios simultaneously).

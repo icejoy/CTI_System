@@ -1,0 +1,27 @@
+IDC, a leading global market intelligence firm, believes that organizations need to have access to security that moves at the speed of business. In fact, one of IDC’s leading security practice analysts had this to say about securing workloads across the hybrid cloud:
+
+“Multiple techniques are essential to defend against the sophistication of today’s threats. But companies need to conduct security at the speed of business, and security must support the agility and flexibility of modern architectures that include virtualization and cloud,” said Duncan Brown, associate vice president, security practice for IDC.  
+
+At Trend Micro, we agree whole-heartedly. Servers are the workhorses of IT, and the compute evolution has changed the definition of what a server workload is. Recognizing this, we’ve been working hard to provide security that can consistently protect servers across physical, virtual, cloud, and now containers, helping thousands of organizations around the world secure millions of servers. We believe that combined with our focus on securing workloads from advanced threats, including particularly malicious forms like ransomware, that this is the reason that we have once again – 7th year in a row— been named the market share leader by IDC. 1
+
+ 
+
+
+
+Server Security: No Silver Bullets
+
+In a market as large as server security—touted by IDC to be over $760M in 2015[i], there are going to be many players vying for the privilege of addressing your security needs. Included in competitive discussion are vendors touting single technique solutions to server security, which is far from reality. As described by IDC, protecting workloads across the hybrid cloud (and beyond) requires multiple techniques, ranging from proven anti-malware and application control approaches, to network protection like intrusion prevention (IPS) that can shield a server from attack. Security needs to deliver a cross-generational blend of techniques that can deal with attacks, including newer varieties of threats that can only be identified with techniques like machine learning. Dealing with unknowns is a requirement, but the ability to deal with known threats at the same time is the only effective and performance-centric way to secure servers.
+
+Fitting into the Server Compute Evolution
+
+Having the right techniques is a critical part of solving the security equation. The other important element is the ability to apply security in ways that fit the environment. For example, leveraging legacy security in a virtualized environment blocks many of the benefits, dragging down performance and making management harder. Similarly, trying to apply data center techniques, like perimeter IPS, in the cloud simply don’t enable organizations to gain the benefits of dynamic workload management and high performance computing.
+
+Trend Micro: Leading the Server Security Market
+
+Based on our ability to help organizations effectively deal with the server compute evolution, we have been the market share leader in server security since IDC began tracking the market in 2009.  And we’ve extended that lead to now command 30% of the market today. How?  With Trend Micro Deep Security, we’ve focused on innovating along with market leaders like VMware, AWS, and Microsoft Azure to meet the security needs of our customers, enabling them to get the benefits of virtualization and cloud without compromising on security. And now with Deep Security 10, we’ve evolved with our customers to also include protection for Docker Containers.
+
+Deep Security protects virtual desktops (VDI) and servers, cloud workloads, containers, and hybrid deployments against zero-day attacks and other threats while minimizing the operational impact of security and emergency patching. Learn more about our Hybrid Cloud Security solution and why more businesses than ever are choosing Trend Micro.
+
+To read IDC’s latest report, and why we’re number one for the seventh year in a row for corporate server security worldwide, read the IDC Technology Spotlight.
+
+1 IDC Research, “Worldwide Endpoint Security Market Share, 2015” #US41867116, November 2016

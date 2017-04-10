@@ -1,0 +1,53 @@
+August 4, 2015
+MALWARE NEWS THREATS
+Article by
+ 	Kate Kochetkova
+
+109 posts 
+68 shares
+ 
+The most scandalous threat is tickling the nerves of Android phones owners: Zimperium zLabs reported six gaping hole in Google OS in April 2015. They also told Forbes that while Google sent out patches to its partners, unbelievably, most manufacturers did not make fixes available to protect their customers yet. The bugs are called the worst Android flaws ever discovered.
+
+95% of Android phones can be hacked with one just MMS, millions at risk
+Security researchers claim that 95% of Android devices – roughly 950 million smartphones – are exposed to the exploit. Older devices running on an Android OS version below 2.2 are secured as well as gizmos running the latest build of Silent Circle’s Blackphone, which has already patched. Security updates for Nexus phone are slated to be released soon.
+
+View image on Twitter
+View image on Twitter
+ Follow
+ Forbes Tech News ✔ @ForbesTech
+It only takes one text to hack 950 million Android phones: http://onforb.es/1S8NBY5  #Stagefright
+3:40 AM - 28 Jul 2015
+  97 97 Retweets   29 29 likes
+Discovering your mobile number is enough for a hacker who wants to make a malicious injection into your phone: they will do it with an infectious MMS. You receive it — and their work can begin. You don’t even need to open the message to become a victim, as your OS will do everything for you. A terrifyingly efficient and silent attack, don’t you think?
+
+The vulnerability resides in the Stagefright software library. Google Hangouts is also implicated as it is used as a default app that processes video messages and thereby activates the virus.
+
+Once installed, the malware can remove the original MMS to cover up all tracks. Being up and running, the virus will be able to spy on you via mobile camera and microphone, share your data onto the web and perform other nasty things.
+
+Google has recently prepared additional patches for its Nexus phones and promised to releases them soon. Sadly, if you are not the owner of Nexus device, you may never see a security update for your phone. Unfortunately, smartphone manufacturers’ idling in providing patches is notorious, especially if you own a device older than 18 months.
+
+ Follow
+ 🎻 away making album @SwiftOnSecurity
+lol when ur Jeep gets updates faster than ur Android phone
+7:29 AM - 28 Jul 2015
+  876 876 Retweets   703 703 likes
+Meanwhile, CyanogenMod, the alternative Android OS, recently released fixes. Here are some guidelines on how to protect yourself if your manufacturer fails to pass along an update for your device.
+
+You can root your Android mobile and disable Stagefright. After that you are free to go further and switch to another mobile OS.
+You can buy a new secured smartphone (manufacturers, celebrate!) and relax until a new critical vulnerability is found.
+Change settings and stop receiving MMSs.
+Bad #Android #MMS #vulnerability: what is it and how to defend
+
+Tweet
+Whichever method you choose, you’ll still face a number of inconveniences. The quickest way is to disable auto-fetching of MMS for Hangout. You can do it literally in a minute:
+
+open Hangout;
+tap Options on the top left corner;
+tap Settings -> SMS;
+uncheck the Auto Retrieve MMS option in the Advanced Tab.
+If you use default messaging apps, you can do the same like this:
+
+open the messaging app;
+tap More -> Settings -> More Settings
+tap Multimedia Messages -> Turn OFF Auto Retrieve.
+Let’s hope that smartphone manufacturers will finally take these issues seriously. We can also encourage them a bit by tweeting directly to the manufacturers, which at most have customer support accounts on Twitter.

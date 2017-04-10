@@ -1,0 +1,25 @@
+We sat down with Deborah Larkins, Lead Technologist at XentIT to understand her journey with being a part of the upcoming release of Deep Security 10.
+
+XentIT is a full service IT firm specializing in information security, governance, risk and compliance, cloud technology, and managed IT services for commercial enterprises and government agencies. Founded in 2006, XentIT has a successful track record in understanding its clients’ business objectives and pain points to determine and implement the right technology solution.
+
+XentIT is a Trend Micro gold partner and provides managed services for multiple Trend Micro security solutions to commercial enterprise customers and government agencies, including Navicent Health, Centers for Medicare & Medicaid Services (CMS), and NASA.
+
+TM: Tell us about a day in the life of your role?
+
+DL: Depends on the day! I am more technical. I will do some sales calls, but almost all are sent to me when they get to that level of questioning which product is best. One of the things I do on a regular basis is to give the client the best products that fit their needs, so that they’re happy and successful, we’re happy and successful and Trend is happy and successful.
+
+TM: You work with security tools and make recommendations to your clients about what security tools are the best fit. In your mind, what are the top security challenges facing you and your industry today?
+
+DL: Lack of movement. Everybody knows that security is crucial to success and the risk of not having good security is huge, but there is still not a lot of willingness to put that money in the budget and towards security unless there has already been a big hit. A lot of what we see is that customers think the products are great and want the products, but feel they don’t have the budget or man power to commit. The man power aspect is where we come in. So if they are looking for somebody to do that, we can fulfill that role.
+
+TM: You work with some of the largest governmental departments like the Centers for Medicare & Medicaid Services (CMS), NASA and Department of Justice. Do you find each of these are quite different in their security needs or is there a lot of commonality?
+
+DL: Both. They all have their own security needs, but in general it’s all about a good network security product and a good endpoint security product. Implementation is specialized for everybody but as far as the product needs, if you can secure that network, endpoints and spaces in between, they’re all about the same.
+
+TM: Can you tell us about your experience working with the product team in shaping the Deep Security 10 release? 
+
+DL: It was truly one of the most enjoyable experiences I’ve had. In the past, I’ve been a part of beta programs for other products, but I never felt like they were listening to what I had to say. With this team, I knew that they were listening and were interested in the feedback I had for them in some of the features for the new product. To me, that was truly a whole different spin on a preview or a beta. I felt like I was part of the process when saying, “could you do it this way?” and they were open and receptive to the possibility of making that change.
+
+TM: What is your advice for other security professionals in your industry? 
+
+DL: Stay flexible. This is a fast-changing field and nothing is set in stone. About the time you figure out what’s going on, another threat comes in that is totally different than what you have dealt with, so flexibility is key. Keeping up with the latest goings on in the industry and reading as much as you can. Get involved in some of the higher-level blogs that talk about the different threats coming in and pay attention to the news. Most importantly, being aware of the latest offerings in security products.

@@ -1,0 +1,25 @@
+We all know online threats are growing in volume and sophistication day by day. From ransomware designed to lock you out of your most important data, to information-stealing malware, zero-day threats and more – we all need to stay alert online. But we also need all the help afforded us by software manufacturers. That’s why keeping up-to-date with the latest security updates is vital.
+
+On April 11, Microsoft finally withdraws support for its Windows Vista operating system. That means for any of you out there who haven’t upgraded to a newer, more secure version, the time has come to do so.
+
+Why is it important?
+
+We’re all up against a sophisticated online foe. In the decade since Windows Vista was first released, cybercrime has grown into a truly global multi-billion dollar business. Hackers in sometimes far-flung countries target consumers and businesses alike with impunity, protected by the anonymizing blanket of the Internet.
+
+One of the easiest things you can do to protect your data and systems is to patch regularly and often. Install new updates as soon as they become available, because they’ve been engineered to improve the security and reliability of your products. That’s true especially of operating systems, like Windows Vista, which power our laptops, tablets, desktop PCs and smartphones.
+
+Why is it important? Because cybercriminals are all about generating the biggest profits from the minimum investment of time and money. There are exceptions, of course, but this usually means exploiting known vulnerabilities in common products. Many cyber threats come via this route. Operating systems, especially those from Microsoft, are incredibly popular, making them an attractive target.
+
+So why is April 11 such a big deal? Because after this date Microsoft will cease providing the all-important security updates for Vista, exposing users to a greater risk of cyber attacks. These attacks could come in many forms. They may be designed to steal personal details, infiltrate bank accounts or even turn your computer(s) into a zombie machine under the control of a malicious third party.
+
+Vista threats on the rise
+
+To put this in perspective, Trend Micro detected more than 250,000 pieces of malware affecting Vista in 2016. More than three-quarters (77 percent) of this malware affected Windows Vista Home. Notorious ransomware variant Locky and banking Trojan Dridex are both popular pieces of malware we’ve seen targeting Vista users in the past. After April 11, cybercriminals will be primed and ready to double their efforts, knowing there may be new gaps in your defenses for them to exploit.
+
+If you’re running the no-longer supported Internet Explorer 9 alongside Vista, there’s an even greater chance your machine could become infected.
+
+What to do next
+
+It’s simple. Upgrade an existing PC to Windows 10 – the latest operating system from Microsoft – or invest in a new one. This is the only way to benefit from maximum protection. That’s the thing with security – if it’s working properly, you won’t see anything happening. But you’ll be that much safer from all the bad things on the Internet. And, if you’re a business, invest in virtual patching like what’s available in Trend Micro™ Deep Security™, or Trend Micro TippingPoint®.
+
+Microsoft provides additional information on Windows Vista support in this blog post.

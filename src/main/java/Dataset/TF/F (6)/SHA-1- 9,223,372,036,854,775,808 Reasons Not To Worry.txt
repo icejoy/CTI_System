@@ -1,0 +1,55 @@
+The SHA-1 hash function is broken. This isn’t news. What is news is that a practical attack has been demonstrated  Keep in mind that “practical” is used in cryptographers terms and those terms don’t necessarily have an impact on your daily IT use.
+
+The news has been making the rounds as IT teams, journalists, and everyday users are trying to understand the potential impact. This is an understandably difficult announcement to grasp. Encryption is complex. Even the simplest explanations (PDF) are still tough to handle.
+
+It’s this deeply technical combination of mathematics and computer science that make cryptography a foundational pillar of digital security and one of it’s most challenging aspects.
+
+SHA-What?
+The SHA-1 algorithm is one of many different hash functions. A hash function is a one-way method for taking an arbitrary set of data and reducing it down to a fixed size that we call a digest or a hash. Similar to the way that a DNA sequence represents a whole person…sort of (I warned you it was complex).
+
+The key take away is that every hash is supposed to be unique. If you change the original data in any way, you should get a completely different hash. This announcement proves that this is no longer true for SHA-1.
+
+That’s an important development because we use hash functions for a lot of different things. A few simple examples:
+
+checking that a file your downloaded was the one your intended to
+making sure that a security certificate (like those used on secure websites) is valid
+as a digital signature
+verifying passwords
+Hash functions are important in the digital world. Anytime there’s a security issue with one, it’s a big deal.
+
+Or is it?
+
+Limited Lifespan
+It turns out that we’ve known that this announcement would happen for a long time. The only question was the exact timing. Brute force attacks (trying every possible combination until you find the right one) were an expected attack method. Because they would take so long to run (12,000,000+ years on a single GPU) they weren’t considered feasible…for obvious reasons.
+
+The announcement from the teams at Google and CWI demonstrates a new attack that is 100,000 times more efficient. Bringing the total attack time down to 9,223,372,036,854,775,808 computations or 110 years on a single GPU running 24/7.
+
+As you can imagine, with easy access to cloud resources you can run the attack much faster than that if you have the resources. The teams estimate it would take at least $110,000 to successfully execute.
+
+Given that price tag, this limits the number of attackers who can leverage this technique. For most organizations this doesn’t change the threat model. This announcement will have more impact at the nation state level where resources aren’t such a concern.
+
+The good news here is that these standards are made with an explicit understanding that the math won’t hold up forever and that computation is always getting cheaper.
+
+That’s why the SHA-2 family of algorithms was published in 2002. That family (SHA-256, SHA-384, and SHA-512) is widely available in most security products. Not stopping there, the SHA-3 family was also published in 2015.
+
+SHA-3 isn’t a direct replacement for SHA-2 but more of an insurance policy against a new attack vector being discovered.
+
+Given the high cost of the attack, what does this week’s announcement really mean?
+
+Strong Signal
+This announcement is a reminder that the foundations of digital security aren’t timeless. They need to be updated and reviewed on a regular basis, with hashing algorithms, that’s built in the standards process.
+
+The challenge here is in the infrastructure and tools that rely on SHA-1. Just because there’s a new standard available doesn’t mean it has been implemented. If teams aren’t paying attention and updating their code, issues could arise.
+
+Even with all the coverage around this announcement, I haven’t seen any direct issues that users would have to worry about. The most common issue cited is that git (an extremely popular source control tool) relies on SHA-1 hashes for each commit.
+
+As Linus Torvalds (the original author of the tool) points out, there isn’t much of a chance of this attack being successful against a git repository. This is a great example of applying context and perspective to a vulnerability.
+
+Despite this, the git project—and others—should have moved away from SHA-1 already. For projects that haven’t, planning a migration should be at the top of their to-do list. The cost to run the attack is only going to drop making it more likely that someone will exploit it for nefarious purposes.
+
+Next Steps
+For computer scientists, mathematicians, and cryptographers, the details of this announcement are really interesting. For the rest of us, it’s a reminder that we need to regularly review and update our technologies.
+
+Technology innovates at a furious paces. Computing capacity has never been cheaper. There’s a massive upside for the industry and our communities. The downside? We need to ensure that we regularly review and update the foundations of digital security.
+
+What do you think about the SHA-1 announcement? Let me know on Twitter where I’m @marknca or in the comments.

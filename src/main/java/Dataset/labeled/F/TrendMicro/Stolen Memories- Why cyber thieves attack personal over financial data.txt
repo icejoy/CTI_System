@@ -1,0 +1,41 @@
+In the never-ending war against cybercrime, half the battle lies in raising public awareness about the nature of the threats out there. If everyday computers users are more clued into the security and privacy dangers facing them online, they’re more likely to take steps to reduce risk. But there’s always more to learn – that’s the problem when you’re faced with a fast-moving industry like cybercrime.
+
+Did you know, for example, that hackers are more likely to go after your personal data – things like email addresses, social security numbers and medical insurance IDs – than your financial details? That’s why it’s extremely important to keep this data safe and secure at all times.
+
+A longer shelf life
+
+Recent research Trend Micro conducted among US households found that more than 90 percent are now familiar with terms like malware, viruses and spam. But at the same time cyber threats continue to grow. We discovered that nearly two-thirds (65 percent) have had their computer infected with malware.
+
+Many people assume that it’s there to steal your financial data straight off the bat, and to be fair there are computer nasties out there designed to do just that. But the problem for the cybercriminal stealing credit card and bank account details is that they have a pretty short shelf life. As soon as a victim spots something amiss, they put a call into the bank/card provider’s fraud department and any further attempts by the hacker/fraudster to extract money will be blocked.
+
+On the other hand, if that same hacker took time to find and extract various bits of personal information like your date of birth and Social Security number, they could begin to build up a comprehensive “digital identity” of you. These can be more valuable on the dark web because the information is difficult for the victim to replace, there’s no way you can change your date of birth, and therefore offers a greater opportunity to make money from identity fraud.
+
+Combining various bits of personal information bought from underground cybercrime marketplaces, fraudsters could apply for credit cards and loans in your name, file fraudulent tax returns to gain rebates, or even apply for medical insurance, as we recently reported. Be in no doubt, there’s a highly advanced and professional cybercrime black market in these details, where hackers steal your info, then sell it on to fraudsters who use it to commit identity scams.
+
+That’s why over a third (36 percent) of households we spoke to claimed that they’ve suffered the loss or damage of personal files as a result of a cyber-attack.
+
+Lost forever 
+
+Similarly, ransomware has become a popular technique for cybercriminals looking to make a quick buck out of their victims. If you’re unlucky to download this malicious software it will search out your personal files and encrypt them. That means you’ll be locked out of your own documents and files forever unless you pay the ransom – usually several hundred dollars. Some estimates suggest the bad guys made over $1 billion last year out of these attacks.
+
+Yet ransomware remains a mystery to many: Only a third (36 percent) of those we spoke to were aware of it. That’s despite a quarter (24 percent) claiming to have lost valuable pictures as a result, 20 percent losing work documents and 18 percent videos. Remember, if you haven’t backed up, these will be gone forever.
+
+What to do
+
+That’s why it’s so important to ensure your PC and mobile devices are always secure and up-to-date, and that you regularly back-up any valuable data. Here are a few best practice tips to keep you safe:
+
+1. Never click on a link or open an attachment in an unsolicited email/text/social media message
+
+2. Back-up your data regularly, according to the 3-2-1 rule
+
+3. Always install the latest vendor patches/updates for your software and OS
+
+4. Use two-factor authentication if possible on your online accounts
+
+5. Seek out a reputable provider to secure your PC and devices with
+
+Anti-malware
+Anti-ransomware
+Protection from email scams/phishing
+Social media privacy tools
+Password protection/password manager

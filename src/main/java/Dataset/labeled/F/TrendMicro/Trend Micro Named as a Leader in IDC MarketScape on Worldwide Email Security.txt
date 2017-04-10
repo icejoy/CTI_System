@@ -1,0 +1,13 @@
+It is always nice to begin the year with accolades from an industry insider recognizing the effectiveness of one of your core products. IDC, a global market intelligence firm, recently named Trend Micro as a Leader in the IDC MarketScape: Worldwide Email Security 2016 Vendor Assessment (doc #US41943716, December 2016).
+
+This is particularly exciting for us because we see our email security products as the frontlines of security protection for our customers. More than 76 percent of targeted attacks, ransomware or advanced persistent threats (APTs) begin with emails. Our email products are also powered by the Trend Micro Smart Protection Network, which mines 100 terabytes of data daily to ensure that our customers are always sheltered from the 250 million+ threats we block every day. 
+
+This threat intelligence helps us continually enhance our solution; and in the report, the IDC MarketScape acknowledged our focus on some of the newest concepts in email security such as specialized threat analysis and protection (STAP) features, including sandboxing technologies and anti–spear phishing protocols. By using big data analytics and predictive technology, we are able to deliver immediate protection from emerging threats.
+
+The IDC MarketScape report also includes valuable customer insights on our products, and we were recognized for listening to our customers and adapting our products to fit their current needs. In addition, they appreciated the multiple bundling options across our own products, as well as through our partners. This not only makes purchase easy, but our wide range of capabilities can fit an enterprise’s specific requirements.
+
+The IDC MarketScape report also highlights an area where we try to infuse productivity — our easy set up and product use. From on-premises software to cloud-based products, our email security solutions strive to help customers save time and improve efficiency.
+
+As the threat landscape evolves, our commitment is to provide an adaptable email security solution as the first line of defense that includes a variety of industry-leading features and platform offerings that work within an organization.
+
+For more information on IDC MarketScape positioning, click here, and for more information on Trend Micro’s email security products, go to http://www.trendmicro.com/us/enterprise/messaging-collaboration-security/ .

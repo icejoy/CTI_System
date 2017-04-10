@@ -1,0 +1,27 @@
+By Mayra Rosario (Senior Threat Researcher)
+
+In 2016, 91 percent of the U.S. population had health insurance coverage which means at a given time, any person will be effected in the event of a healthcare data breach. How it affects individuals may differ case by case perspective, but its impact to affected people and healthcare institutions are far from mild. In our latest research paper titled Cybercrime and Other Threats Faced by Healthcare Industry, we look at the other side of a healthcare data breach and trace back what happens to electronic health records (EHR) after they are stolen.
+
+The multiple uses of Electronic Health Records on the Deep Web
+
+An EHR is a data set that contains personally identifiable information (PII), financial information such as insurance data, payment transactions, as well as personal health related information such as medical prescriptions, history records, appointment schedules, and other medical related information used by physicians. Each of those data sets are items that have value to cybercriminals. Financial information and PII are the data that are usually lost in data breaches and sold in underground markets. However, what about health related information? Are cybercriminals interested in physician’s appointments or medication taken by the victim?
+
+
+
+Figure 1. Healthcare documents sold in the Underground
+
+Monetizing raw data such as PII is nothing new in the Underground. What makes EHR in the Underground so different is that some of the data can be used to create a whole new list of offerings. These wares include fraudulent documents like tax returns or fake IDs, fake driver’s licenses or birth certificates, but also stolen prescriptions with which the buyer can buy drugs. This gives them access to controlled substances such as Ambien, a popular sleep disorder medication known to be abused by many users.
+
+
+
+Figure 2. Ambien sold in the Underground
+
+Not just stolen data
+
+Cyberattacks against hospitals, healthcare providers and doctors cost the U.S. healthcare industry more than estimated $6 billion a year with an average data breach costing a hospital around $2.1 million. As for the victims, 65 percent of medical identity fraud victims end up paying an average of $13,500 on legal fees and creditor service fees when trying to resolve the issue.
+
+Compared to other breaches, victims that lost their healthcare data experience more difficulties dealing with the breach. Unlike credit card breaches, medical identify theft can take more than three months before it is reported. Victims might not even know they were affected since credit bureaus wait 180 days after a service to charge one’s line of credit. This can effectively ruin personal credit scores. To make matters worse, EHR contains data that does not expire like date of birth, social security numbers, and so on. This means that cybercriminals can reuse the victim’s information over and over.
+
+After EHR in the underground is sold, victims have no way of knowing whether their records have been tampered with or modified by someone who could have bought and then used their stolen profile. The actual impact on manipulated documents and fraudulent use are still unclear.
+
+To learn more about the healthcare underground and Shodan data, see our paper Cybercrime and Other Threats Faced by Healthcare Industry.

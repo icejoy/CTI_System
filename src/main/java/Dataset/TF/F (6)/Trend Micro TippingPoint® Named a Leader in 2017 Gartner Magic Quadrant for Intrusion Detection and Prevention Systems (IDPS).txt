@@ -1,0 +1,32 @@
+Trend Micro TippingPoint has been named a Leader in the Gartner 2017 Magic Quadrant for Intrusion Detection and Prevention Systems (IDPS). With improvements in both Completeness of Vision and Ability to Execute from previous years, we believe that placement in the Leaders’ quadrant illustrates the positive progress we’ve made since the acquisition of TippingPoint in March 2016 from Hewlett Packard Enterprise.
+
+ 
+
+What sets Trend Micro TippingPoint apart
+
+Trend Micro TippingPoint Next-Generation Intrusion Prevention System (NGIPS) offers in-line comprehensive threat protection against advanced and evasive targeted attacks across data centers and distributed enterprise networks. It offers in-depth analysis of network traffic for comprehensive contextual awareness, visibility and agility necessary to keep pace with today’s dynamic threat landscape. Powered by security intelligence from TippingPoint Digital Vaccine® Labs (DVLabs) and the Zero Day Initiative vulnerability bounty program, the TippingPoint NGIPS provides accurate, preemptive threat prevention in real-time without affecting network performance. 
+
+Earlier this year, we announced our first-to-market standalone NGIPS that delivers up to 100 Gbps inspection throughput with low latency. The TippingPoint 7600NX was designed for data centers and enterprise networks with high performance requirements who need a security solution that can easily scale to meet traffic demands.
+
+With our Enterprise Vulnerability Remediation (eVR) capability, customers can pull in third-party vulnerability scanning data, map CVEs to TippingPoint Digital Vaccine® filters and take immediate action based on the enhanced threat intelligence to increase their security coverage. This powerful tool reduces administration time, increases security coverage, reduces unnecessary notifications, and provides a big picture view into an organization’s overall security posture.
+
+ThreatLinQ is an easy-to-use, real-time threat intelligence console that allows customers to evaluate the changing threat landscape and make informed decisions to enhance their network security posture. Customers can access real-time threat intelligence, review Digital Vaccine filter details, and fine-tune their TippingPoint protection profiles.
+
+We deliver Integrated Advanced Threat Prevention that provides enterprises:
+
+Pre-emptive Threat Prevention: Inspect and block inbound, outbound and lateral network traffic in real-time to protect against known, unknown, and undisclosed vulnerabilities.
+
+Threat Insight and Prioritization: Gain insight and context with complete visibility across the network to measure and drive vulnerability threat prioritization.
+
+Real-Time Enforcement and Remediation: Defend the network from the edge to the data center to the cloud with real-time, inline enforcement and automated remediation of vulnerable systems. 
+
+Operational Simplicity: Simplify security operations with flexible deployment options that are easy to setup and manage through a centralized management interface with recommended settings that provide immediate and ongoing threat protection.
+
+
+
+ 
+
+This graphic was published by Gartner, Inc. as part of a larger research document and should be evaluated in the context of the entire document. The Gartner document is available upon request from Trend Micro. 
+Click here to learn more to find out why Gartner named Trend Micro TippingPoint a Leader in the 2017 IDPS Magic Quadrant.   
+
+Gartner does not endorse any vendor, product or service depicted in its research publications, and does not advise technology users to select only those vendors with the highest ratings or other designation. Gartner research publications consist of the opinions of Gartner’s research organization and should not be construed as statements of fact. Gartner disclaims all warranties, expressed or implied, with respect to this research, including any warranties of merchantability or fitness for a particular purpose.

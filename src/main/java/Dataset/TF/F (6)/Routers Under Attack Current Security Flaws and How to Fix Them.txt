@@ -1,0 +1,36 @@
+How is it possible for users to lose hundreds of dollars in anomalous online bank transfers when all of their gadgets have security software installed?
+
+Last year, user Y, who is based in Brazil, lost R$600 (US$191.02, as of January 30, 2017) as a side effect of information theft. Upon discovering this, Y immediately called an IT technician to find the root cause. The technician originally chalked up the incident to Y accessing a fake website. But since no malware was found in the devices connected to the network, he then reviewed the home router settings. What he found was interesting:  even though the home router did not expose any remote management interface to the internet, the DNS settings were still modified. As a solution, the IT technician reset and reconfigured the home router to stop cybercriminals from making further bank transfers.
+
+In another case, user X noticed R$3,000 (US$955.11, as of January 30, 2017) was deducted from her account last January 2016. Her home router was also infected with a malicious DNS-changing malware. But instead of bank websites, cybercriminals redirected her to spoofed pages of third-party sites used by banks, such as Google Adsense™ and JQuery.
+
+Routers often have unsecure configurations that make them susceptible to malware attacks similar to the real-world cases we presented above. For one, security flaws exist in the operating system, firmware, and web applications of routers.  Attackers can simply use these vulnerabilities as entry points to further compromise the home network. In fact, there are a few tools and websites that  cybercriminals use to find vulnerable routers and obtain exploits for their attacks. Below is an example of such website:
+
+
+
+Figure 1. A trading website that displays a list of home router exploits (Click to enlarge)
+
+Predefined credentials in routers make it easy for web-based scripts  to bypass device authentication mechanisms and allow cybercriminals to perform  brute-force attacks.  Web-based scripts are an effective tactic to infiltrate routers. Another security gap are remote administration features in router firmware that cybercriminals can abuse to function as “built-in backdoors.” This could lead to a plethora of problems: remote code execution,  modified router settings to redirect to phishing or malicious pages,  and man-in-the-middle attacks, among others.  Vendors should make it a point to find and remove these backdoors in their products before attackers do.
+
+
+Are home routers safe?
+
+It’s easy to overlook router security in a home setting since most home router attacks are isolated cases or have very minimal effect on a user’s bandwidth. Unless a user experiences attacks like the ones mentioned above, router security is the least of a user’s concerns. This can be a problematic mindset moving forward. What home users need to understand is that home routers serve as a gateway in and out of their home. All the information coming from the internet will have to pass through it. Routers are their private property, and any form of compromise is like a form of trespassing. Some router threats that take advantage of its communications with connected devices can even make home users unwitting accomplices to cybercriminal activities.
+
+Case in point, the Mirai botnet took advantage of unsecure IoT devices for different attacks last year. When the source code was leaked in a hacking forum, we saw new Mirai strains in the wild. Affected entities like small and medium-sized businesses (SMBs) may have to deal with business disruption, damaged reputation, or even productivity and profit loss.
+
+
+
+Figure 2. Top countries affected by Mirai (August 2016- December 2016) (Click to enlarge)
+
+ Mirai uses a predefined list of default credentials to infect devices. Knowing this, it is essential for home users to change router passwords. This measure can provide an additional layer of security. As we mentioned in our 2017 Security Predictions, the likelihood of Mirai-like threats used in distributed denial-of-service (DDoS) attacks may increase this year, so it’s necessary to take precautions.
+
+Apart from botnet clients, other threats like rootkits that specifically infect Linux can also be dangerous to routers. Voice over IP (VoIP) fraud, which taps the telephony service in routers, could amount to additional charges in a user’s phone or internet bills.
+
+How can home users protect their routers?
+
+The first step in protecting home routers is choosing reliable ones. Some routers, like that of ASUS, are now bundled with security features. Trend Micro recently partnered with the brand to address home network security risks. ASUS routers come with features like deep packet inspection and web threat protection that filter threats before they reach users’ devices.
+
+Aside from selecting a secure router, users should also change the default router password to thwart brute-force attacks. Regular checking of DNS settings can also aid users and SMBs to spot anything suspicious in their network. If a user’s router has a firewall, they should enable it as another form of protection against threats.
+
+To better understand router threats and to learn how to secure your home network, read our research paper, Securing Your Home Routers: Understanding Attacks and Defense Strategies.

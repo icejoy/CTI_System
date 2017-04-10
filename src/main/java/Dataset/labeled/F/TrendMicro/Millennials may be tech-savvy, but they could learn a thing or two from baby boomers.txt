@@ -1,0 +1,65 @@
+Millennials are getting older, but are they getting smarter about how they can protect themselves when using digital technology? It appears not, at least according to some experts and studies.
+
+Craig Lund, CEO of SecureAuth, believes millennials are so worried about staying connected to the world around them that they forget how dangerous that world can be.
+
+"Millennials have grown up so connected to so many social media sites that it doesn't occur to them that there is danger there that they're giving out info, and their preference for being connected is more important to them than their potential for risk," said Lund, according to Dark Reading.
+
+Here we'll discuss why millennials are so susceptible to IT attacks and how they can better protect themselves by learning proper cyber security protocols from older generations.
+
+Why are millennials vulnerable to cyber threats?
+We see it all the time – millennials walking down the street with their heads glued to their phones, talking and typing away with seemingly little care about what's going on around them. This generation brought social media and other mobile devices into the 21st century, and therefore young people are likely connected to their peers like no other generation before them.
+
+But herein lies the problem: Despite their reliance on digital technology to stay in touch with friends and family, and conduct business, they're not necessarily keeping themselves safe from cyber criminals. And this should worry them, as well as their parents and employers.
+
+A survey commissioned by Webroot showed just how much millennials differ from baby boomers when it comes to keeping their personal identities safe while surfing the internet.
+
+Research revealed that 85 percent of millennials are concerned with their personal online security compared to an impressive 95 percent of boomers. Only 39 percent of millennials have installed security solutions on their electronic devices despite the aforementioned level of concern.
+
+And let's throw one more stunning statistic at you: Nearly 90 percent of millennials connect their devices to free – and always risky – public Wi-Fi when they're traveling.
+
+Using public Wi-Fi is convenient, but it's also dangerous. A Symantec survey revealed that 71 percent of consumers use public Wi-Fi to check emails and send documents. And while this survey didn't break down the number based on generations, we can assume that many millennials use public Wi-Fi. 
+
+Grayson Milbourne, security intelligence director at Webroot, said millennials and baby boomers share many similarities when it comes to protecting themselves from cyber threats, but millennials are failing to follow even simple steps to keep themselves safe.
+
+"While millennials and boomers are not that different in terms of privacy concerns, millennials are not following through with some straightforward strategies to achieve the security they want," said Milbourne, according to Webroot. "In fact, 88 percent of millennials are still connecting to free public Wi-Fi when traveling compared to only 32 percent of boomers."
+
+Milbourne followed up to say that while millennials may be the generation most likely to use mobile devices on a regular basis, that doesn't mean they're placing the necessary barriers between themselves and IT criminals.
+
+"Millennials represent the first 'always connected' generation, and it appears their use of mobile devices has become so ingrained in the way they live and work that they are not always taking the necessary steps to secure their most valuable information," Milbourne said.
+
+What can younger generations learn from baby boomers?
+Milbourne brought up a great point when he said all generations are susceptible to cyber attacks. However, baby boomers are much less likely to be hacked.
+
+A survey from Norton indicated that despite 40 percent of U.S. consumers who feel older generations are less secure online, 44 percent of baby boomers use secure passwords, and only 15 percent share those passwords.
+
+Millennials, while tech savvy, still have a lot to learn about cyber security and how it can affect them and those around them.
+
+Trend Micro's JD Sherry, former VP of technology and solutions, said that a major lesson everyone can learn is how to be more aware of how dangerous cyber attacks are. Sherry noted that Trend Micro has noticed a number of factors that cause this ignorance:
+
+1. Poor information exchange: In under 20 years, society has moved from dial-up internet to 4G (almost 5G) smartphones. Millennials helped society get here, but Sherry blames older generations for investing little time in teaching younger consumers how vulnerable these machines really are.
+
+2. Lack of knowledge about email and social network safety: Millennials simply don't realize that email and social profiles aren't secured vaults that can ward off determined cyber criminals.
+
+Dan Konzen, college chair for the College of Information Systems and Technology at University of Phoenix, Phoenix Main Campus, said that many people think a password is going to protect them, but they should think again.
+
+"Social media sites can lead users to believe their information and data are secure through a few self-selected security settings," said Konzen, according to a press release. "But today's cyber security criminals can often get around basic passwords and uncover personal information."
+
+3. Weak security barriers: Just because your smartphone is protected by a rugged, durable case and you've set a secured lock screen, that doesn't mean your device can't be hacked.
+
+"Cybercriminals are incredibly inventive in finding ways to obtain victims' personal information, which makes it important to educate people on how to combat criminals," said Dennis Bonilla, executive dean for the College of Information Systems and Technology at University of Phoenix, according to the same source.
+
+4. Trusting public WI-FI: We've already covered this topic, but we'll mention it one more time: If you can help it, don't use pubic Wi-Fi. But if you have to, don't conduct sensitive business that could compromise your personal information, such as using credit cards or logging into bank accounts.
+
+5. Thinking another hack won't take place: Lightning can strike twice in the world of cyber warfare. If you've been hacked once, it could happen again.
+
+What can people do to stay safe?
+Ten years ago we may have advised parents to teach their millennial children about how to ward off cyber criminals, but today that advice is outdated for the most part – many millennials are in college and living on their own, or have graduated.
+
+Since this is the case, the responsibility to teach lies on a multitude of parties that – yes – still includes parents (kids come home for holidays, right?). Along with family, employers should institute policies to defend their IT networks and put in place cyber rules and regulations to safeguard their sensitive systems. After all, their bottom lines could suffer if they're hacked due to loss of data, public relations fallout, and state and federal fines.
+
+To protect employees, employers should consider the following:
+
+Instruct employees on cyber security best practices: This involves guarding material from internal and external threats. This could (and should) include logging out of the desktop home screen at the end of each workday and not leaving personal and company information open when the employee isn't present.
+Implementing or updating Bring Your Own Device (BYOD) policies: Many businesses are now letting their employees bring their own devices to work. Companies should have develop strategies to protect themselves from IT attacks through weak networks.
+Used advanced security software: This software should addresses spam, viruses and defend against other breaches. It should also update itself regularly to stay in compliance with any industry or government regulations as well as the always-shifting IT security environment.
+In the coming years, much of the workforce will be comprised of millennial workers. That's why it's critical these employees understand how serious it is that they set up the proper barriers to guard against cyber attacks. Doing so will not only keep their personal information from getting into the wrong hands, it could also save their employers thousands or millions of dollars in lost data or fees stemming from lawsuits or government sanctions.

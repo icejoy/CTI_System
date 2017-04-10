@@ -1,0 +1,31 @@
+Want to destroy the confidence of your IT department and amputate key appendages from its leadership’s chance of success? Force these folks to manage manual processes; bog down their ability to manage the access of users and create ever-changing and overbearing password management rules, as examples. I’m not suggesting that requiring your IT team to manage these tasks manually is a head scratching problem, but doing so does mean more obvious complications, extremely mundane work and a time consuming volume of requests.
+
+For your highly technical teams, asking them to handle manual account management is a waste of resources. These employees should spend their time on more technical issues and complex projects for your organization, don’t you think?
+
+But, wait. How can you get your IT department to move forward when it is asked to perform menial tasks related to a user’s account or password? There are solutions, of course, for managing these processes, but can they be trusted and are they really beneficial to operations of the organization?  That depends on your point of view, I guess – some experts once wondered about the benefits and purpose of a thing called the “internet” while others, respectable people, once wondered about the benefits of tablets and their touch screens.
+
+The simple answer to the proposed question then, in my opinion, is: “yes.” Solutions on the market assist with these processes. The following provides a bit more detail about what these things than do.
+
+Account creation and management from one place
+
+Setting up a new account for an employee is frustrating – when done manually. It looks a little like this: An IT admin accesses each appropriate application, enters the required employee information then sets the appropriate access rights. Making matters worse, a single new employee likely needs multiple accounts to begin their work. Sometimes, a newly hired employee will be left waiting for a few days for the correct access to correct accounts. Who hasn’t had this happen to them when they’ve begun a new job?
+
+Current technologies can automate this process. As such, by automating, an HR person simply needs to enter the appropriate employee information into the HR system, and voila, new accounts are created in all systems relevant to the person’s role in the organization! These solutions work seamlessly for both in-house and cloud applications, so any type of application or system your company uses can be easily integrated – completely automated.
+
+Aspirin for time-sensitive request headaches
+
+In manual processes, the need for additional access to accounts or resources created for an employee can be a headache. Here’s how the process typically works: An employee must contact their manager who contacts an IT admin when they need access to an application or to make a change to their account. If this request is time sensitive, the employee may continually contact the manager to check up on the progress of the access rights. Now imagine countless messages and emails coming in from more than one employee requesting the need a change as soon as possible – overwhelming.
+
+This can be automated, too. When an employee needs access to a certain application for a project they are working on they simply make the request in an employee portal and the request is routed to the correct manager. That manager can either accept or deny the employee’s request. If accepted, the change is automatically made and the employee has immediate access. This eliminates the need for anyone to contact the IT department or an account admin to request the change. This is seamless with in-house and cloud applications so changes can be easily made to both.
+
+Then, if an employee wants to check on their request, they can view the progress in their portal instead of contacting the admin directly. So, admins no longer need to be repeatedly contacted to ask if the change has been made. 
+
+Responding to the same call over and over again
+
+What about all of the password issues that the IT department must deal with? Many automated solutions work seamlessly with password management to address these issues to drastically reducing redundant calls. Here’s the problem: Employees call the helpdesk to have their password reset for one or more of their applications when they forget them or are locked out of their accounts. This continues over and over again. This, like the account change requests, is very simple to fix, but overwhelming difficult and mundane if managed manually. Certainly, this is time-consuming when employees – especially repeat offenders – who request information over and over again.
+
+The most popular fix here is an automated password management solution. Such technologies provide a self-service reset option can be adapted for use in the cloud or in-house applications. This allows users to reset their own passwords without contacting the helpdesk even from their mobile devices like smartphones and tablets.
+
+Also, don’t forget that single sign-on solutions have also been adapted to work in conjunction with cloud applications. Single sign-on allows your users to login in once with a single set of credentials (one password and such) and thereafter gain access to all other applications they are authorized to use, easily resolving the issue of users needing to remember multiple passwords. This, then, also eliminates the need to request so many resets and alleviates mundane treacherous tasks for the helpdesk.
+
+With automated solutions these tasks can be easily automated making processes better for everyone involved, and resulting in a happy IT department where leaders are empowered to live up to their professional potential without being cut off at the knees.

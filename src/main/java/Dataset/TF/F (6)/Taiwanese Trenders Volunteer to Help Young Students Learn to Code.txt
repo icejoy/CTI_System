@@ -1,0 +1,9 @@
+In 2016, the Trend Micro Volunteers Club in Taiwan partnered with the “Program the World” project to build excitement for computer programming for students across Taiwan. “Program the World” is a nonprofit organization that provides programming courses to underprivileged children who live in remote areas of Taiwan, who are limited in access to this type of education. Tutoring and classes in this program provide skills, education and glimpse at career opportunities to these students by developing logical thinking and problem solving capabilities through learning how to code.
+
+At the beginning of 2017, more than 50 Trenders in Taiwan have been working with the “Program the World” project to prepare teaching materials and organize internal and external educators training. Since the beginning of the year, the Volunteers Club and Professor Su Wen-Yu of NCKU have been able to hold “Program the World” camps at seven different schools for more than 150 teachers and students.
+
+The first four camps were elementary schools in the middle of Taiwan and all the educators joined in a 20-hour training. After the training, they acted as assistant teachers during the camp with the students. These teachers will continue their preparation with the project, and also recruit local educators to organize programming courses together.
+
+One of the last camps was held February 8 – 12 at Meiho Elementary School in Eastern Taiwan. This camp included sessions on Scratch, a free programming language for animation, practices on modeling software and 3-D printing courses. The “Magical VR Bus” was also on hand to develop interest in outer space through interactive learning tools.
+
+The Trend Micro Volunteers Club plans to continue hosting these camps throughout the year. Everyone is looking forward to sharing the power of programming with young students to excite them about a future in technology.

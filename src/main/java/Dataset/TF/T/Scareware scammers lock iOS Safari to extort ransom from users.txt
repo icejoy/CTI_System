@@ -1,0 +1,26 @@
+Scareware scammers lock iOS Safari to extort ransom from users
+Scammers are using scareware that locks the Mobile Safari app to extort ransom money from iOS users.
+
+In February 2017, Lookout learned of the campaign from one of its users.
+
+As researchers Andrew Blaich and Jeremy Richards at the San Francisco-based mobile security firm explain in a blog post:
+
+"The user reported that he had lost control of Safari after visiting a website and was no longer able to use the browser. The user provided a screenshot (below) showing a ransomware message from pay-police[.]com, with an overlaid 'Cannot Open Page' dialog from Safari. Each time he tapped 'OK' he would be prompted to tap 'OK' again, effectively putting the browser into an infinite loop of dialog prompts that prevented him from using the browser."
+
+Screen shot 2017 03 27 at 3.19.19 pm
+The scareware campaign at work. (Source: Lookout)
+The scammers achieved this infinite pop-up loop by abusing the fact that Mobile Safari handled pop-up dialogs on a per-app basis. In other words, if an iOS user encountered a Javascript-based pop-up ad in Mobile Safari, they saw it across all their open tabs. Such behavior left many unable to use the app...that is, unless they agreed to the attackers' demands by sending over a SMS message containing a code for 100 pounds worth of iTunes gift cards. (It's certainly not the first time ransom-based attackers have demanded gift cards as a form of payment).
+
+The infection reported to Lookout occurred after the user visited pay-police[.]com. But this campaign, which leverages Javascript code stolen from another operation, uses multiple URLs to display different messages based on a user's country code identifier. These payloads originate from unique phishing domains and email addresses, like "us.html networksafetydept@usa[.]com" for the United States and "nz.html cybercrimegov@post[.]com" for New Zealand.
+
+Image03
+Obfuscated array of JavaScript commands used in the campaign. (Source: Lookout)
+Fortunately, victims of the campaign had an easy way to avoid paying the ransom. Blaich and Richards elaborate on this point:
+
+"The victim could regain access without paying any money. Lookout determined the best course of immediate action for the user who initially reported it was to clear the Safari cache to regain control of the browser. (Settings > Safari > Clear History and Website Data) Once a person erases all web history and data, effectively starting Safari as a fresh app, the ransom campaign is defeated."
+
+Safari settings
+
+Apple has since made it even easier. With the recent update to iOS (version 10.3), the tech giant changed Mobile Safari's handling of pop-ups to a per-tab basis. This means users who encounter persistent pop-ups in Mobile Safari can now close out the affected tab and switch to another one.
+
+To protect against this type of campaign, users should avoid suspicious links and email attachments and should be careful about what websites they visit on all their devices. They should also make sure to implement software updates as soon as they become available.

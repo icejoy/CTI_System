@@ -1,0 +1,37 @@
+oday's businesses can't take any chances with their cyber security. Just a single weak point can open the door for malicious activity that can topple a company. As enterprises seek to strengthen their protections against hackers, some of the most powerful insights are coming from the people these cyber security measures are meant to guard against.
+
+In this spirit, Nuix performed a survey at the DEFCON event in Las Vegas in 2016, called The Black Report. Instead of interviewing corporate decision-makers, IT leaders and security administrators, the survey sought to glean insights straight from the horse's mouth, so to speak.
+
+Providing access to a new point of view
+This survey represents a breath of fresh air in the cybersecurity space, where so many studies focus on IT professionals. While these types of reports are no doubt important, offering access to a hacker's point of view has its merits as well.
+
+In addition to interviewing cyber criminals themselves, The Black Report also included insights from penetration testers who, according to one tester, perform nearly the same processes as hackers do, but with the benefit of a statement of work that makes it legal. Overall, a total of 70 black hat hackers and pen testers – or white hat hackers – were included in the survey.
+
+Hector Monsegur, a former black hat hacker and current Rhino Security Labs assessments director, told TechTarget that this type of survey is particularly imperative as it can highlight security details that empower individuals and companies as a whole.
+
+"It typically takes a hacker a mere 24 hours to force a successful intrusion."
+"Exploring [hackers and penetration testers] thoughts and experiences dealing with cyber security is a very good first step," Monsegur told TechTarget. "Although conferences like DEFCON, Black Hat, HackInTheBox, etc., provide an outlet for these researchers to disclose vulnerability information, methodologies and techniques, the truth is that most people simply do not know how to access this content or know it even exists."
+
+Key insights from the cyber criminal community 
+Another benefit of this type of research is the ability to see how hackers' responses differ from IT professionals and other representatives of the companies cybercriminals seek to attack.
+
+"It's important to understand how the adversary thinks and acts," Nuix CISO Chris Pogue said. "The more defenders know, the better they can prepare themselves."
+
+Some insights came in direct contrary to certain beliefs that had been fundamental to cybersecurity strategies in the past. Surprising findings included:
+
+The length of time for intrusion is shrinking: One of the most brow-raising statistics demonstrated the speed with which today's hackers are able to effectively break into a target system. Although Nuix reported that it can take 250 to 300 days for businesses to detect a data breach, it typically takes a hacker a mere 24 hours to force a successful intrusion and steal target data. In fact, the study also found that about one-third of attacks are never discovered by the victim company. "Organizations need to get much better at detecting and remediating breaches using a combination of people and technology," Pogue concluded.
+Certain traditional protection measures don't work: The study also found that despite faith in conventional security safeguards like firewalls and antivirus solutions, hackers noted that these protections are almost never successful in slowing down their malicious efforts. On a more positive note, endpoint security protections have been proven to help mitigate the activities of hackers.
+Hackers don't use the same approach every time: Contrary to the belief that once hackers discover a successful method of attack they stick with it, the study found that more than 50 percent of cybercriminals change their approach with each new target. This means that malicious actors are coming up with potentially previously unseen methodologies that can't be protected against with a solution based on known attacks. What's more, this also increases the chances that business will fall victim to a zero-day vulnerability.
+Exploit kits aren't as popular as experts think: It was also a surprise to researchers that exploit kits weren't at the top of the list as far as tools being used to underpin attacks. In fact, while most hackers leverage social engineering (72 percent) to collect details before an intrusion, commercial tools and exploit kits are only used in 3 percent of attacks. Most attackers prefer open-source tools (60 percent) or custom tools (21 percent).
+"[E]xploit kits that are sold on the dark web are usually buggy, highly specific and more often than not, backdoored," Monsegur explained, nothing that today's hackers simply don't trust these kits.
+
+Hackers aren't using the same approach every time, and exploit kits aren't as popular with cybercriminals as security experts once thought. Hackers aren't using the same approach every time, and exploit kits aren't as popular with cybercriminals as security experts once thought.
+Understanding a typical attack
+While the tools to underpin the attack and the approach for intrusion might be changing, many targeted attacks still follow the same lifecycle. According to Trend Micro, a target attack begins with:
+
+Information gathering (social engineering) about a target business and, potentially, individual employees and company leaders.
+Next, the hacker targets an individual device belonging to an employee. This can be a company-owned endpoint, or a device supported by a business's BYOD program. Both points will provide the access the attacker needs to the company's network.
+Once a device has been targeted and infected, the cybercriminal will establish a Command and Control server, and create a link to the victim network.
+The hacker will then move laterally across the network, seeking out valuable data to send to the C&C server.
+Finally, data is extracted. This, however, doesn't mean the attack has been concluded – the cybercriminal can remain undetected for days or even months, pinpointing and extracting new data all the time.
+In order to improve enterprise security, one must understand the viewpoint of the enemy. By gleaning insight into the processes, methodologies and tools that today's hackers use, businesses can better protect their sensitive information and brand reputation.

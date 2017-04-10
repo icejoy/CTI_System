@@ -1,0 +1,17 @@
+Hard work in 2016 definitely paid off for everyone on our endpoint security team here at Trend Micro. Recently Gartner, Inc. announced that Trend Micro had been positioned Highest and Furthest in the leader’s quadrant for its ability to Execute and Completeness of Vision in the 2017 Magic Quadrant for Endpoint Protection Platforms (EPP).
+
+Gartner Magic Quadrant reports are a culmination of research that includes extensive analyst inquiries, detailed vendor questionnaires and solution demos, as well as customer and channel partner references.
+
+
+
+According to the Gartner report “Several emerging vendors are demonstrating that non-signature-based protection can be more effective against rapidly changing threats. However, their claimed real-world success is not reflected in standardized tests, making improvements difficult to quantify. Emerging vendors have fewer protection techniques than traditional vendors, and it is not clear that they would remain effective if attackers devoted more time to finding product flaws.” (1)
+
+We believe this statement validates Trend Micro’s leader position by the fact that we have not only delivered an innovative range of non-signature and signature-based protection techniques but we know that we have the customer results and independent 3rd party testing to substantiate our file-based and file-less (scripts, macros, etc) malware protection as well as exploit protection.
+
+For more than 27 years, Trend Micro has remained one step ahead by implementing XGen™ security, a cross-generational blend of techniques, such as behavioral analysis,  advanced ransomware protections, exploit protection, machine learning, intrusion prevention and application control, to combat tomorrow’s threats. XGen™ security intelligently applies the correct technology at the right time, creating more effective and efficient protection against a full range of known and unknown threats. As the first to infuse “high-fidelity” machine learning into our approach, we are able to analyze files not only before execution, but also at runtime, to block those with malicious intent and use “noise cancellation” features to reduce false positives. Ultimately, our endpoint solution powered by XGen™ technology has been proven in many public and independent tests to stop more threats, that come in many forms such as files, scripts, macros, exploits, etc.
+
+Another key reason that we are leading the market is our ability to protect server endpoints across the data center and cloud with XGen™ technology, delivering optimized protection for workloads deployed on VMware, AWS and Microsoft Azure. Managed through a single connected dashboard with full visibility across physical, virtual and cloud, Trend Micro’s hybrid cloud security solution simplifies the deployment and management of security, speeds response to sophisticated attacks, and accelerates compliance with key regulations like PCI, HIPAA and others.
+
+We know that when customers research security vendors, they hold reports such as Gartner’s Magic Quadrant in high regard. We continue to invest in the latest security technology and techniques to ensure our customers remain confident that our customized protection solutions are scalable, affordable, light on resources and ultimately help IT professionals become more efficient in their roles and in meeting compliance standards.
+
+For additional information on Gartner’s Magic Quadrant for Endpoint Protection Platforms, please visit: https://resources.trendmicro.com/Gartner-Magic-Quadrant-Endpoints.html.

@@ -1,0 +1,30 @@
+What is the Security Analyst Summit
+A long time ago, in the prehistoric digital era, in a world of big trees while we were a mere bonsai, we started throwing a yearly conference for a select few of the most forward-thinking experts in information security. We christened the conference the Security Analyst Summit (SAS for short), and right from the get-go we wanted to make it the best event of its kind in the world. And when I say best, I mean both in terms of content:
+
+Security Analyst Summit 2016: one of the talks
+…And in terms of a relaxed and fun atmosphere:
+
+Security Analyst Summit 2016
+And to make the best even more memorable for all who take part in it, we traditionally throw SAS at a location with among the most unbearable conditions in the world. That is, always next to beach in a tropical clime :) Example:
+
+Security Analyst Summit 2015 took place in Cancun, Mexico
+…Or:
+
+Security Analyst Summit 2016 took place in Tenerife, Spain
+And here we are again on the eve of another SAS. This year’s will be on the island of St. Maarten in the Caribbean (April 2-6), so there’ll be no shortage of beachiness and oceanity. And of course there’ll be no shortage of the world’s top cybersecurity experts who’ll be telling all sorts of scary stories about who’s been hacked, where, and how, and what needs to be done in response. So get involved; it’s gonna be thrilling, I promise (it always is :).
+
+Since the first ever SAS, cyberthreats and the digital landscape on the whole have been transformed so as to be unrecognizable. Back then there were no smartphones, for example. And digital attacks on industrial systems were of interest to no one beside geeks, paranoids, fantasists and futurists – also the dogs of cyberwar, for whom a whole new cyber-landscape for military operations was opening up. And there was no Stuxnet either!
+
+
+Back then IT security had a very narrow focus. Accordingly, the conference started out as an internal get-together for our own experts from around the globe. Only later did it become an industry-wide get-together, in keeping with the times: as the threat of cyberattacks became one of the main topics on agendas at corporate, national and international levels, while financial services, Internet trading and the Internet of Things were entering practically every home.
+
+As it went more and more industry-wide, SAS also became more interesting to a broader range of cybersecurity folks – from all sorts of different types of companies. Larger and larger sponsors got involved, and the list of accredited media in attendance grew, with larger and more influential global media outlets reporting next to their specialized trade press siblings.
+
+Security Analyst Summit 2017: sponsors
+So what can we expect at this year’s SAS?
+
+Detailed presentations on investigations into the world’s most complex and advanced cyberattacks.
+Discussion of trends. Where’s the world heading; what will be the cyberthreats of the future, and how will we survive them.
+A practical part: training sessions from our experts. These allow large companies to create and develop their own teams of cyberthreat hunters.
+Investigations into the problems of industrial security. This is a new but already veeerrry hot topic, with SAS being one of the very few forums in the world set up for seriously deep discussion of issues of industrial control systems’ security, the Internet of Things, driverless vehicles and other such hotness.
+In short, it’s going to be very interesting, you can count on it…

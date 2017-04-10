@@ -1,0 +1,89 @@
+Every day, the news is full of stories describing the weighty and often overwhelming effects new technology has on the way people live and work. Terms such as Artificial Intelligence (AI) and the Internet of Things (IoT) are fast becoming everyday jargon, and plans for their deployment will land high on the agenda of business leaders over the next few years – whether they like it or not.
+
+Headlines warning of cyber-attacks and data breaches are just as frequent. Assailants are everywhere: on the outside are hackers, organized criminal groups and nation states, whose capabilities and ruthlessness grow by the day; on the inside are employees and contractors, causing incidents either maliciously or by accident.
+
+Business leaders are left feeling uncertain about the way forward. The dilemma is often stark: should they rush to adopt new technology and risk major fallout if things go wrong, or wait and potentially lose ground to competitors?
+
+New attacks will impact both business reputation and shareholder value, and cyber risk exists in every aspect of the enterprise. At the Information Security Forum, we recently released Threat Horizon 2019, which highlights the top nine threats to information security over the next two years.
+
+Let’s take a quick look at these threats and what they mean for your organization:
+
+Premeditated Internet Outages Bring Trade to its Knees
+
+Conflicts across the globe are rising in number and severity. Nation states and other groups will look for new methods of creating widespread disruption – one of which will be exploiting the dependence on connectivity by causing Internet outages at either a local or regional level.
+
+Commercial and governmental organizations will be considered legitimate targets during times of tension and conflict. Industries will lose millions of dollars as communications and externally connected systems fail and trade grinds to a halt, even if the outage is relatively brief. The resulting shortages in basic goods and services will cause widespread social unrest and severe disruption across all industries.
+
+In a hyper-connected world, the temporary loss of infrastructure will create chaos. Central governments will have to coordinate through their critical national infrastructure programs to contain the damage and restore order.  At an organization level, arrangements must be in place to address the risk of such attacks occurring on a relatively frequent basis. Understanding the extent of the organization’s reliance on the Internet, and fortifying the controls that manage operations when it is unavailable, will be critical to maintaining productivity.
+
+Ransomware Hijacks the IoT
+
+Ransomware is currently one of the most prevalent infosec threats. This type of attack is becoming more dangerous for targets and more lucrative for criminals: average ransoms demanded jumped (PDF) from $294 in 2015 to $679 in 2016. The US Federal Bureau of Investigations (FBI) estimates that ransomware generated around $1 billion in revenue for criminals by the end of 2016.
+
+Over the next two years, cyber criminals behind ransomware will shift their attention to 'smart devices' permanently connected to the Internet. While holding specific devices for ransom will offer lucrative ways to grow their revenues, attackers will also use these devices as gateways to install ransomware on other devices and systems throughout an organization.
+
+The downstream impacts, such as interruptions to business operations and automated production lines, may appear severe, but will fade into the background when lives are put at risk by attacks on medical implants or vehicle components. Simply restoring from a data backup, rather than paying the attacker, will not be an option. An affected organization will face the potential of a double financial hit: a large ransom to protect its people or resume normal operations plus significant expenses related to repairing and strengthening security measures.
+
+Every organization should take immediate action to identify how they are currently using connected devices, how they plan to increase usage in the future, and what the impact will be if one or more devices are rendered inoperable by ransomware. It’s paramount to implement appropriate business continuity plans including back-up systems, disaster recovery, and incident response. Those who fail to act should expect to pay more, more often.
+
+Privileged Insiders Coerced Into Giving Up the Crown Jewels
+
+Even in the cyber-crime era, the age-old threat of violence still spreads fear. To achieve greater gains, well-funded criminal groups will combine their substantial global reach and digital expertise with intimidation or savagery to threaten privileged insiders into giving up mission-critical information assets such as financial details, intellectual property (IP) and strategic plans.
+
+Ruthless criminal groups, rogue competitors and nation states will directly target mission-critical information assets, designated as such by their value to the organization and the business impact if compromised. Consequently, an organization should take steps to identify and record these assets. The individuals with access to, or responsibility for, the management and protection of these assets should also be identified on that record. At the same time, procedures can be put in place for individuals to report any coercion or threat, and arrangements made for anyone affected to receive appropriate protection.
+
+An organization that loses any of their crown jewels to attackers will be impacted by heavy financial losses and brand damage when planned products are copied and released earlier by competitors. Targeted organizations that cannot guarantee the safety of their highly skilled privileged insiders may find recruitment and retention increasingly difficult.
+
+Automated Misinformation Gains Instant Credibility
+
+The practice of undermining a competitor’s reputation, products or services with false or manipulated information will be automated using advanced 'chatbot' programs. These programs will be efficient at their task: they will operate around the clock with an unrivalled capacity to spread misinformation consistently and rapidly, and no scruples or morals to inhibit their pernicious activity.
+
+Advanced chatbots will undoubtedly offer many new ways to conduct legitimate business. However, they will also be programmed to spread misinformation. Developers of such programs will seize the opportunity to industrialize the production of advanced chatbots, profiting by offering them as a service. Access to an array of service providers will make it easy for unscrupulous competitors and disillusioned groups to discredit the reputation of an organization, its products or services.
+
+Continuous monitoring and rapid reaction will be essential. If an organization is unable to disprove false rumors quickly, the damage to its reputation will be complete. Swift, pre-planned action on behalf of the affected organization at any early signs of misinformation – such as substantiated rebuttals online or by making legal claims for libel or defamation – may be able to limit the damage. Additionally, organizations and industry bodies should lobby governments to establish a central authority responsible for combatting misinformation and the proliferation of fake news stories over social media.
+
+Falsified Data Compromises Performance
+
+Criminal groups and unscrupulous competitors will realise that they can do more than just steal and sell information – they will cause significant damage and disruption by adding information distortion to their existing toolbox of threats. The number and scale of these attacks is expected to balloon over the next two years. The integrity of digital information is of such concern to US intelligence agencies, they have specifically included it in their annual briefing to the US government on global cyber threats.
+
+Attacks focused on information integrity can have a major impact on an organization. Examples include: disrupting capacity for informed decision making; severe financial losses as a result of fraud or manipulation of stock prices; or reputational harm from a leak of false or embarrassing information.
+
+Individuals at all levels of an organization, but particularly business leaders, need to understand the importance of information integrity – that it needs to be valid, accurate and complete to sustain the operations that rely on it. Organizations can no longer ignore this aspect of security. They must start preparation now by ensuring that all information risk assessments fully cover the likelihood and impact of attacks on integrity, as well as confidentiality and availability. Consideration should also be given to training communications and marketing professionals to deliver effective statements following integrity incidents, to minimize reputational and legal impacts.
+
+Subverted Blockchains Shatter Trust
+
+Because of its potential to significantly drive down cost, reduce delay and lower risk, blockchain technology will eventually effect every organization. Around “15% of top global banks [are] intending to roll out full-scale, commercial blockchain products in 2017”, with 65% likely to have large-scale implementations in place by 2019.
+
+However, blockchains will be vulnerable to compromise. Subverting a blockchain could impact an organization severely and in an extreme case could result in abandoning the affected blockchain – wiping out the anticipated efficiency gains and undermining institutional trust.
+
+Many of the blockchain security incidents to date could have been prevented with known best practices. However, security professionals should remain vigilant to new vulnerabilities that may require innovative controls as this relatively immature technology develops. Organizations must supplement good security practice with a culture wherein trust is supported by transparent communications and thorough feedback mechanisms.
+
+Surveillance Laws Expose Corporate Secrets
+
+To track growing threats to national security, governments will create surveillance legislation that requires communications providers to collect and store data related to electronic and voice communications. While governments and their agencies will use the data to identify specific groups such as terrorists, masses of information will also be swept up from innocent organizations and individuals going about their day-to-day business.
+
+Motivated attackers will be quick to recognise the value of this data, know where it is and how to get it—and they have the capability to analyze, interpret and exploit it. For example, the data may be analyzed to reveal strategically sensitive issues, such as plans for mergers and acquisitions, IP under development, or details of new products in the pipeline.
+
+Every organization should proceed as if it will only be a matter of time before the work-related communications data of their employees is subject to unauthorised access. No organization can guarantee that others will not be using their communications data to gain revealing insights into its operations, people and plans. Consequently, every organization should consider what its external communications might reveal, assess the risk of breaches, and put plans in place to minimize the potential impacts.
+
+Privacy Regulations Impede the Monitoring of Insider Threats
+
+In 2015, insiders—including users, managers, IT professionals, and contractors— caused 43% of all data breaches (PDF). However, new privacy regulations such as the European Union General Data Protection Regulation (GDPR), have the potential to constrain the use of tools that analyze the behavior of insiders.  These regulations could result in large fines levied on organizations that monitor and profile employees. Such constraints will restrict an organization’s ability to monitor online behavior and collate specific threat intelligence, while increasing the opportunities for malicious insiders to compromise organizational information.
+
+Every organization must invest in tools and techniques to strengthen their protection against the insider threat, particularly against malicious insiders who may be able to initiate data breaches while hiding their tracks. Those organizations that use or plan to use User Behavior Analytics (UBA) tools will need to start preparations now, for example, by formulating amendments to employment contracts. Multinational organizations planning to deploy UBA tools across multiple jurisdictions may find this onerous. Local laws and customs may present additional hurdles when negotiating with employees, particularly in unionized environments.
+
+A Headlong Rush to Deploy AI Leads to Unexpected Outcomes
+
+In the quest to leap ahead of the competition and benefit from technical innovation, many organizations will rush to deploy AI systems to automate increasingly complex and creative tasks that previously required human intelligence.
+
+Systems based on AI will learn from their experiences and modify their actions accordingly. However, using a human analogy, AI is likely to only reach adolescence over the next two to three years and will therefore be prone to errors, some of which could have serious consequences. This will present major challenges when organizations come to rely on AI systems in environments where outcomes can affect an organization’s reputation or performance. Any organization lacking highly skilled experts with the required knowledge and experience may be unable to deal with the fallout when AI systems function erratically.
+
+To prevent unexpected outcomes from creating new vulnerabilities, business and security leaders must give full scrutiny and consideration to information security requirements. This means ensuring the content and accuracy of the data feeds from which AI systems learn, conducting pilots to understand how systems react to inputs before scaling to full deployment, and developing detailed contingency plans.
+
+Be Prepared
+
+As dangers accelerate, organizations must fully commit to disciplined and practical approaches to managing the major changes ahead. Employees at every level of the organization will need to be involved, including board members and managers in non-technical roles.
+
+The nine threats listed above expose the dangers that should be considered most prominent. They have the capacity to transmit their impact through cyberspace at alarming speeds, particularly as the use of the Internet spreads. Many organizations will struggle to cope as the pace of change intensifies. These threats should stay on the radar of every organization, both small and large.
+
+So…are you as ready as you could be? Don’t wait to find out. By then, it may very well be too late.
