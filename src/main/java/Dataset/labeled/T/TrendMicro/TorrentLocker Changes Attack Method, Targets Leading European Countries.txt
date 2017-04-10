@@ -1,0 +1,81 @@
+Posted on:March 9, 2017 at 11:00 am
+Posted in:Malware, Ransomware
+Author: Jon Oliver (Senior Architect)
+2
+156
+ 
+The TorrentLocker ransomware, which has been in a lull as of late, has recently come back with new variants (Detected by Trend Micro as RANSOM_CRYPTLOCK.DLFLVV, RANSOM_CRYPTLOCK.DLFLVW, RANSOM_CRYPTLOCK.DLFLVS and RANSOM_CRYPTLOCK.DLFLVU). These new variants are using a delivery mechanism that uses abused Dropbox accounts. This new type of attack is in line with our 2017 prediction that ransomware would continue to evolve beyond the usual attack vectors.
+
+TorrentLocker has continued to remain active beyond its peak, with its low detection rates allowing the cybercriminals behind it to work behind the scenes while continuing attacks against unwitting victims.
+
+A familiar foe in a new disguise
+
+The new TorrentLocker variants have similar behavior as the previous examples we’ve detected, with the primary changes being its new distribution method and the way the malware executable itself is packaged.
+
+An example of the new TorrentLocker attack begins with an email claiming to be an invoice from a supplier of the organization where the victim works. The “invoice” itself does not come as an email attachment, but is accessed instead via a Dropbox link that contains text referencing bills, invoices or account numbers to make it seem authentic. Using Dropbox as a URL link allows TorrentLocker to evade gateway sensors since there is no attachment and the link is from a legitimate website.
+
+
+
+
+Figure 1: Example of a TorrentLocker phishing email
+
+Once the user clicks on the link, a JavaScript file (JS_NEMUCOD) disguised as the invoice document will be downloaded to the victim’s computer. When the user tries to open the fake invoice, another obfuscated JavaScript file will be downloaded to memory, after which the TorrentLocker payload will be downloaded and executed in the system.
+
+A notable feature of the new TorrentLocker variants is that they are packaged as NSIS installers to avoid detection, a technique also used by other prominent ransomware such as CERBER, LOCKY, SAGE and SPORA.
+
+Scope of Attacks
+
+From February 26 to March 6, 2017 our Smart Protection Network detected 54,688 spam emails which included URLs going to 815 different DropBox accounts. The bulk of this attack occured in Europe, with Germany and Norway taking up the largest percentage. Attacks in Norway peaked during the end of February but gradually shifted to Germany during early March. The ransomware’s perpetrators pulled off the largest number of attacks during the weekdays with a lull during the weekends. We discovered significant increases in infections at approximately 9 to 10 am, coinciding with the start of the work day—most likely from employees checking their daily emails for the first time. Organizations commonly use Dropbox  to manage and transfer their files, which can result in unsuspecting employees getting tricked into believing that the URL contained in the email is legitimate.
+
+
+
+
+Figure 2: Timeline showing the peak hours of the attacks
+
+
+
+
+Figure 3: Distribution of attacks
+
+We are currently working with Dropbox on this issue. As per Dropbox’s security team, all files discovered at the time of publishing have been taken down and their respective users banned.
+
+Mitigating TorrentLocker
+
+Given the deceptive nature of the new TorrentLocker and other similar ransomware, organizations should take extra steps to ensure that they are protected from these kinds of social engineering attacks. The number one priority should be educating their employees on the best practices against phishing attacks, which includes checking any email for suspicious content such as the sender’s display name or any mismatched URLs. In fact, end users should be advised to refrain from downloading attachments or clicking embedded links in general, unless they are absolutely certain that it comes from a legitimate source.
+
+Users should also take steps to ensure that their data is backed up by implementing the 3-2-1 backup policy, which involves saving at least three copies of data, with two copies in different storage types—preferably on an internal and removable drive—and one copy off-site.
+
+Trend Micro Solutions
+
+In addition to the best practices suggested above, Trend Micro customers can use the following solutions to further mitigate ransomware threats like TorrentLocker:
+
+When addressing these kinds of threats, reacting as they occur isn’t enough. Strategic planning and a proactive, multilayered approach to security goes a long way—from the gateway, endpoints, networks, and servers.
+
+Trend Micro OfficeScan™ with XGen™ endpoint security combines machine learning and behavioral analysis with traditional approaches to identify and block ransomware. We have tested these technologies on the malware described in this post and found them to be effective pro-active solutions.
+
+Trend Micro™  Cloud App Security provides advanced malware protection for Dropbox Business accounts including TorrentLocker.   Cloud App Security investigates the behavior of suspect files by detonating in a virtual sandbox, not just through static pattern matching.  It leverages proven Trend Micro™ Deep Discovery™ sandbox technology, which was rated Most Effective Recommended Breach Detection System by NSS Labs
+
+Trend Micro endpoint solutions such as Trend Micro™ Smart Protection Suites, and Worry-Free™ Business Security can protect users and businesses from these threats by detecting malicious files, and spammed messages as well as blocking all related malicious URLs Trend Micro Deep Discovery™ has an email inspection layer that can protect enterprises by detecting malicious attachment and URLs.
+
+TippingPoint customers are protected from this threat via these MainlineDV filters:
+
+21354: TLS: ABUSE.CH SSL Blacklist Malicious SSL certificate detected (TorrentLocker CnC)
+30623: TLS: Suspicious SSL Certificate (DGA)
+With additional analysis from Anthony Melgarejo
+
+The following SHA256 hashes were involved in this attack:
+
+0d27f890c38435824f64937aef1f81452cb951c8f90d6005cc7c46cb158e255f (Detected by Trend Micro as JS_NEMUCOD.THCOF)
+1a06e44df2fcf39471b7604695f0fc81174874219d4226d27ef4453ae3c9614b (Detected by Trend Micro as Ransom_CRYPTLOCK.DLFLVV)
+aa4a0dde592488e88143028acdb8f035eb0453f265efeeebba316a6afe3e2b73 (Detected by Trend Micro as Ransom_CRYPTLOCK.DLFLVV)
+5149f7d17d9ca687c2e871dc32e968f1e80f2a112c574663c95cca073283fc27 (Detected by Trend Micro as Ransom_CRYPTLOCK.DLFLVW)
+efcc468b3125fbc5a9b1d324edc25ee3676f068c3d2abf3bd845ebacc274a0ff (Detected by Trend Micro as Ransom_CRYPTLOCK.DLFLVU)
+287ebf60c34b4a18e23566dbfcf5ee982d3bace22d148b33a27d9d1fc8596692 (Detected by Trend Micro as Ransom_CRYPTLOCK.DLFLVU)
+ddac25f45f70af5c3edbf22580291aebc26232b7cc4cc37b2b6e095baa946029 (Detected by Trend Micro as Ransom_CRYPTLOCK.DLFLVU)
+1ffb16211552af603a6d13114178df21d246351c09df9e4a7a62eb4824036bb6 (Detected by Trend Micro as Ransom_CRYPTLOCK.DLFLVS)
+1a9dc1cb2e972841aa6d7908ab31a96fb7d9256082b422dcef4e1b41bfcd5243 (Detected by Trend Micro as Ransom_CRYPTLOCK.DLFLVS)
+028b3b18ef56f02e73eb1bbc968c8cfaf2dd6504ac51c681013bcf8e6531b2fc (Detected by Trend Micro as Ransom_CRYPTLOCK.DLFLVS)
+98aad54148d12d6d9f6cab44974e3fe8e1175abc87ff5ab10cc8f3db095c3133 (Detected by Trend Micro as Ransom_CRYPTLOCK.DLFLVS)
+f914b02c6de92d6bf32654c53b4907d8cde062efed4f53a8b1a7b73f7858cb11 (Detected by Trend Micro as Ransom_CRYPTLOCK.DLFLVS)
+Updated on March 9, 2017, 3:26 PM (UTC-7):
+We added a pie chart showing the distribution of attacks.

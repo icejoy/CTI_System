@@ -1,0 +1,37 @@
+Based on the incidents we saw in 2016, I recommend that organizations enter 2017 with caution. From the growth of Business Email Compromise (BEC) attacks to cybercriminals using more effective ways to exploit Internet of Things (IoT) devices, these security issues should serve as a reminder for businesses and individuals to be more vigilant. Looking ahead, one of the most pressing matters that a lot of organizations need to pay attention to is the forthcoming General Data Protection Regulation (GDPR). The new set of rules is designed to harmonize data protection across all EU member states and bring in a number of key components that will directly impact businesses—including businesses outside Europe.
+
+What should you expect?
+
+Much has been said about the GDPR, but what is the most realistic data protection design for organizations? This should be the one of the questions you need to ask yourself as a business. My answer to that would be only collect what you need to collect. How much personal information do you really need to collect? For example, a customer’s birthday might not be pertinent to your business—so you must get rid of it. If you have an existing collection of data that is not required to do business, then you need to redesign the database and drop these unnecessary fields. During the transition period until the GDPR takes effect in May 2018, organizations have to prepare to be compliant. Here are some of the common compliance issues your company could face:
+
+Fines – the GDPR maintains that non-compliance or violations could cost companies up to 4% of global annual turnover, or €20 million, in administrative fines
+
+Data Breach Notification – the new regulation will require companies to notify the data protection supervisory authority of data breaches within 72 hours
+
+Right to erasure – to emphasize my earlier statement, only collect what you need to collect. This means companies have to delete personal data and any related links if they no longer find it accurate or relevant to the business
+
+Right to information and transparency – customers should have the right to opt out and have a very clear understanding of how you store their personal data and what you do with it.
+
+In Trend Micro’s 2017 Security Predictions, we said that the GDPR is expected to raise administrative costs, but the extent will really depend on what the companies are doing at the moment. Most European companies are already bound by local regulations within the countries, so adapting to the GDPR should not be so difficult because some of them already have even stricter rules. However, in other countries, especially where businesses store customer data for marketing purposes, they will need to do a complete redesign of their database to comply with the GDPR.
+
+Companies should factor in the fines for non-compliance. In TalkTalk’s case, where it was hit with a record £400,000 fine for not having proper website security, that fine could possibly amount to millions if the GDPR was already in effect. So companies should be taking their data protection practices more seriously, especially with the impending regulation.
+
+Companies in Europe are worried about the implementation costs, while companies in the US believe that they will pay fines because they cannot comply. I predict that in 2018, companies who do not comply will not only suffer fines but managers could risk going to jail as well in case of intentional violations with the purpose of enrichment or impairment —which could lead to serious implications on your business’s reputation. Consequently, I expect small law firms to make money by finding customers who can testify against non-compliant businesses and sue them.
+
+What Now?
+
+Is there enough time to prepare until May 2018? It should be because companies already know that it is coming, as GDPR was adopted in April 2016. Since it has been under discussion in the European Parliament for five years, organizations must already be aware and act on their compliance strategies as early as now. While the GDPR could be burdensome for many companies, it’s not all doom and gloom. It will still ultimately teach companies to apply better security practices on data handling, which will increase customer trust and enhance technological neutrality.
+
+Here’s what you can do to prepare:
+
+Know where your data is stored – The GDPR dictates that “personal data shall be adequate, relevant and limited to what is necessary in relation to the purposes for which they are processed.” Make sure that you don’t store more information than you need for that purpose.
+
+Use well-established security controls – reassess security policies and invest in a provider that can offer encryption of data in the cloud, network security, advanced anti-malware, IDS/IPS virtual patching and data loss prevention.
+
+Designate a Data Protection Officer (DPO) if you are an enterprise – in line with the GDPR requirements, you might have to seek legal advice to determine if your company should designate a DPO or not. If you are an enterprise and not an SMB, you are more likely to need one. A DPO would help the IT department and the board improve data protection processes and security, and will be tasked to monitor compliance with the data protection provisions.
+
+From the looks of it, many companies both in and outside Europe will have a tough time adhering to these new regulations. As such, companies should acknowledge these changes, think fast, and act now!
+
+Updated on January 25, 2017, 06:20 AM (UTC-7):
+
+We updated the appropriate cost of fines and timeline.

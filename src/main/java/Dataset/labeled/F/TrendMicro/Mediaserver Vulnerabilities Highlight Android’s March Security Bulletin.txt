@@ -1,0 +1,50 @@
+Mediaserver Vulnerabilities Highlight Android’s March Security Bulletin
+Posted on:March 22, 2017 at 12:00 am
+Posted in:Mobile, Vulnerabilities
+Author: Trend Micro
+1
+9
+ 
+The Android security bulletin for March, published last March 6, contains 15 vulnerabilities that we discovered and privately disclosed to Google. Like some of our previous discoveries, many of these new vulnerabilities concern Mediaserver, which is the component responsible for scanning and indexing all available media files in the Android operating system.
+
+Google encourages owners of Android-based devices to avoid any potential issues by accepting their over-the-air (OTA) update which address these vulnerabilities. However, it should also be noted that Google can only directly update devices that are using native Android operating systems. As such, users who are unable to directly receive these updates may need to confirm with their service providers or device manufacturers to see if an update is available.
+
+Vulnerability details
+
+Of the 15 vulnerabilities, eight were rated Critical: An attacker exploiting these vulnerabilities can use specially crafted files – specifically H.264 and H.265 videos- to cause memory corruption during file processing. In addition, these new vulnerabilities can potentially allow attackers to run remote code executions via Mediaserver processes. However, unlike the earlier vulnerabilities, CVE-2015-3823 and CVE-2015-3824 which were caused primarily by bad media format parsing, the newest batch is caused by issues surrounding the media decoder codec.
+
+In addition to these, we also discovered additional vulnerabilities which were rated by Google as High severity. These particularly vulnerabilities involve a denial of service attack, in which the perpetrator can use crafted media files to trigger an indefinite Mediaserver loop. This causes the target device to become extremely sluggish and can even cause random reboots. While the denial of service itself is easy to trigger, Android has enhanced the security features of Mediaserver making it more difficult to compromise the device itself.
+
+We also reported a third Mediaserver vulnerability, which was rated by Google as of Moderate severity. CVE-2017-0495 is an information disclosure vulnerability which fetches data from the Mediaserver memory. The main purpose of this vulnerability is to get other vulnerabilities, particularly remote code executions, working. A Moderate priority information disclosure vulnerability dealing with AOSP Messaging and Android Messages rounds up our reported discoveries for March. Cybercriminals exploiting CVE-2017-0494 can use specially crafted GIF files to gain access to potentially sensitive data in the Messaging app beyond their normal permission levels.
+
+Best Practices and Trend Micro Solutions
+
+Many of these vulnerabilities require a specially crafted file before they can be exploited, thus users should be aware of the websites they visit – particularly online streaming video sites that can trigger these exploits. In addition, these vulnerabilities can be nipped in the bud by regularly applying the latest patches from Google.
+
+End users can protect their mobile devices by downloading Trend Micro Mobile Security (TMMS), which can detect threats that could be used to exploit vulnerabilities.
+
+We disclosed the following vulnerabilities c/o Veo Zhang and Seven Shen:
+
+Remote Code Execution Vulnerability (Critical)
+
+Denial of Service Vulnerability in Mediaserver (High)
+
+Information Disclosure Vulnerability in AOSP Messaging (Moderate)
+
+Information Disclosure Vulnerability in Mediaserver (Moderate)
+
+CVE-2017-0466
+CVE-2017-0467
+CVE-2017-0468
+CVE-2017-0469
+CVE-2017-0470
+CVE-2017-0471
+CVE-2017-0472
+CVE-2017-0473
+CVE-2017-0482
+CVE-2017-0484
+CVE-2017-0485
+CVE-2017-0486
+CVE-2017-0487
+CVE-2017-0494
+CVE-2017-0495
