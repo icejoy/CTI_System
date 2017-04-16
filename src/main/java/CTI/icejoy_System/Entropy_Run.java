@@ -13,9 +13,9 @@ import Parser.Parser_StanfordNLP;
 
 public class Entropy_Run
 {
-	String pos="JJ";
+	String pos="VB";
 	String Change=",";
-	String save_Name="JJVB_TF_MIX.csv";
+	String save_Name="TrendMicro_JJVB_TF_MIX.csv";
 	
 	
 	Boolean have_same = false;
@@ -41,6 +41,7 @@ public class Entropy_Run
 			// rol1 = ",";
 			// rol2 = Files.get(i);
 			rol2 = TF_Files.get(i).replace(" ", "_");
+			rol2 = rol2.replace(",", "-");
 			if (TF_Files.get(i).contains("/TF/T"))
 			{
 				rol2 += Change+"1"+Change;
@@ -189,6 +190,7 @@ public class Entropy_Run
 	public static void main(String[] args)
 	{
 		Entropy_Run run = new Entropy_Run();
+		//run.Start("C:/Users/Islab/Desktop/Dataset/TF");
 		run.Start("src/main/java/Dataset/TF");
 		System.out.println("done");
 	}
