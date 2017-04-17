@@ -8,6 +8,7 @@ import Criteria.Stanford_Class;
 import Criteria.String_Integer;
 import Input.Input_ReadFile;
 import Input.Input_ReadFolder;
+import Input.Input_XML;
 import Output.Output_SaveTxT;
 import Parser.Parser_StanfordNLP;
 
@@ -16,6 +17,7 @@ public class Entropy_Run
 	String pos="VB";
 	String Change=",";
 	String save_Name="TrendMicro_JJVB_TF_MIX.csv";
+	String XmlPath="2011_CWE_SANS_Top25.xml";
 	
 	
 	Boolean have_same = false;
@@ -26,6 +28,9 @@ public class Entropy_Run
 
 	public void Start(String input)
 	{
+		CWE_XML(XmlPath);
+		
+		
 		Double dd = 0.0;
 		String rol1 = "", rol2 = "";
 		String_Integer T1, T2;
@@ -77,6 +82,13 @@ public class Entropy_Run
 		}
 		this.output.Set_FileConfig("");
 		this.output.String_One_ArrayListt_Save(save_Name, result, false);
+	}
+	
+	public void CWE_XML(String path)
+	{
+		Input_XML xml =new Input_XML();
+		xml.set_InputPath(path);
+		xml.input(null);
 	}
 
 	public ArrayList<Integer> Match(String_Integer T1, String_Integer T2)
