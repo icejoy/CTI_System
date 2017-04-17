@@ -8,19 +8,23 @@ import Criteria.Stanford_Class;
 import Criteria.String_Integer;
 import Input.Input_ReadFile;
 import Input.Input_ReadFolder;
-import Input.Input_XML;
 import Output.Output_SaveTxT;
+import Parser.Parser_CWE_TermList;
 import Parser.Parser_StanfordNLP;
+import Tool.Entropy_Similarity;
+import Tool.Two_TermList_Match;
 
 public class Entropy_Run
 {
-	String pos="VB";
-	String Change=",";
-	String save_Name="TrendMicro_JJVB_TF_MIX.csv";
-	String XmlPath="2011_CWE_SANS_Top25.xml";
-	
-	
+	String pos = "VB";
+	String Change = ",";
+	String save_Name = "TrendMicro_JJVB_TF_MIX.csv";
+	String XmlPath = "2011_CWE_SANS_Top25.xml";
+
 	Boolean have_same = false;
+	Parser_CWE_TermList cwe = new Parser_CWE_TermList();
+	Two_TermList_Match match = new Two_TermList_Match();
+	Entropy_Similarity similarity = new Entropy_Similarity();
 	Input_ReadFolder ReadFolder = new Input_ReadFolder();
 	Input_ReadFile ReadFile = new Input_ReadFile();
 	Parser_StanfordNLP stanfordnlp = new Parser_StanfordNLP();
@@ -28,32 +32,26 @@ public class Entropy_Run
 
 	public void Start(String input)
 	{
-		CWE_XML(XmlPath);
-		
-		
+		this.ReadFile(this.XmlPath);
+		this.cwe.parse(this.ReadFile.get_input());
+
 		Double dd = 0.0;
 		String rol1 = "", rol2 = "";
 		String_Integer T1, T2;
 		ArrayList<String> result = new ArrayList<String>();
 		ArrayList<String> TF_Files = new ArrayList<String>(Read_Files(input));
-		// ArrayList<String> T_Files = new
-		// ArrayList<String>(Read_Files(input+"/T"));
-		// ArrayList<String> F_Files = new
-		// ArrayList<String>(Read_Files(input+"/F"));
 		DecimalFormat df = new DecimalFormat("#.##");
 		for (int i = 0; i < TF_Files.size(); i++)
 		{
-			// rol1 = ",";
-			// rol2 = Files.get(i);
 			rol2 = TF_Files.get(i).replace(" ", "_");
 			rol2 = rol2.replace(",", "-");
 			if (TF_Files.get(i).contains("/TF/T"))
 			{
-				rol2 += Change+"1"+Change;
+				rol2 += Change + "1" + Change;
 			}
 			else
 			{
-				rol2 += Change+"0"+Change;
+				rol2 += Change + "0" + Change;
 			}
 			this.ReadFile.input(TF_Files.get(i));
 			this.stanfordnlp.parse(this.ReadFile.get_input());
@@ -65,14 +63,22 @@ public class Entropy_Run
 				this.ReadFile.input(s);
 				this.stanfordnlp.parse(this.ReadFile.get_input());
 				T2 = String_Sort(this.stanfordnlp.get_parse());
-				dd = D(Match(T1, T2), T1, T2);
+				this.match.Start_Match(T1, T2);
+				if (this.match.get_Have_Same())
+				{
+					dd = similarity.Similarity_Calculate(this.match.get_Match(), T1, T2);
+				}
+				else
+				{
+					dd = null;
+				}
 				if (dd != null)
 				{
 					rol2 += df.format(dd) + Change;
 				}
 				else
 				{
-					rol2 += "NA"+Change;
+					rol2 += "NA" + Change;
 				}
 			}
 			// result.add(rol1);
@@ -82,87 +88,6 @@ public class Entropy_Run
 		}
 		this.output.Set_FileConfig("");
 		this.output.String_One_ArrayListt_Save(save_Name, result, false);
-	}
-	
-	public void CWE_XML(String path)
-	{
-		Input_XML xml =new Input_XML();
-		xml.set_InputPath(path);
-		xml.input(null);
-	}
-
-	public ArrayList<Integer> Match(String_Integer T1, String_Integer T2)
-	{
-		have_same = false;
-		ArrayList<Integer> index = new ArrayList<Integer>();
-		for (int i = 0; i < T1.get_term().size(); i++)
-		{
-			if (T2.get_term().contains(T1.get_term().get(i)))
-			{
-				index.add(i);
-				index.add(T2.get_term().indexOf(T1.get_term().get(i)));
-			}
-		}
-		if (index.size() == 0)
-		{
-			have_same = false;
-		}
-		else
-		{
-			have_same = true;
-		}
-		return index;
-	}
-
-	public Double Z(ArrayList<Integer> index, String_Integer T1, String_Integer T2)
-	{
-		Double z = 0.0;
-		Double p1, p2, log1, log2;
-		for (int i = 0; i < index.size(); i++)
-		{
-			p1 = T1.get_count().get(index.get(i)) / T1.get_Size();
-			i++;
-			p2 = T2.get_count().get(index.get(i)) / T2.get_Size();
-			log1 = Math.log(p1);
-			log2 = Math.log(p2);
-			z += -(p1 * log1) - (p2 * log2);
-		}
-		return z;
-	}
-
-	public Double D(ArrayList<Integer> index, String_Integer T1, String_Integer T2)
-	{
-		if (!have_same)
-		{
-			return null;
-		}
-		else
-		{
-			Double z, fw, d = 0.0;
-			int rank1, rank2;
-			z = Z(index, T1, T2);
-			for (int i = 0; i < index.size(); i += 2)
-			{
-				rank1 = T1.get_term().indexOf(T1.get_term().get(index.get(i)));
-				rank2 = T2.get_term().indexOf(T2.get_term().get(index.get(i + 1)));
-				fw = Entropy(z, i, index, T1, T2);
-
-				d += Math.abs(rank1 - rank2) * fw;
-			}
-			return d / (index.size() / 2);
-		}
-	}
-
-	public Double Entropy(Double z, int i, ArrayList<Integer> index, String_Integer T1, String_Integer T2)
-	{
-		Double fw, p1, p2, log1, log2;
-		p1 = T1.get_count().get(index.get(i)) / T1.get_Size();
-		i++;
-		p2 = T2.get_count().get(index.get(i)) / T2.get_Size();
-		log1 = Math.log(p1);
-		log2 = Math.log(p2);
-		fw = (-(p1 * log1) - (p2 * log2)) / z;
-		return fw;
 	}
 
 	public ArrayList<String> Read_Files(String path)
@@ -202,7 +127,7 @@ public class Entropy_Run
 	public static void main(String[] args)
 	{
 		Entropy_Run run = new Entropy_Run();
-		//run.Start("C:/Users/Islab/Desktop/Dataset/TF");
+		// run.Start("C:/Users/Islab/Desktop/Dataset/TF");
 		run.Start("src/main/java/Dataset/TF");
 		System.out.println("done");
 	}
