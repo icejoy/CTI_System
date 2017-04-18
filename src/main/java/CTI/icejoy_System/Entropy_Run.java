@@ -47,6 +47,7 @@ public class Entropy_Run
 
 	public void Start(String input)
 	{
+		CWE_Check();
 		Double dd = 0.0;
 		String rol1 = "", rol2 = "";
 		String_Integer T1, T2;
