@@ -9,7 +9,8 @@ import Criteria.String_Integer;
 import Input.Input_ReadFile;
 import Input.Input_ReadFolder;
 import Output.Output_SaveTxT;
-import Parser.Parser_CWE_TermList;
+import Parser.Parser_Extract_CWETermList;
+import Parser.Parser_Extract_CWE_Text;
 import Parser.Parser_StanfordNLP;
 import Tool.Entropy_Similarity;
 import Tool.Two_TermList_Match;
@@ -22,7 +23,9 @@ public class Entropy_Run
 	String XmlPath = "2011_CWE_SANS_Top25.xml";
 
 	Boolean have_same = false;
-	Parser_CWE_TermList cwe = new Parser_CWE_TermList();
+
+	Parser_Extract_CWE_Text cwe_read = new Parser_Extract_CWE_Text();
+	Parser_Extract_CWETermList cwe_terms = new Parser_Extract_CWETermList();
 	Two_TermList_Match match = new Two_TermList_Match();
 	Entropy_Similarity similarity = new Entropy_Similarity();
 	Input_ReadFolder ReadFolder = new Input_ReadFolder();
@@ -30,11 +33,20 @@ public class Entropy_Run
 	Parser_StanfordNLP stanfordnlp = new Parser_StanfordNLP();
 	Output_SaveTxT output = new Output_SaveTxT();
 
+	public void CWE_Check()
+	{
+		File jj = new File("CWE_JJList.txt");
+		File vb = new File("CWE_VBList.txt");
+		if (!jj.exists() || !vb.exists())
+		{
+			this.ReadFile.input(this.XmlPath);
+			this.cwe_read.parse(this.ReadFile.get_input());
+			this.cwe_terms.parse(this.cwe_read.get_parse());
+		}
+	}
+
 	public void Start(String input)
 	{
-		this.ReadFile(this.XmlPath);
-		this.cwe.parse(this.ReadFile.get_input());
-
 		Double dd = 0.0;
 		String rol1 = "", rol2 = "";
 		String_Integer T1, T2;
@@ -56,13 +68,13 @@ public class Entropy_Run
 			this.ReadFile.input(TF_Files.get(i));
 			this.stanfordnlp.parse(this.ReadFile.get_input());
 			// this.stanfordnlp.parse(this.ReadFile(Files.get(i)));
-			T1 = String_Sort(this.stanfordnlp.get_parse());
+			T1 = Find_Terms_Sorting(this.stanfordnlp.get_parse());
 			for (String s : TF_Files)
 			{
 				// rol1 += s + ",";
 				this.ReadFile.input(s);
 				this.stanfordnlp.parse(this.ReadFile.get_input());
-				T2 = String_Sort(this.stanfordnlp.get_parse());
+				T2 = Find_Terms_Sorting(this.stanfordnlp.get_parse());
 				this.match.Start_Match(T1, T2);
 				if (this.match.get_Have_Same())
 				{
@@ -107,7 +119,7 @@ public class Entropy_Run
 		return array;
 	}
 
-	public String_Integer String_Sort(ArrayList<Stanford_Class> content)
+	public String_Integer Find_Terms_Sorting(ArrayList<Stanford_Class> content)
 	{
 		String_Integer term_count = new String_Integer();
 		for (Stanford_Class stanford_Class : content)
@@ -116,7 +128,12 @@ public class Entropy_Run
 			{
 				if (stanford_Class.get_Pos().get(i).contains(pos))
 				{
-					term_count.Contain_term(stanford_Class.get_Lemma().get(i));
+					if ((pos.equals("VB") && this.cwe_terms.get_VBList().contains(stanford_Class.get_Pos().get(i)))
+							|| (pos.equals("JJ")
+									&& this.cwe_terms.get_JJList().contains(stanford_Class.get_Pos().get(i))))
+					{
+						term_count.Contain_term(stanford_Class.get_Lemma().get(i));
+					}
 				}
 			}
 		}
