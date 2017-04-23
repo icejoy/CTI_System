@@ -1,0 +1,40 @@
+For most people the year is still just getting started, but for some website owners the year has already packed quite a punch in the form of website attacks. This month hackers exploiting a vulnerability in the WordPress REST API successfully defaced over a million websites in what has become one of the largest website defacement campaigns to date. The attacks injected content that overwrote existing posts on WordPress websites running versions 4.7 and 4.7.1, leaving website owners with an immeasurable number of “Hacked by” posts across the droves of impacted websites.WordPress REST API
+
+Many website owners who have unfortunately found themselves in the proverbial trenches of a digital battlefront, some of which had at least some security measures, are facing a difficult data recovery situation. It is from these recent events that the next Ask a Security Professional question was crafted; How can I better protect my data?
+
+I feel that it’s important to fully understand what the problem is in order to best understand what forms a solution can take. In Part One of #AskSecPro we’ll cover an introduction to some of the infrastructure behind WordPress. Let’s start at the beginning.
+
+The Basic Anatomy of a WordPress Website
+
+As you may know, WordPress is a “database-driven” content management system, which means that all of the text and resource references found in WordPress posts and pages are stored in what is called a Structured Query Language (SQL) database, most commonly in the form of the open-source database management system MySQL. Many hosting companies nowadays offer one-click installation of WordPress, or hosting plans that simply come pre-loaded with WordPress. In these cases you may not have visibility of what actually goes into the workings of WordPress. The physical presence of WordPress on a web server consists of two major parts, each of which has its own security demands.
+
+
+
+The WordPress Core Files
+
+The core WordPress files contain what amounts to the machinery behind wordpress that does most of the heavy lifting, serving as the initial framework for the content management system. They are what instructs your web server on how to process the interactions both with your website visitors, as well as with you when you’re making new content. The core files are PHP, CSS, and JS files that live on your web server.* Every freshly-installed WordPress website on the same version is completely identical to the next, except for the configuration file wp-config.php, and in some uncommon cases where advanced users have modified other files. Even after installing plugins and themes, the core files themselves will typically remain unchanged.
+
+*When manually installing WordPress (not through a hosting provider’s one-click installer), these files should only ever be downloaded from WordPress.org. There are no exceptions to this rule.
+
+Historically, the majority of documented malware we’ve seen on WordPress websites has lived as code within website files, either as malicious code injected into existing legitimate files, or entirely new files riddled with malware. In these cases, a combination of general file change monitoring and file-based malware scanning is the best defensive measure. This year, we’re seeing broader attack trends that focus less on file compromise, such as in the case of the recent REST API defacements where website files are not impacted, and more on database content.
+
+The WordPress Database
+
+The database is, as its name indicates, where the majority of your actual site data is stored. The most apparent of this data is of course the posts and pages you create. In perhaps a less obvious but equally important utilization of the database, your sensitive non-public data is stored there, and there’s a lot of it.
+
+Page Content                        User Preferences
+Post Content                         User Names
+Comments                             Configuration Settings
+Plugin Preferences                Site Name
+Plugin Activation Status         Credit card data (in some eCommerce cases)
+User Passwords                     and many more data types…
+
+Corruption of this data can render your website completely inaccessible to your visitors, and unauthorized disclosure of this information could irreparably harm your reputation and perhaps even your pocketbook.
+
+For some the concept of a website database can seem a little abstract, which is understandable since you can’t quite reach out and touch the database as easily as you would your files through a file manager. This is for good reason, as accidental damage to your database is potentially irreversible. While your database may not seem as accessible as your files, it is very concrete and requires very real security considerations.
+
+
+
+You can consider your database to be basically a giant spreadsheet of various information. WordPress retrieves information from your database by making a connection to your database server, which in the case of most shared hosting accounts, is typically located on an entirely different physical server. Your WordPress then needs to authenticate into the database server with a username and password, much the same way as you login to your site, before it is able to retrieve any data. The WordPress installation keeps this very sensitive authentication information in what is called a connection string which is contained in a core file called wp-config.php. The connection string contains your database name, host address, port, username, and password. If this file is able to be accessed by an adversary, it is very likely that your database could be compromised.
+
+Now that we better understand the roles that the two major parts of a WordPress installation play in the operation of your website, we can better understand how each could potentially be abused. Next we’ll discuss best practices and how to best protect your WordPress database. Stay tuned for Part Two!

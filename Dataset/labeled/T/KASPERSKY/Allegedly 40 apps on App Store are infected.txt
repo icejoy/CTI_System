@@ -1,0 +1,50 @@
+A worm was found in the safe garden of Apple. About 40 iOS apps are now being cleaned out of the App Store because they turned out to be infected with malicious code, which had been designed to build a botnet out of Apple devices.
+
+XcodeGhost malware for iOS detected
+The malware XcodeGhost affected dozens of apps, including: WeChat app (600+ million users), NetEase’s music downloading app, business card scanner CamCard, and Didi Kuaidi’s Uber-like car hailing app. To make matters worse, the Chinese versions of Angry Birds 2 was infected – is nothing sacred anymore?
+
+Apple spends a lot of time and effort to monitor each and every app in the Apple Store. These efforts set App Store apart from Google Play and third-party stores, which were literally stalked by malicious software (at least until Google launched it’s own malware scanning system in 2014).
+
+Against this background, September 2015 seems to be especially unsuccessful for Apple as experts found malware that targeted jailbroken devices and everybody spoke about the “biggest theft ever involving Apple accounts,” and now Palo Alto Networks company has found compromised software on the App Store.
+
+View image on Twitter
+View image on Twitter
+ Follow
+ Kaspersky Lab ✔ @kaspersky
+XcodeGhost #iOS Malware Contained: https://kas.pr/Cy1Z  via @threatpost #apple
+1:41 AM - 22 Sep 2015
+  18 18 Retweets   4 4 likes
+What is Xcode, and what exactly is XcodeGhost?
+
+Xcode is a free suite of tools used by software developers to create apps for iOS and Apple Store. It is officially distributed by Apple, and unofficially by various third parties.
+
+XcodeGhost is malicious software, designed to affect the Xcode and thereby compromise apps, created with infected tools. Affected applications steal users’ private data and send it to the hackers.
+
+Allegedly 40 or even more apps on #AppStore are infected #Apple #malware
+
+Tweet
+How were the apps compromised?
+
+Apple’s official Xcode was not compromised, the problem is with the unofficial version of the tool uploaded to the cloud storage service of Baidu (Think China’s Google). It’s a common practice in China to download necessary tools from third sites, and this time it turned out to be very bad habit.
+
+There is a reason why Chinese developers choose unofficial and insecure sites instead of safe official resources. Internet in the country is rather slow; moreover, Chinese government limits access to foreign servers to three gateways. As installation package of Xcode tools size is about 3.59 GB, downloading it from Apple’s servers could take a decent amount of time.
+
+ Follow
+ Matthew Panzarino ✔ @panzer
+Holy cow. Tainted copies of Xcode spreading malware using developers as a vector. http://mobile.reuters.com/article/idUSKCN0RK0ZB20150920 …
+12:53 PM - 21 Sep 2015
+Apple's iOS App Store suffers first major attack
+Apple's iOS App Store suffers first major attack
+Apple Inc APPL.O said on Sunday it is cleaning up its iOS App Store to remove malicious iPhone and iPad programs identified in the first large-scale attack on the popular mobile software outlet.
+mobile.reuters.com
+  18 18 Retweets   28 28 likes
+So what actor behind the XcodeGhost needed to do was to infect an unofficial pack of tools with a smart and imperceptible malware and let legitimate developers do the job for them. Researchers at Palo Alto Networks determined that malicious Xcode package had been available for six months and had been downloaded and used to build numerous new and updated iOS apps. Then they were naturally pushed into the App Store and somehow bypassed Apple’s anti-malware scanning system.
+
+View image on Twitter
+View image on Twitter
+ Follow
+ The Intercept ✔ @theintercept
+The CIA has waged a secret campaign to defeat security mechanisms built into Apple devices. http://interc.pt/1Ac5t5q 
+9:31 PM - 10 Mar 2015
+  312 312 Retweets   116 116 likes
+apple apps China hackers iOS iphone malware mobile devices private data protection security smartphones Xcode XcodeGhost

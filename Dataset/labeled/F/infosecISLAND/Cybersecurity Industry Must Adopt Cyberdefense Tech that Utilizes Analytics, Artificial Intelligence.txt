@@ -1,0 +1,65 @@
+The cyberdefense industry needs to quit playing catch-up and having a reactionary approach to cybersecurity. So what is this industry doing wrong, and how can we change it? 
+
+image
+
+SHUTTERSTOCK/TITIMA ONGKANTONG
+
+We must recognize that our cyberdefense technologies are not working and will not work. Cases in point: Our most sensitive cyberoffense technologies have been hacked; power companies admit they would have great difficulty stopping a cyberattack and are being asked to be prepared to operate at much less than full capacity under a cyberattack; 70 percent of oil and gas companies have been attacked — and the threat is growing.
+
+The cybersecurity industry is in chaos and needs to move toward new technologies — cyberdefense technologies that are beginning to leverage analytics, machine learning and artificial intelligence (AI). Hackers are taking advantage of the same technologies, so the cyberdefense industry needs to jump on board. Let's quit playing catch-up and instead take a proactive approach to cybersecurity.
+
+So what is this industry doing wrong, and how can we change it?
+
+CYBERSECURITY 101
+
+One of the core principles in cybersecurity is to establish a baseline of what the operational and industrial system is doing. Once this is done, you can:
+
+define your security policies;
+evaluate the risk;
+look at security technologies that could reduce the risk;
+evaluate the potential threat impact cost verses the cost of the security technology;
+get management approval; and then
+deploy the security technology. 
+Sounds simple, right? Not so. 
+
+We have layered so much hardware, network and software on top of each other that we truly can't see what our systems are doing. And if we can't see what our systems are doing, how can we establish a system baseline of what is normal in daily system operations? The fact is that we can't see it, which is not a good start to one of the most basic principles of security. This must change.
+
+DEHUMANIZING OUR MACHINE SYSTEMS
+
+Conventional cybersecurity generally points everything to the human first while the system's machine actions are doing most of the operational and industrial processes. As metadata grows, it becomes increasingly difficult to manage and understand. Even the best analytic algorithms can't keep up and are themselves subject to error. 
+
+Human error is the major reasons for cyberbreaches, and we are pointing increasing complex systems toward people who can neither see nor understand what the systems are doing; it is a dangerous scenario to continually disconnect the human from massively automated systems that run without audit. Hackers know this, and they will continually exploit these systems until new technologies can deeply and consistently view and audit our operational baseline.    
+
+People need to be able to see with deep inspection the structured and unstructured data that run the systems. Without this being done first, a true operations and security baseline cannot be established, leaving the system exposure to cyberattacks. AI, machine learning and analytics can assist in the viewing of this data, but exponentially increases the amount of structured and unstructured data that must be secured. These approaches also create vulnerabilities because they layer additional algorithms and software over critical data and systems actuaries. This gives hackers a targeted system exploit capability that could allow a complete hijacking of system processes. This is being done while humans are continually being removed from our system processes.
+
+CYBERDEFENSE GOING IN THE WRONG DIRECTION
+
+Industry experts are warning of the use and abuse of AI and its use in both cyberdefense and hacking. 
+
+As Sean Carroll, a cosmology and physics professor at the California Institute of Technology told Vox.com, "It is absolutely right to think very carefully and thoroughly about what those consequences might be, and how we might guard against them, without preventing real progress on improved artificial intelligence."
+
+And Nick Bostrom, director of the Future of Humanity Institute at Oxford University, also told Vox.com that “the transition to machine superintelligence is a very grave matter, and we should take seriously the possibility that things could go radically wrong. This should motivate having some top talent in mathematics and computer science research the problems of AI safety and AI control.”
+
+Even the newest neural network technologies that Google is using — the basis of its DeepMind Artificial Intelligence technologies — can be hacked. The reason is that we're using existing technologies to learn what our systems are doing, so we are essentially adding points of offensive exploit to cyberdefense technologies that are supposed to reduce the attack vector. The cybersecurity industry is, in essence, going in the wrong direction. 
+
+A good example of this is tech giants buying up AI cybersecurity startups. This is being done while the DARPA Cyber Grand Challenge demonstrated how AI could hack into AI. Machine learning and AI connect to a very sensitive part of operational and industrial control systems. That’s how it learns. Hackers can use AI to watch what AI is doing, which in turn can offer total control of the machine systems. All third- and fourth-Generation programing language (code) can be hacked, period. We must find a migration path to codeless fifth-generation programing language (5GL) that uses codeless signature patterns.
+
+THE DEMAND FOR NEW CYBERDEFENSE TECHNOLOGIES THAT WORK
+
+I have discussed the use of 5GL in previous articles and spoke about the technology at Oak Ridge National Laboratory. I clearly discussed how we need to use 5GL codeless patterns in parallel with existing operational and industrial system technologies. This use of 5G in cybersecurity as a system auditing tool could be the much-needed answer to new cyberdefense technologies.
+
+A company called On Point Cyber has been watching the development of these 5GL technologies for years, and CEO Tom Boyle said he thinks the timing is right for 5GL.
+
+"Disruptive technologies must have a migration path back to existing technologies and forward to newer technologies. To achieve this, we first index all the current structured and unstructured data, then run them in parallel to the new 5GL codeless signature pattern technologies," he said "This offers a real-time deep inspection of the operational system security baseline and the immediate detection of anything not part of that baseline. 
+
+Boyle also noted that what's great about 5GL technology is that it can be used without changing any of the current operational and industrial system technologies.
+
+"These newer technologies can then offer older technologies a migration path to code vs. codeless signature pattern technologies that could even be used in the Quantum computer," he added. "The use of 5GL in cyberdefense could prove the most important use of this technology today. Clearly, we need to do something different.”
+
+CYBERDEFENSE PUBLIC-PRIVATE PARTNERSHIPS
+
+We are entering dangerous times in cybersecurity, and both the public and private sectors must recognize the urgency in finding an industry correction. Immediately invest in cybersecurity technologies that offer more than calculated risk remediation. We are throwing things on the wall that could potentially put our cyberdefense technologies in greater danger. We need to find solutions that stop cyberattacks. 
+
+In the confusion of pretty words and explanations of cyberdefense technologies, government officials and CEOs are asking the simple question, "Can I invest in cyberdefense technologies that work?" It is time to answer that question with the recognition that we need to move on to entirely new technologies that can secure us today and prepare us for the future. 
+
+About the author: Larry Karisny is the director of Project Safety.org, an advisor, consultant, speaker and writer supporting advanced cybersecurity technologies in both the public and private sectors.

@@ -1,0 +1,35 @@
+As connected devices continue to intertwine with daily life, the security of those devices and the information they process is a growing conversation. To gain a better understanding of cyber assets exposed to the internet, Trend Micro researchers took a comprehensive look at the exposed assets in the 10 largest U.S. cities – New York City, Los Angeles, Chicago, Houston, Philadelphia, Phoenix, San Antonio, San Diego, Dallas and San Jose. Using Shodan, a publicly available search engine for internet-connected devices and systems, researchers identified more than 178 million exposed assets – everything from routers to printers to databases.
+
+A second paper digs into the critical industries and industrial control system (ICS) devices exposed in the U.S., detailing government, emergency services, healthcare, utilities, financial services and education, as well as ICS devices used to control business operations, traffic management, power generation and manufacturing.
+
+Devices may be exposed for a range of reasons, but incorrect configuration is a frequent cause. These devices being exposed pose a variety of risks to the owner, whether an individual or a business, which all hinge around their susceptibility to compromise at the hands of malicious hackers. All types of threat actors could be interested in exploiting these exposed assets, from competitors looking to disrupt services or steal corporate secrets, or hacktivists trying to draw attention to their cause.
+
+While the vast amount of devices visible in Shodan is a concern in and of itself, I want to dive into a few areas that are most concerning about this research: Databases and healthcare devices.
+
+Databases:
+
+Databases are the engines of modern business operations, housing all types of corporate information, including financial, customer, sales and inventory data, as well as personally identifiable information and credentials. Database exposure not only puts businesses at risk of data theft, lateral movement, fraud and other threats, but it also puts customers at equal risk.
+
+From the Shodan data, MySQL was found to be the most exposed database on the internet, while MS-SQL and PostgreSQL had comparatively smaller exposure numbers. Los Angeles is home to the largest number of the exposed MySQL databases.
+
+Exploiting vulnerable databases is not a new activity for hackers, and yet hundreds of thousands are still exposed today in the U.S. The data can be encrypted and held ransom, as we’ve recently seen with MongoDB, or it could be exfiltrated, parsed and sold in the cybercriminal underground. From a hacker’s perspective, these are gold mines, and businesses are implored to take control of their data’s security.
+
+Healthcare Devices:
+
+Electronic health records (EHRs) are shared across the healthcare sector and stored in healthcare databases. These include a wide range of patient data, such as medical history and insurance information. Additionally, the picture archiving and communication system (PACS) is a medical imaging technology that provides economical storage and convenient access to images from multiple sources, such as X-rays, MRIs and ultrasounds. Collectively, these devices provide ample fuel for hackers who can use stolen healthcare data to commit insurance fraud, purchase fake prescriptions or sell the data in bulk in cybercriminal underground markets. Not only is this an issue for the patients it could impact, but healthcare organizations may be violating HIPAA laws by leaking patient data.
+
+Protection Strategies
+
+While being exposed does not directly translate to compromise, by virtue of exposure these devices, systems and networks are vulnerable to compromise. As such, businesses and home users should take active steps to rectify the configuration of these assets to eliminate this risk. System administrators can conduct port scans to identify what devices are exposed on their network. Businesses should assume compromise has already occurred and act accordingly:
+
+Identify and respond to ongoing security breaches
+Contain the security breach and stop the loss of sensitive data
+Prevent attacks by securing all exploitable avenues
+Apply lessons learned to further strengthen defenses and prevent repeat incidents
+Consumers have several steps that can be taken to ensure their privacy and device security are not compromised. These include:
+
+Enable password protection on your devices
+Replace default passwords with strong, unique passwords
+Change default settings to disable non-essential services, such as Telnet on webcams
+Update firmware to fix known security vulnerabilities
+The first step to securing connected devices is realizing the need. To read more about devices exposed in the U.S., read the full report here.

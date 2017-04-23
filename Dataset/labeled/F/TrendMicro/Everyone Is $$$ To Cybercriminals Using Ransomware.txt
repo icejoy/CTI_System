@@ -1,0 +1,57 @@
+I used to love sitting on the floor and watching Saturday morning cartoons. One of my favorite gags was when a character got really, really hungry. In order to emphasize the point, everything and everyone around them turned to food.
+
+The newspaper stand owner became a large hand. The baby in a stroller was suddenly a roast chicken. The parent rolling that stroller was a hot dog.
+
+Everything in the scene reinforced the point that eating something was an all-consuming thought.
+
+Cybercriminals think of Internet users in a similar way.
+
+When a criminal looks around, they see every internet user turned to Dollars, Yen, Euros, and Yuan. All of these users are there to nourish the criminal’s wallet instead of their stomach.
+
+This is the comparison that came to mind as I read through Jon’s summary of the ISMG survey on ransomware.
+
+53% And Rising
+The survey lays out a dismal landscape. More than 50 percent of those polled have been victims of ransomware in some way, shape, or form recently. Nineteen percent are being attack more than 50 times per month and a disturbing 42 percent don’t know how often they’re being attacked with ransomware.
+
+These stats should be major warning flags for defenders.
+
+Despite our efforts, users are still being attacked by ransomware and we’re only going to see an increase in efforts in 2017.
+
+Even though predictions are usually hit or miss (though I like to think Trend Micro’s are a tiny bit more accurate), I’m confident making that statement. I’ll even go a step further. In 2017 we’re going to see more variants, attacks, and high profile payouts.
+
+The reason is simple: money.
+
+1 Billion Or More
+In early 2016, Mikko Hypponen spoke to a statistic pulled from research done at F-Secure. Mikko said that the 40 criminal gangs they were tracking had pulled in $300 million Euros (~$318 million USD) over the past two years (covering 2014–2015). That’s about $13 million USD a month.
+
+Looking back at 2016, speculation has the total take home for criminals at 1 billion USD and—as stated in the article —I think that might be low.
+
+That’s a 1 billion reasons to continue to invest in this type of crime. And the investment needed to run these campaigns continues to drop as we’ve seen the necessary tools available for sale or rent on the underground.
+
+That level of availability has removed the technical knowledge requirements from running a campaign. No specialized knowledge needed, low risk, and a big payoff? That’s a dream combination for criminals.
+
+Scaling A Criminal Campaign
+Investment in these campaigns is easy to justify—well, easy to a criminal—because of the extremely low cost of scaling out these crimes.
+
+In the physical world, with each additional victim there is additional risk for criminals. With each crime committed, law enforcement gathers more evidence, continues to build a case, and is more and more likely to capturing or stop the criminals.
+
+Cybercrimes are fundamentally different.
+
+Each victim adds evidence but it’s almost an exact duplicate of the previous victims because the entire process is automated. Once the basic infrastructure of a ransomware campaign is setup there’s near zero cost or risk to attack more victims.
+
+This imbalance results in cybercriminals infecting as many victims as possible in order to increase their profits. And why wouldn’t they? If attacking another victim is as easy as changing a number in a tool or adding a new email address to a list, the only reason not to scale up a campaign is to avoid detection.
+
+Given the low odds of being caught, prosecuted, and convicted, there’s little deterrent for criminals.
+
+No More Ransomware
+The only way that we’ll see less ransomware attacks in 2017 and beyond is if the economics change.
+
+We know that there’s nothing substantial that we can do to reduce the cost of launching attacks. The technology is out there and it continues to improve. What will be effective is reducing the profit that criminals are making from these efforts. The only way to do that is to refuse to pay.
+
+That’s the official recommendation from almost every security company and law enforcement agency, Trend Micro included.
+
+I whole heartedly agree with that position but also understand the dilemma facing people and organizations whose critical data has been encrypted and that they can no longer access.
+
+But looking at the bigger picture, the only way that ransomware will stop is if it’s not a massive profit centre for criminals. If they continue to make millions—if not billions—then there is simply too much money at stake to stop.
+
+How has ransomware impacted you or your business? Let me know on Twitter where I’m @marknca or on LinkedIn.
