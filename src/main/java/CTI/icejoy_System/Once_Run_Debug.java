@@ -6,7 +6,7 @@ import Criteria.Config_Class;
 import Criteria.Stanford_Class;
 import Input.Input_Configs;
 import Input.Input_ReadFile;
-import Input.Input_ReadFolder;
+import Input.Input_ReadFileNames;
 import Output.Output_StanfordSentences;
 import Parser.Parser_MalwareName;
 import Parser.Parser_MalwareType;

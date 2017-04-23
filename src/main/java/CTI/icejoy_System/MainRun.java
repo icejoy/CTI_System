@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import Criteria.Config_Class;
 import Criteria.Stanford_Class;
 import Input.Input_ReadFile;
-import Input.Input_ReadFolder;
+import Input.Input_ReadFileNames;
 import Input.Input_Configs;
 import Output.Output_SaveTxT;
 import Parser.Parser_Classify;
@@ -19,7 +19,7 @@ public class MainRun
 	int T_0 = 0, F_0 = 0, T_1 = 0, F_1 = 0, T_2 = 0, F_2 = 0, T_3 = 0, F_3 = 0;
 	int total_T = 0, total_F = 0;
 	int MalwareType_Haved = 0;
-	Input_ReadFolder ReadFolder = new Input_ReadFolder();
+	Input_ReadFileNames ReadFolder = new Input_ReadFileNames();
 	Input_ReadFile ReadFile = new Input_ReadFile();
 	Input_Configs ic = new Input_Configs();
 	Output_SaveTxT txt = new Output_SaveTxT();

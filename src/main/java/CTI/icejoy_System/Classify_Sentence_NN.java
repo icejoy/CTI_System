@@ -4,14 +4,14 @@ import java.util.ArrayList;
 
 import Criteria.Stanford_Class;
 import Input.Input_ReadFile;
-import Input.Input_ReadFolder;
+import Input.Input_ReadFileNames;
 import Output.Output_SaveTxT;
 import Parser.Parser_StanfordNLP;
 
 public class Classify_Sentence_NN
 {
 	String Save_Path = "";
-	Input_ReadFolder ReadFolder = new Input_ReadFolder();
+	Input_ReadFileNames ReadFolder = new Input_ReadFileNames();
 	Input_ReadFile ReadFile = new Input_ReadFile();
 	ArrayList<String> FolderPath, FilePath;
 	ArrayList<ArrayList<String>> result;;

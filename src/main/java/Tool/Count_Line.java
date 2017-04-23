@@ -3,13 +3,13 @@ package Tool;
 import java.util.ArrayList;
 
 import Input.Input_ReadFile;
-import Input.Input_ReadFolder;
+import Input.Input_ReadFileNames;
 import Output.Output_SaveTxT;
 
 public class Count_Line
 {
 	static String input = "src/main/java/Dataset/TF";
-	static Input_ReadFolder ReadFolder = new Input_ReadFolder();
+	static Input_ReadFileNames ReadFolder = new Input_ReadFileNames();
 	static Input_ReadFile ReadFile = new Input_ReadFile();
 	static Output_SaveTxT output = new Output_SaveTxT();
 

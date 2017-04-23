@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import Criteria.Stanford_Class;
 import Criteria.String_Integer;
 import Input.Input_ReadFile;
-import Input.Input_ReadFolder;
+import Input.Input_ReadFileNames;
 import Output.Output_SaveTxT;
 import Parser.Parser_Extract_CWETermList;
 import Parser.Parser_Extract_CWE_Text;
@@ -28,7 +28,7 @@ public class Entropy_Run
 	Parser_Extract_CWETermList cwe_terms = new Parser_Extract_CWETermList();
 	Two_TermList_Match match = new Two_TermList_Match();
 	Entropy_Similarity similarity = new Entropy_Similarity();
-	Input_ReadFolder ReadFolder = new Input_ReadFolder();
+	Input_ReadFileNames ReadFolder = new Input_ReadFileNames();
 	Input_ReadFile ReadFile = new Input_ReadFile();
 	Parser_StanfordNLP stanfordnlp = new Parser_StanfordNLP();
 	Output_SaveTxT output = new Output_SaveTxT();
