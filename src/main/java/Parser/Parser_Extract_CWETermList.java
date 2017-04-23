@@ -13,20 +13,31 @@ public class Parser_Extract_CWETermList
 	Parser_StanfordNLP stanfordNLP = new Parser_StanfordNLP();
 	ArrayList<String> JJ = new ArrayList<String>();
 	ArrayList<String> VB = new ArrayList<String>();
+	ArrayList<String> StopWordList;
 
 	public void parse(ArrayList<String> content)
 	{
 		this.stanfordNLP.parse(content);
+		Load_StopWordList();
+		Find_JJ(this.stanfordNLP.get_parse());
+		Find_VB(this.stanfordNLP.get_parse());
 	}
 
-	public void Find_JJ(ArrayList<Stanford_Class> content)
+	private void Load_StopWordList()
+	{
+		this.ReadFile.input("stop-word-list.txt");
+		this.StopWordList = new ArrayList<String>(this.ReadFile.get_input());
+	}
+
+	private void Find_JJ(ArrayList<Stanford_Class> content)
 	{
 		ArrayList<String> result = new ArrayList<String>();
 		for (Stanford_Class stanfordclass : content)
 		{
 			for (int i = 0; i < stanfordclass.get_Lemma().size(); i++)
 			{
-				if (stanfordclass.get_Pos().get(i).contains("JJ"))
+				if (stanfordclass.get_Pos().get(i).contains("JJ")
+						&& !this.StopWordList.contains(stanfordclass.get_Lemma().get(i)))
 				{
 					result.add(stanfordclass.get_Lemma().get(i));
 					JJ.add(stanfordclass.get_Lemma().get(i));
@@ -36,14 +47,15 @@ public class Parser_Extract_CWETermList
 		this.output.String_One_ArrayListt_Save("CWE_JJList.txt", result, false);
 	}
 
-	public void Find_VB(ArrayList<Stanford_Class> content)
+	private void Find_VB(ArrayList<Stanford_Class> content)
 	{
 		ArrayList<String> result = new ArrayList<String>();
 		for (Stanford_Class stanfordclass : content)
 		{
 			for (int i = 0; i < stanfordclass.get_Lemma().size(); i++)
 			{
-				if (stanfordclass.get_Pos().get(i).contains("VB"))
+				if (stanfordclass.get_Pos().get(i).contains("VB")
+						&& !this.StopWordList.contains(stanfordclass.get_Lemma().get(i)))
 				{
 					result.add(stanfordclass.get_Lemma().get(i));
 					VB.add(stanfordclass.get_Lemma().get(i));

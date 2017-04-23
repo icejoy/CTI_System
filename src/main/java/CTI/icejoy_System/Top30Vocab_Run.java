@@ -32,7 +32,7 @@ public class Top30Vocab_Run
 			Result.add(new ArrayList<String>());
 			rol = file.replace(" ", "-");
 			rol = rol.replace(",", "_");
-			if (file.contains("/TF/T"))
+			if (file.contains("/A/T"))
 			{
 				rol += next + '1';
 			}
@@ -47,14 +47,14 @@ public class Top30Vocab_Run
 			this.ReadFile.input(file);
 			this.StanfordNLP.parse(this.ReadFile.get_input());
 			term_count = Vocab_Sort(this.StanfordNLP.get_parse());
-			for (int i = 0; i < 30; i++)
+			for (int i = 0; i < term_count.get_term().size() && i < 30; i++)
 			{
 				rol += term_count.get_term().get(i) + next;
 			}
 			Result.get(Result.size() - 1).add(rol);
 			Result.add(new ArrayList<String>());
 			rol = "";
-			for (int i = 0; i < 30; i++)
+			for (int i = 0; i < term_count.get_count().size() && i < 30; i++)
 			{
 				rol += term_count.get_count().get(i) + next;
 			}
@@ -98,7 +98,9 @@ public class Top30Vocab_Run
 
 	public static void main(String[] args)
 	{
-
+		Top30Vocab_Run run = new Top30Vocab_Run();
+		run.Start("src/main/java/Dataset/A");
+		System.out.println("done");
 	}
 
 }

@@ -17,9 +17,9 @@ import Tool.Two_TermList_Match;
 
 public class Entropy_Run
 {
-	String pos = "VB";
+	String pos = "JJ";
 	String Change = ",";
-	String save_Name = "TrendMicro_JJVB_TF_MIX.csv";
+	String save_Name = "JJVB_TF_MIX.csv";
 	String XmlPath = "2011_CWE_SANS_Top25.xml";
 
 	Boolean have_same = false;
@@ -127,15 +127,21 @@ public class Entropy_Run
 		{
 			for (int i = 0; i < stanford_Class.get_Lemma().size(); i++)
 			{
-				if (stanford_Class.get_Pos().get(i).contains(pos))
+				/*
+				 * if ((pos.equals("VB") &&
+				 * this.cwe_terms.get_VBList().contains(stanford_Class.get_Lemma
+				 * ().get(i))) || (pos.equals("JJ") &&
+				 * this.cwe_terms.get_JJList().contains(stanford_Class.get_Lemma
+				 * ().get(i))))
+				 */
+				if ((stanford_Class.get_Pos().get(i).contains("VB")
+						&& this.cwe_terms.get_VBList().contains(stanford_Class.get_Lemma().get(i)))
+						|| (stanford_Class.get_Pos().get(i).contains("JJ")
+								&& this.cwe_terms.get_JJList().contains(stanford_Class.get_Lemma().get(i))))
 				{
-					if ((pos.equals("VB") && this.cwe_terms.get_VBList().contains(stanford_Class.get_Pos().get(i)))
-							|| (pos.equals("JJ")
-									&& this.cwe_terms.get_JJList().contains(stanford_Class.get_Pos().get(i))))
-					{
-						term_count.Contain_term(stanford_Class.get_Lemma().get(i));
-					}
+					term_count.Contain_term(stanford_Class.get_Lemma().get(i));
 				}
+
 			}
 		}
 		term_count.Sort_Ranking();
