@@ -8,13 +8,13 @@ import Criteria.Stanford_Class;
 import Criteria.String_Integer_Class;
 import Input.Input_ReadFile;
 import Input.Input_ReadFileNames;
-import Input.Input_URL;
+import Input.Input_USCERT;
 import Output.Output_SaveTxT;
 import Parser.Parser_Extract_TermList;
 import Parser.Parser_Extract_CWE_Text;
 import Parser.Parser_ReadURLContent;
 import Parser.Parser_StanfordNLP;
-import Parser.Parser_URL;
+import Parser.Parser_USCERT;
 import Tool.Entropy_Similarity;
 import Tool.Two_TermList_Match;
 
@@ -27,8 +27,8 @@ public class Entropy_Run
 
 	Boolean have_same = false;
 
-	Input_URL url_input = new Input_URL();
-	Parser_URL url_parse = new Parser_URL();
+	Input_USCERT url_input = new Input_USCERT();
+	Parser_USCERT url_parse = new Parser_USCERT();
 	Parser_ReadURLContent readURL = new Parser_ReadURLContent();
 	Parser_Extract_CWE_Text cwe_read = new Parser_Extract_CWE_Text();
 	Parser_Extract_TermList Extract_terms = new Parser_Extract_TermList();

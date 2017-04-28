@@ -7,7 +7,7 @@ import Criteria.Stanford_Class;
 import Input.Input_Configs;
 import Input.Input_ReadFile;
 import Input.Input_ReadFileNames;
-import Input.Input_URL;
+import Input.Input_USCERT;
 import Output.Output_StanfordSentences;
 import Parser.Parser_MalwareName;
 import Parser.Parser_MalwareType;

@@ -9,7 +9,7 @@ import org.jsoup.select.Elements;
 import Criteria.US_CERT_Class;
 import Tool.Read_Config;
 
-public class Parser_URL
+public class Parser_USCERT
 {
 	String link = "";
 	String body = "";
@@ -52,18 +52,22 @@ public class Parser_URL
 		}
 	}
 
-	public void parse(Document doc)
+	public void parse(ArrayList<Document> document)
 	{
 		String[] str;
-		Elements elements = doc.select(this.body);
-		Elements title_element = elements.select(this.title);
-		for (int i = 0; i < title_element.size(); i++)
+		Elements elements, title_element;
+		for (Document doc : document)
 		{
-			this.uscert.add(new US_CERT_Class());
-			str = title_element.get(i).text().toString().split(this.title_split);
-			this.uscert.get(this.uscert.size() - 1).set_Title(str[0]);
-			this.uscert.get(this.uscert.size() - 1)
-					.set_URL(this.URL_Front + elements.select(this.link).get(i).attr(this.link_attr).toString());
+			elements = doc.select(this.body);
+			title_element = elements.select(this.title);
+			for (int i = 0; i < title_element.size(); i++)
+			{
+				this.uscert.add(new US_CERT_Class());
+				str = title_element.get(i).text().toString().split(this.title_split);
+				this.uscert.get(this.uscert.size() - 1).set_Title(str[0]);
+				this.uscert.get(this.uscert.size() - 1)
+						.set_URL(this.URL_Front + elements.select(this.link).get(i).attr(this.link_attr).toString());
+			}
 		}
 	}
 
