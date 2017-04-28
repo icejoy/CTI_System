@@ -12,6 +12,8 @@ import Tool.Read_Config;
 public class Input_USCERT
 {
 	URL url;
+	String body = "";
+	String title = "";
 	String Start_Page = "";
 	ArrayList<Document> document = new ArrayList<Document>();
 	Read_Config read_Config = new Read_Config();
@@ -26,6 +28,14 @@ public class Input_USCERT
 			if (settings.containsKey("Start_Page"))
 			{
 				this.Start_Page = (String) settings.get("Start_Page");
+			}
+			if (settings.containsKey("body"))
+			{
+				this.body = (String) settings.get("body");
+			}
+			if (settings.containsKey("title"))
+			{
+				this.title = (String) settings.get("title");
 			}
 		}
 		catch (Exception e)
@@ -43,9 +53,13 @@ public class Input_USCERT
 			{
 				this.url = new URL(this.Start_Page + i);
 				doc = Jsoup.parse(this.url, 100000);
-				if (doc.select("div").size() > 0)
+				if (doc.select(this.body).select(this.title).size() > 0)
 				{
 					this.document.add(doc);
+				}
+				else
+				{
+					break;
 				}
 			}
 			catch (Exception e)

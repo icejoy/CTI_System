@@ -22,7 +22,7 @@ public class Entropy_Run
 {
 	String pos = "JJ";
 	String Change = ",";
-	String save_Name = "JJVB_TF_MIX.csv";
+	String save_Name = "USCERT_JJVB.csv";
 	String XmlPath = "2011_CWE_SANS_Top25.xml";
 
 	Boolean have_same = false;
@@ -41,30 +41,34 @@ public class Entropy_Run
 
 	public void CWE_Check()
 	{
+		this.Extract_terms.set_FileName("CWE");
 		File vb = new File("CWE_VBList.txt");
 		File jj = new File("CWE_JJList.txt");
 		if (!jj.exists() || !vb.exists())
 		{
 			this.ReadFile.input(this.XmlPath);
 			this.cwe_read.parse(this.ReadFile.get_input());
-			this.Extract_terms.set_FileName("CWE");
 			this.Extract_terms.parse(this.cwe_read.get_parse());
 		}
 	}
 
 	public void USCERT_Check()
 	{
-		// set url
-		this.url_input.set_config("https://www.us-cert.gov/ncas/alerts");
-		this.url_input.input();
-		if (this.url_input.get_haved_read())
+		this.Extract_terms.set_FileName("USCERT");
+		File jj = new File("USCERT_JJList.txt");
+		if (!jj.exists())
 		{
-			this.url_parse.set_config("Config/US-CERT_List.json");
-			this.url_parse.parse(this.url_input.get_document());
-			this.readURL.set_config("Config/US-CERT_Content.json");
-			this.readURL.parse(this.url_parse.get_parse());
-			this.Extract_terms.set_FileName("USCERT");
-			this.Extract_terms.parse(this.readURL.get_Content());
+			// set url
+			this.url_input.set_config("Config/US-CERT_List.json");
+			this.url_input.input();
+			if (this.url_input.get_haved_read())
+			{
+				this.url_parse.set_config("Config/US-CERT_List.json");
+				this.url_parse.parse(this.url_input.get_document());
+				this.readURL.set_config("Config/US-CERT_Content.json");
+				this.readURL.parse(this.url_parse.get_parse());
+				this.Extract_terms.parse(this.readURL.get_Content());
+			}
 		}
 	}
 
@@ -176,7 +180,7 @@ public class Entropy_Run
 	{
 		Entropy_Run run = new Entropy_Run();
 		// run.Start("C:/Users/Islab/Desktop/Dataset/TF");
-		run.Start("src/main/java/Dataset/TF");
+		run.Start("Dataset/TF");
 		System.out.println("done");
 	}
 }
