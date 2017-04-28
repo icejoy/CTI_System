@@ -55,7 +55,7 @@ public class Entropy_Run
 	public void USCERT_Check()
 	{
 		// set url
-		this.url_input.set_URL("https://www.us-cert.gov/ncas/alerts");
+		this.url_input.set_config("https://www.us-cert.gov/ncas/alerts");
 		this.url_input.input();
 		if (this.url_input.get_haved_read())
 		{
