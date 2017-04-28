@@ -5,13 +5,16 @@ import java.text.DecimalFormat;
 import java.util.ArrayList;
 
 import Criteria.Stanford_Class;
-import Criteria.String_Integer;
+import Criteria.String_Integer_Class;
 import Input.Input_ReadFile;
 import Input.Input_ReadFileNames;
+import Input.Input_URL;
 import Output.Output_SaveTxT;
-import Parser.Parser_Extract_CWETermList;
+import Parser.Parser_Extract_TermList;
 import Parser.Parser_Extract_CWE_Text;
+import Parser.Parser_ReadURLContent;
 import Parser.Parser_StanfordNLP;
+import Parser.Parser_URL;
 import Tool.Entropy_Similarity;
 import Tool.Two_TermList_Match;
 
@@ -24,8 +27,11 @@ public class Entropy_Run
 
 	Boolean have_same = false;
 
+	Input_URL url_input = new Input_URL();
+	Parser_URL url_parse = new Parser_URL();
+	Parser_ReadURLContent readURL = new Parser_ReadURLContent();
 	Parser_Extract_CWE_Text cwe_read = new Parser_Extract_CWE_Text();
-	Parser_Extract_CWETermList cwe_terms = new Parser_Extract_CWETermList();
+	Parser_Extract_TermList Extract_terms = new Parser_Extract_TermList();
 	Two_TermList_Match match = new Two_TermList_Match();
 	Entropy_Similarity similarity = new Entropy_Similarity();
 	Input_ReadFileNames ReadFolder = new Input_ReadFileNames();
@@ -35,22 +41,40 @@ public class Entropy_Run
 
 	public void CWE_Check()
 	{
-		File jj = new File("CWE_JJList.txt");
 		File vb = new File("CWE_VBList.txt");
+		File jj = new File("CWE_JJList.txt");
 		if (!jj.exists() || !vb.exists())
 		{
 			this.ReadFile.input(this.XmlPath);
 			this.cwe_read.parse(this.ReadFile.get_input());
-			this.cwe_terms.parse(this.cwe_read.get_parse());
+			this.Extract_terms.set_FileName("CWE");
+			this.Extract_terms.parse(this.cwe_read.get_parse());
+		}
+	}
+
+	public void USCERT_Check()
+	{
+		// set url
+		this.url_input.set_URL("https://www.us-cert.gov/ncas/alerts");
+		this.url_input.input();
+		if (this.url_input.get_haved_read())
+		{
+			this.url_parse.set_config("Config/US-CERT_List.json");
+			this.url_parse.parse(this.url_input.get_document());
+			this.readURL.set_config("Config/US-CERT_Content.json");
+			this.readURL.parse(this.url_parse.get_parse());
+			this.Extract_terms.set_FileName("USCERT");
+			this.Extract_terms.parse(this.readURL.get_Content());
 		}
 	}
 
 	public void Start(String input)
 	{
-		CWE_Check();
+		// CWE_Check();
+		USCERT_Check();
 		Double dd = 0.0;
 		String rol1 = "", rol2 = "";
-		String_Integer T1, T2;
+		String_Integer_Class T1, T2;
 		ArrayList<String> result = new ArrayList<String>();
 		ArrayList<String> TF_Files = new ArrayList<String>(Read_Files(input));
 		DecimalFormat df = new DecimalFormat("#.##");
@@ -120,9 +144,9 @@ public class Entropy_Run
 		return array;
 	}
 
-	public String_Integer Find_Terms_Sorting(ArrayList<Stanford_Class> content)
+	public String_Integer_Class Find_Terms_Sorting(ArrayList<Stanford_Class> content)
 	{
-		String_Integer term_count = new String_Integer();
+		String_Integer_Class term_count = new String_Integer_Class();
 		for (Stanford_Class stanford_Class : content)
 		{
 			for (int i = 0; i < stanford_Class.get_Lemma().size(); i++)
@@ -135,9 +159,9 @@ public class Entropy_Run
 				 * ().get(i))))
 				 */
 				if ((stanford_Class.get_Pos().get(i).contains("VB")
-						&& this.cwe_terms.get_VBList().contains(stanford_Class.get_Lemma().get(i)))
+						&& this.Extract_terms.get_VBList().contains(stanford_Class.get_Lemma().get(i)))
 						|| (stanford_Class.get_Pos().get(i).contains("JJ")
-								&& this.cwe_terms.get_JJList().contains(stanford_Class.get_Lemma().get(i))))
+								&& this.Extract_terms.get_JJList().contains(stanford_Class.get_Lemma().get(i))))
 				{
 					term_count.Contain_term(stanford_Class.get_Lemma().get(i));
 				}

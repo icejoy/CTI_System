@@ -6,21 +6,30 @@ import Criteria.Stanford_Class;
 import Input.Input_ReadFile;
 import Output.Output_SaveTxT;
 
-public class Parser_Extract_CWETermList
+public class Parser_Extract_TermList
 {
+	String FileName = "";
+
 	Input_ReadFile ReadFile = new Input_ReadFile();
 	Output_SaveTxT output = new Output_SaveTxT();
 	Parser_StanfordNLP stanfordNLP = new Parser_StanfordNLP();
-	ArrayList<String> JJ = new ArrayList<String>();
+	ArrayList<String> NN = new ArrayList<String>();
 	ArrayList<String> VB = new ArrayList<String>();
+	ArrayList<String> JJ = new ArrayList<String>();
 	ArrayList<String> StopWordList;
+
+	public void set_FileName(String filename)
+	{
+		this.FileName = filename;
+	}
 
 	public void parse(ArrayList<String> content)
 	{
 		this.stanfordNLP.parse(content);
 		Load_StopWordList();
-		Find_JJ(this.stanfordNLP.get_parse());
+		Find_NN(this.stanfordNLP.get_parse());
 		Find_VB(this.stanfordNLP.get_parse());
+		Find_JJ(this.stanfordNLP.get_parse());
 	}
 
 	private void Load_StopWordList()
@@ -29,22 +38,22 @@ public class Parser_Extract_CWETermList
 		this.StopWordList = new ArrayList<String>(this.ReadFile.get_input());
 	}
 
-	private void Find_JJ(ArrayList<Stanford_Class> content)
+	private void Find_NN(ArrayList<Stanford_Class> content)
 	{
 		ArrayList<String> result = new ArrayList<String>();
 		for (Stanford_Class stanfordclass : content)
 		{
 			for (int i = 0; i < stanfordclass.get_Lemma().size(); i++)
 			{
-				if (stanfordclass.get_Pos().get(i).contains("JJ")
+				if (stanfordclass.get_Pos().get(i).contains("NN")
 						&& !this.StopWordList.contains(stanfordclass.get_Lemma().get(i)))
 				{
 					result.add(stanfordclass.get_Lemma().get(i));
-					JJ.add(stanfordclass.get_Lemma().get(i));
+					NN.add(stanfordclass.get_Lemma().get(i));
 				}
 			}
 		}
-		this.output.String_One_ArrayListt_Save("CWE_JJList.txt", result, false);
+		this.output.String_One_ArrayListt_Save(this.FileName+"_NNList.txt", result, false);
 	}
 
 	private void Find_VB(ArrayList<Stanford_Class> content)
@@ -62,21 +71,39 @@ public class Parser_Extract_CWETermList
 				}
 			}
 		}
-		this.output.String_One_ArrayListt_Save("CWE_VBList.txt", result, false);
+		this.output.String_One_ArrayListt_Save(this.FileName+"_VBList.txt", result, false);
 	}
 
-	public ArrayList<String> get_JJList()
+	private void Find_JJ(ArrayList<Stanford_Class> content)
 	{
-		if (JJ.size() > 0)
+		ArrayList<String> result = new ArrayList<String>();
+		for (Stanford_Class stanfordclass : content)
 		{
-			return JJ;
+			for (int i = 0; i < stanfordclass.get_Lemma().size(); i++)
+			{
+				if (stanfordclass.get_Pos().get(i).contains("JJ")
+						&& !this.StopWordList.contains(stanfordclass.get_Lemma().get(i)))
+				{
+					result.add(stanfordclass.get_Lemma().get(i));
+					JJ.add(stanfordclass.get_Lemma().get(i));
+				}
+			}
+		}
+		this.output.String_One_ArrayListt_Save(this.FileName+"_JJList.txt", result, false);
+	}
+
+	public ArrayList<String> get_NNList()
+	{
+		if (NN.size() > 0)
+		{
+			return NN;
 		}
 		else
 		{
-			this.ReadFile.input("CWE_JJList.txt");
-			JJ = null;
-			JJ = new ArrayList<String>(this.ReadFile.get_input());
-			return JJ;
+			this.ReadFile.input(this.FileName+"_NNList.txt");
+			NN = null;
+			NN = new ArrayList<String>(this.ReadFile.get_input());
+			return NN;
 		}
 	}
 
@@ -88,10 +115,25 @@ public class Parser_Extract_CWETermList
 		}
 		else
 		{
-			this.ReadFile.input("CWE_VBList.txt");
+			this.ReadFile.input(this.FileName+"_VBList.txt");
 			VB = null;
 			VB = new ArrayList<String>(this.ReadFile.get_input());
 			return VB;
+		}
+	}
+
+	public ArrayList<String> get_JJList()
+	{
+		if (JJ.size() > 0)
+		{
+			return JJ;
+		}
+		else
+		{
+			this.ReadFile.input(this.FileName+"_JJList.txt");
+			JJ = null;
+			JJ = new ArrayList<String>(this.ReadFile.get_input());
+			return JJ;
 		}
 	}
 }

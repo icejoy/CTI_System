@@ -2,7 +2,7 @@ package Criteria;
 
 import java.util.ArrayList;
 
-public class String_Integer
+public class String_Integer_Class
 {
 	Double All_term_count = 0.0;
 	ArrayList<String> term = new ArrayList<String>();

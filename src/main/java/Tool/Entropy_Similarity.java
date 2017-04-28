@@ -2,18 +2,18 @@ package Tool;
 
 import java.util.ArrayList;
 
-import Criteria.String_Integer;
+import Criteria.String_Integer_Class;
 
 public class Entropy_Similarity
 {
 
-	public Double Similarity_Calculate(ArrayList<Integer> index, String_Integer T1, String_Integer T2)
+	public Double Similarity_Calculate(ArrayList<Integer> index, String_Integer_Class T1, String_Integer_Class T2)
 	{
 		return D(index,T1,T2);
 
 	}
 
-	private Double Z(ArrayList<Integer> index, String_Integer T1, String_Integer T2)
+	private Double Z(ArrayList<Integer> index, String_Integer_Class T1, String_Integer_Class T2)
 	{
 		Double z = 0.0;
 		Double p1, p2, log1, log2;
@@ -29,7 +29,7 @@ public class Entropy_Similarity
 		return z;
 	}
 
-	private Double D(ArrayList<Integer> index, String_Integer T1, String_Integer T2)
+	private Double D(ArrayList<Integer> index, String_Integer_Class T1, String_Integer_Class T2)
 	{
 		Double z, fw, d = 0.0;
 		int rank1, rank2;
@@ -45,7 +45,7 @@ public class Entropy_Similarity
 		return d / (index.size() / 2);
 	}
 
-	private Double Entropy(Double z, int i, ArrayList<Integer> index, String_Integer T1, String_Integer T2)
+	private Double Entropy(Double z, int i, ArrayList<Integer> index, String_Integer_Class T1, String_Integer_Class T2)
 	{
 		Double fw, p1, p2, log1, log2;
 		p1 = T1.get_count().get(index.get(i)) / T1.get_Size();

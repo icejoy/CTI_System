@@ -7,6 +7,7 @@ import Criteria.Stanford_Class;
 import Input.Input_Configs;
 import Input.Input_ReadFile;
 import Input.Input_ReadFileNames;
+import Input.Input_URL;
 import Output.Output_StanfordSentences;
 import Parser.Parser_MalwareName;
 import Parser.Parser_MalwareType;
@@ -32,7 +33,6 @@ public class Once_Run_Debug
 	{
 		this.Input_FilePath = input_FilePath;
 		this.Output_FilePath = output_FilePath;
-
 	}
 
 	public void init()
@@ -74,7 +74,7 @@ public class Once_Run_Debug
 		// MainRun mr = new MainRun("src/main/java/OutputDatabase/T/test/a.txt",
 		// "src/main/java/OutputDatabase/T/test");
 		Once_Run_Debug mr = new Once_Run_Debug("src/main/java/Dataset/labeled/T", "src/main/java/OutputDatabase/T/");
-		mr.Start();
+		// mr.Start();
 		System.out.println("done");
 	}
 }

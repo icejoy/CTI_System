@@ -2,14 +2,14 @@ package Tool;
 
 import java.util.ArrayList;
 
-import Criteria.String_Integer;
+import Criteria.String_Integer_Class;
 
 public class Two_TermList_Match
 {
 	Boolean have_same = false;
 	ArrayList<Integer> index = new ArrayList<Integer>();
 
-	public void Start_Match(String_Integer T1, String_Integer T2)
+	public void Start_Match(String_Integer_Class T1, String_Integer_Class T2)
 	{
 		have_same = false;
 		index.clear();

@@ -1,0 +1,8 @@
+{
+"body":"div#page>section#section-content>div#zone-content-wrapper>div#zone-content>div#region-content>div.region-inner>div#block-system-main>div.block-inner>div.content>div>div.view-content>div.item-list"
+,"title":"ul>li>span.document_id"
+,"title_split":" :"
+,"link":"span.document_title>a[href]"
+,"link_attr":"href"
+,"URL_Front":"https://www.us-cert.gov"
+}
