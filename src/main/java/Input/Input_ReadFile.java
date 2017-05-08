@@ -11,11 +11,11 @@ public class Input_ReadFile
 
 	public void input(String Full_FileName)
 	{
+		String str="";
 		this.input.clear();
 		try
 		{
 			BufferedReader read = new BufferedReader(new InputStreamReader(new FileInputStream(Full_FileName)));
-
 			while (read.ready())
 			{
 				input.add(read.readLine());

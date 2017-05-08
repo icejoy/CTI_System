@@ -11,6 +11,7 @@ import Input.Input_ReadFileNames;
 import Input.Input_USCERT;
 import Output.Output_SaveTxT;
 import Parser.Parser_Extract_TermList;
+import Parser.Parser_IOC_Calculator;
 import Parser.Parser_Extract_CWE_Text;
 import Parser.Parser_ReadURLContent;
 import Parser.Parser_StanfordNLP;
@@ -22,13 +23,14 @@ public class Entropy_Run
 {
 	String pos = "JJ";
 	String Change = ",";
-	String save_Name = "USCERT_JJVB.csv";
+	String save_Name = "ALL_IOC_NNVBJJ.csv";
 	String XmlPath = "2011_CWE_SANS_Top25.xml";
 
 	Boolean have_same = false;
 
 	Input_USCERT url_input = new Input_USCERT();
 	Parser_USCERT url_parse = new Parser_USCERT();
+	Parser_IOC_Calculator ioc = new Parser_IOC_Calculator();
 	Parser_ReadURLContent readURL = new Parser_ReadURLContent();
 	Parser_Extract_CWE_Text cwe_read = new Parser_Extract_CWE_Text();
 	Parser_Extract_TermList Extract_terms = new Parser_Extract_TermList();
@@ -75,58 +77,81 @@ public class Entropy_Run
 	public void Start(String input)
 	{
 		// CWE_Check();
-		USCERT_Check();
+		// USCERT_Check();
+		int F = 0, T = 0;
 		Double dd = 0.0;
 		String rol1 = "", rol2 = "";
 		String_Integer_Class T1, T2;
+		this.ioc.set_config("Config/IOC_Rule");
 		ArrayList<String> result = new ArrayList<String>();
 		ArrayList<String> TF_Files = new ArrayList<String>(Read_Files(input));
 		DecimalFormat df = new DecimalFormat("#.##");
 		for (int i = 0; i < TF_Files.size(); i++)
 		{
-			rol2 = TF_Files.get(i).replace(" ", "_");
-			rol2 = rol2.replace(",", "-");
-			if (TF_Files.get(i).contains("/TF/T"))
+			if(i==99)
 			{
-				rol2 += Change + "1" + Change;
-			}
-			else
-			{
-				rol2 += Change + "0" + Change;
+				dd = 0.0;
 			}
 			this.ReadFile.input(TF_Files.get(i));
-			this.stanfordnlp.parse(this.ReadFile.get_input());
-			// this.stanfordnlp.parse(this.ReadFile(Files.get(i)));
-			T1 = Find_Terms_Sorting(this.stanfordnlp.get_parse());
-			for (String s : TF_Files)
+			this.ioc.Check_IOC_Paragraph(this.ReadFile.get_input());
+			if (this.ioc.get_IOC_Paragraph().size() > 0)
 			{
-				// rol1 += s + ",";
-				this.ReadFile.input(s);
+				rol2 = TF_Files.get(i).replace(" ", "_");
+				rol2 = rol2.replace(",", "-");
+				if (TF_Files.get(i).contains("/TF/T"))
+				{
+					rol2 += Change + "1" + Change;
+					T++;
+				}
+				else
+				{
+					rol2 += Change + "0" + Change;
+					F++;
+				}
 				this.stanfordnlp.parse(this.ReadFile.get_input());
-				T2 = Find_Terms_Sorting(this.stanfordnlp.get_parse());
-				this.match.Start_Match(T1, T2);
-				if (this.match.get_Have_Same())
+//				this.stanfordnlp.parse(this.ioc.get_IOC_Paragraph());
+				//this.stanfordnlp.parse(this.ReadFile(Files.get(i)));
+				T1 = Find_Terms_Sorting(this.stanfordnlp.get_parse());
+				for (String s : TF_Files)
 				{
-					dd = similarity.Similarity_Calculate(this.match.get_Match(), T1, T2);
+					// rol1 += s + ",";
+					this.ReadFile.input(s);
+					this.ioc.Check_IOC_Paragraph(this.ReadFile.get_input());
+					if (this.ioc.get_IOC_Paragraph().size() > 0)
+					{
+						this.stanfordnlp.parse(this.ReadFile.get_input());
+//						this.stanfordnlp.parse(this.ioc.get_IOC_Paragraph());
+						T2 = Find_Terms_Sorting(this.stanfordnlp.get_parse());
+						this.match.Start_Match(T1, T2);
+						if (this.match.get_Have_Same())
+						{
+							dd = similarity.Similarity_Calculate(this.match.get_Match(), T1, T2);
+						}
+						else
+						{
+							dd = null;
+						}
+						if (dd != null)
+						{
+							rol2 += df.format(dd) + Change;
+						}
+						else
+						{
+							rol2 += "NA" + Change;
+						}
+					}
+					else
+					{
+						rol2 += "NA" + Change;
+					}
 				}
-				else
-				{
-					dd = null;
-				}
-				if (dd != null)
-				{
-					rol2 += df.format(dd) + Change;
-				}
-				else
-				{
-					rol2 += "NA" + Change;
-				}
+				// result.add(rol1);
+				result.add(rol2);
+				// rol1 = "";
+				// rol2 = "";
 			}
-			// result.add(rol1);
-			result.add(rol2);
-			// rol1 = "";
-			// rol2 = "";
 		}
+		System.out.println("T:" + T + " F:" + F);
 		this.output.Set_FileConfig("");
 		this.output.String_One_ArrayListt_Save(save_Name, result, false);
 	}
@@ -157,15 +182,18 @@ public class Entropy_Run
 			{
 				/*
 				 * if ((pos.equals("VB") &&
-				 * this.cwe_terms.get_VBList().contains(stanford_Class.get_Lemma
-				 * ().get(i))) || (pos.equals("JJ") &&
-				 * this.cwe_terms.get_JJList().contains(stanford_Class.get_Lemma
-				 * ().get(i))))
+				 * this.Extract_terms.get_VBList().contains(stanford_Class.
+				 * get_Lemma().get(i))) || (pos.equals("JJ") &&
+				 * this.Extract_terms.get_JJList().contains(stanford_Class.
+				 * get_Lemma().get(i))))
 				 */
+
 				if ((stanford_Class.get_Pos().get(i).contains("VB")
 						&& this.Extract_terms.get_VBList().contains(stanford_Class.get_Lemma().get(i)))
 						|| (stanford_Class.get_Pos().get(i).contains("JJ")
-								&& this.Extract_terms.get_JJList().contains(stanford_Class.get_Lemma().get(i))))
+								&& this.Extract_terms.get_JJList().contains(stanford_Class.get_Lemma().get(i)))
+						|| (stanford_Class.get_Pos().get(i).contains("NN")
+								&& this.Extract_terms.get_NNList().contains(stanford_Class.get_Lemma().get(i))))
 				{
 					term_count.Contain_term(stanford_Class.get_Lemma().get(i));
 				}
@@ -179,7 +207,7 @@ public class Entropy_Run
 	public static void main(String[] args)
 	{
 		Entropy_Run run = new Entropy_Run();
-		// run.Start("C:/Users/Islab/Desktop/Dataset/TF");
+		//run.Start("C:/Users/Islab/Desktop/Dataset/TF");
 		run.Start("Dataset/TF");
 		System.out.println("done");
 	}

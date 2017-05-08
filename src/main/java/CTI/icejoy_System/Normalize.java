@@ -126,7 +126,7 @@ public class Normalize
 	public static void main(String[] args)
 	{
 		Normalize normalize = new Normalize();
-		normalize.Start("JJVB_TF_MIX.csv");
+		normalize.Start("ALL_IOC_NNVBJJ.csv");
 		System.out.println("done");
 	}
 

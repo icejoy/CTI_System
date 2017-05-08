@@ -100,7 +100,8 @@ public class Parser_Extract_TermList
 		}
 		else
 		{
-			this.ReadFile.input(this.FileName+"_NNList.txt");
+			this.ReadFile.input("MIX_NN.txt");
+			//this.ReadFile.input(this.FileName+"_NNList.txt");
 			NN = null;
 			NN = new ArrayList<String>(this.ReadFile.get_input());
 			return NN;
@@ -115,7 +116,8 @@ public class Parser_Extract_TermList
 		}
 		else
 		{
-			this.ReadFile.input(this.FileName+"_VBList.txt");
+			this.ReadFile.input("MIX_VB.txt");
+			//this.ReadFile.input(this.FileName+"_VBList.txt");
 			VB = null;
 			VB = new ArrayList<String>(this.ReadFile.get_input());
 			return VB;
@@ -130,7 +132,8 @@ public class Parser_Extract_TermList
 		}
 		else
 		{
-			this.ReadFile.input(this.FileName+"_JJList.txt");
+			this.ReadFile.input("MIX_JJ.txt");
+			//this.ReadFile.input(this.FileName+"_JJList.txt");
 			JJ = null;
 			JJ = new ArrayList<String>(this.ReadFile.get_input());
 			return JJ;

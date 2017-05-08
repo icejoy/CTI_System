@@ -1,4 +1,4 @@
-In Part One of our #AskSecPro series on WordPress Database Security, we learned about the anatomy of WordPress. Now that we have a firm understanding of the role the WordPress MySQL database plays in a WordPress installation, we can take a look at the various ways an adversary can exploit the mechanisms involved. We’ll also explore some of the ways to defend your database against compromise.
+﻿In Part One of our #AskSecPro series on WordPress Database Security, we learned about the anatomy of WordPress. Now that we have a firm understanding of the role the WordPress MySQL database plays in a WordPress installation, we can take a look at the various ways an adversary can exploit the mechanisms involved. We’ll also explore some of the ways to defend your database against compromise.
 
 For the purpose of this article, I’ll focus on some of the things that most WordPress website admins have complete control over but probably aren’t configuring properly. Most of us are guilty of poor security practices at one time or another, and in ways, we probably weren’t even aware of. In my best attempt to make this as dramatic as possible for a WordPress database security best practices article, I’m going to say that it’s time to start our recovery to be the best WordPress admins as possible. Consider this your twelve (or eight) step program to improve WordPress database security.
 
@@ -32,7 +32,7 @@ https://wpdistrict.sitelock.com/wp-content/uploads/2017/02/titanic.gif
 
 Your wp-config.php file contains some previous information, including your unique hash salts as well as plaintext credentials for accessing your database with administrator privileges. Keep this file secure by ensuring the permissions on wp-config.php are set to 0600 (–rw––––––). This permission setting means that the owner can read and write to this file, but all others have no access. If you’re not familiar with setting file permissions, work with your hosting provider to accomplish this change.
 
-5. Disable Remote Database Connectionshttps://wpdistrict.sitelock.com/wp-content/uploads/2017/02/StrangerDanger-150x150.jpg
+5. Disable Remote Database Connections https://wpdistrict.sitelock.com/wp-content/uploads/2017/02/StrangerDanger-150x150.jpg
 
 Some hosting providers allow for remote connections to be made to SQL databases in their network. For the purposes of WordPress, this is not only unnecessary, it introduces additional risk to the database by allowing it to listen to requests from outside entities. Just like our parents told us not to talk to strangers growing up, we need to tell our database not to talk to untrusted sources. In most cases, your hosting provider can disable this option on your behalf.
 
