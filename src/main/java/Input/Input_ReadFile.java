@@ -11,14 +11,23 @@ public class Input_ReadFile
 
 	public void input(String Full_FileName)
 	{
-		String str="";
+		String str = "";
 		this.input.clear();
 		try
 		{
 			BufferedReader read = new BufferedReader(new InputStreamReader(new FileInputStream(Full_FileName)));
 			while (read.ready())
 			{
-				input.add(read.readLine());
+				str = read.readLine();
+				if (str.contains("[dot]"))
+				{
+					str = str.replace("[dot]", ".");
+				}
+				if (str.contains("[.]"))
+				{
+					str = str.replace("[.]", ".");
+				}
+				input.add(str);
 			}
 			read.close();
 		}

@@ -23,7 +23,7 @@ public class Entropy_Run
 {
 	String pos = "JJ";
 	String Change = ",";
-	String save_Name = "ALL_IOC_NNVBJJ.csv";
+	String save_Name = "IOC_NNVBJJ.csv";
 	String XmlPath = "2011_CWE_SANS_Top25.xml";
 
 	Boolean have_same = false;
@@ -94,7 +94,7 @@ public class Entropy_Run
 			}
 			this.ReadFile.input(TF_Files.get(i));
 			this.ioc.Check_IOC_Paragraph(this.ReadFile.get_input());
-			if (this.ioc.get_IOC_Paragraph().size() > 0)
+			if (this.ioc.get_Check())
 			{
 				rol2 = TF_Files.get(i).replace(" ", "_");
 				rol2 = rol2.replace(",", "-");
@@ -108,19 +108,18 @@ public class Entropy_Run
 					rol2 += Change + "0" + Change;
 					F++;
 				}
-				this.stanfordnlp.parse(this.ReadFile.get_input());
-//				this.stanfordnlp.parse(this.ioc.get_IOC_Paragraph());
-				//this.stanfordnlp.parse(this.ReadFile(Files.get(i)));
+				this.stanfordnlp.parse(this.ioc.get_IOC_Paragraph());
+//				this.stanfordnlp.parse(this.ReadFile.get_input());
 				T1 = Find_Terms_Sorting(this.stanfordnlp.get_parse());
 				for (String s : TF_Files)
 				{
 					// rol1 += s + ",";
 					this.ReadFile.input(s);
 					this.ioc.Check_IOC_Paragraph(this.ReadFile.get_input());
-					if (this.ioc.get_IOC_Paragraph().size() > 0)
+					if (this.ioc.get_Check())
 					{
-						this.stanfordnlp.parse(this.ReadFile.get_input());
-//						this.stanfordnlp.parse(this.ioc.get_IOC_Paragraph());
+//						this.stanfordnlp.parse(this.ReadFile.get_input());
+						this.stanfordnlp.parse(this.ioc.get_IOC_Paragraph());
 						T2 = Find_Terms_Sorting(this.stanfordnlp.get_parse());
 						this.match.Start_Match(T1, T2);
 						if (this.match.get_Have_Same())
@@ -187,13 +186,15 @@ public class Entropy_Run
 				 * this.Extract_terms.get_JJList().contains(stanford_Class.
 				 * get_Lemma().get(i))))
 				 */
-
+				
+				
 				if ((stanford_Class.get_Pos().get(i).contains("VB")
 						&& this.Extract_terms.get_VBList().contains(stanford_Class.get_Lemma().get(i)))
 						|| (stanford_Class.get_Pos().get(i).contains("JJ")
-								&& this.Extract_terms.get_JJList().contains(stanford_Class.get_Lemma().get(i)))
-						|| (stanford_Class.get_Pos().get(i).contains("NN")
-								&& this.Extract_terms.get_NNList().contains(stanford_Class.get_Lemma().get(i))))
+								&& this.Extract_terms.get_JJList().contains(stanford_Class.get_Lemma().get(i))
+								|| (stanford_Class.get_Pos().get(i).contains("NN")
+										&& this.Extract_terms.get_NNList().contains(stanford_Class.get_Lemma().get(i))))
+						)
 				{
 					term_count.Contain_term(stanford_Class.get_Lemma().get(i));
 				}
@@ -207,7 +208,8 @@ public class Entropy_Run
 	public static void main(String[] args)
 	{
 		Entropy_Run run = new Entropy_Run();
-		//run.Start("C:/Users/Islab/Desktop/Dataset/TF");
+//		run.Start("C:/Users/Islab/Desktop/test");
+//		run.Start("C:/Users/Islab/Desktop/Dataset/TF");
 		run.Start("Dataset/TF");
 		System.out.println("done");
 	}

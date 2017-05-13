@@ -8,8 +8,10 @@ import Tool.Read_Config;
 
 public class Parser_IOC_Calculator
 {
+	Boolean Haved = false;
 	ArrayList<String> result = new ArrayList<String>();
-	String URL, HOST, IP, EMAIL, MD5, SHA1, SHA256, CVE, REGISTRY, FILENAME, FILEPATH, DETECTED_MALWARENAME;
+	String URL, HOST, IP, EMAIL, MD5, SHA1, SHA256, CVE, REGISTRY;
+	String FILENAME, FILEPATH, DETECTED_MALWARENAME, EXTENSION, PATH;
 	Read_Config read_Config = new Read_Config();
 
 	public void set_config(String Config_Path)
@@ -67,6 +69,14 @@ public class Parser_IOC_Calculator
 			{
 				this.DETECTED_MALWARENAME = (String) settings.get("DETECTED_MALWARENAME");
 			}
+			if (settings.containsKey("EXTENSION"))
+			{
+				this.EXTENSION = (String) settings.get("EXTENSION");
+			}
+			if (settings.containsKey("PATH"))
+			{
+				this.PATH = (String) settings.get("PATH");
+			}
 		}
 		catch (Exception e)
 		{
@@ -76,6 +86,7 @@ public class Parser_IOC_Calculator
 
 	public void Check_IOC_Paragraph(ArrayList<String> content)
 	{
+		Haved = false;
 		int count = 0;
 		// int Paragraph = 0;
 		this.result.clear();
@@ -92,6 +103,7 @@ public class Parser_IOC_Calculator
 			r = new ArrayList<String>(ReplaceIOC(content.get(i)));
 			if (r.get(0).equals("Haved"))
 			{
+				Haved = true;
 				for (i = 0; i < content.size(); i++)
 				{
 					result.add(ReplaceIOC(content.get(i)).get(1));
@@ -112,6 +124,10 @@ public class Parser_IOC_Calculator
 				// }
 				// }
 				// }
+			}
+			else
+			{
+				result.add(r.get(1));
 			}
 		}
 	}
@@ -138,10 +154,10 @@ public class Parser_IOC_Calculator
 			}
 			else if (str.matches(this.HOST))
 			{
-//				if (str.contains("[dot]"))
-//				{
-//					System.out.println(str);
-//				}
+				// if (str.contains("[dot]"))
+				// {
+				// System.out.println(str);
+				// }
 				if (temp == "")
 				{
 					temp = "HOST";
@@ -272,6 +288,30 @@ public class Parser_IOC_Calculator
 				}
 				IOC = true;
 			}
+			else if (str.matches(this.EXTENSION))
+			{
+				if (temp == "")
+				{
+					temp = "EXTENSION";
+				}
+				else
+				{
+					temp += " EXTENSION";
+				}
+				IOC = true;
+			}
+			else if (str.matches(this.PATH))
+			{
+				if (temp == "")
+				{
+					temp = "PATH";
+				}
+				else
+				{
+					temp += " PATH";
+				}
+				IOC = true;
+			}
 			else
 			{
 				if (temp == "")
@@ -295,6 +335,11 @@ public class Parser_IOC_Calculator
 			r.add(temp);
 		}
 		return r;
+	}
+
+	public Boolean get_Check()
+	{
+		return Haved;
 	}
 
 	public ArrayList<String> get_IOC_Paragraph()
