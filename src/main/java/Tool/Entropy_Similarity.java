@@ -9,7 +9,7 @@ public class Entropy_Similarity
 
 	public Double Similarity_Calculate(ArrayList<Integer> index, String_Integer_Class T1, String_Integer_Class T2)
 	{
-		return D(index,T1,T2);
+		return D(index, T1, T2);
 
 	}
 
@@ -36,8 +36,8 @@ public class Entropy_Similarity
 		z = Z(index, T1, T2);
 		for (int i = 0; i < index.size(); i += 2)
 		{
-			rank1 = T1.get_term().indexOf(T1.get_term().get(index.get(i)));
-			rank2 = T2.get_term().indexOf(T2.get_term().get(index.get(i + 1)));
+			rank1 = T1.get_Rank().get(index.get(i));
+			rank2 = T2.get_Rank().get(index.get(i+ 1) );
 			fw = Entropy(z, i, index, T1, T2);
 
 			d += Math.abs(rank1 - rank2) * fw;
@@ -49,8 +49,7 @@ public class Entropy_Similarity
 	{
 		Double fw, p1, p2, log1, log2;
 		p1 = T1.get_count().get(index.get(i)) / T1.get_Size();
-		i++;
-		p2 = T2.get_count().get(index.get(i)) / T2.get_Size();
+		p2 = T2.get_count().get(index.get(i+1)) / T2.get_Size();
 		log1 = Math.log(p1);
 		log2 = Math.log(p2);
 		fw = (-(p1 * log1) - (p2 * log2)) / z;

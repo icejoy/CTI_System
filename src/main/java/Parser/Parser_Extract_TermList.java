@@ -40,7 +40,6 @@ public class Parser_Extract_TermList
 
 	private void Find_NN(ArrayList<Stanford_Class> content)
 	{
-		ArrayList<String> result = new ArrayList<String>();
 		for (Stanford_Class stanfordclass : content)
 		{
 			for (int i = 0; i < stanfordclass.get_Lemma().size(); i++)
@@ -48,17 +47,16 @@ public class Parser_Extract_TermList
 				if (stanfordclass.get_Pos().get(i).contains("NN")
 						&& !this.StopWordList.contains(stanfordclass.get_Lemma().get(i)))
 				{
-					result.add(stanfordclass.get_Lemma().get(i));
-					NN.add(stanfordclass.get_Lemma().get(i));
+					if(NN.size()==0||(NN.size()>0&&!NN.contains(stanfordclass.get_Lemma().get(i))))
+					{NN.add(stanfordclass.get_Lemma().get(i));}
 				}
 			}
 		}
-		this.output.String_One_ArrayListt_Save(this.FileName+"_NNList.txt", result, false);
+		this.output.String_One_ArrayListt_Save(this.FileName+"_NNList.txt", NN, false);
 	}
 
 	private void Find_VB(ArrayList<Stanford_Class> content)
 	{
-		ArrayList<String> result = new ArrayList<String>();
 		for (Stanford_Class stanfordclass : content)
 		{
 			for (int i = 0; i < stanfordclass.get_Lemma().size(); i++)
@@ -66,17 +64,16 @@ public class Parser_Extract_TermList
 				if (stanfordclass.get_Pos().get(i).contains("VB")
 						&& !this.StopWordList.contains(stanfordclass.get_Lemma().get(i)))
 				{
-					result.add(stanfordclass.get_Lemma().get(i));
-					VB.add(stanfordclass.get_Lemma().get(i));
+					if(VB.size()==0||(VB.size()>0&&!VB.contains(stanfordclass.get_Lemma().get(i))))
+					{VB.add(stanfordclass.get_Lemma().get(i));}
 				}
 			}
 		}
-		this.output.String_One_ArrayListt_Save(this.FileName+"_VBList.txt", result, false);
+		this.output.String_One_ArrayListt_Save(this.FileName+"_VBList.txt", VB, false);
 	}
 
 	private void Find_JJ(ArrayList<Stanford_Class> content)
 	{
-		ArrayList<String> result = new ArrayList<String>();
 		for (Stanford_Class stanfordclass : content)
 		{
 			for (int i = 0; i < stanfordclass.get_Lemma().size(); i++)
@@ -84,12 +81,12 @@ public class Parser_Extract_TermList
 				if (stanfordclass.get_Pos().get(i).contains("JJ")
 						&& !this.StopWordList.contains(stanfordclass.get_Lemma().get(i)))
 				{
-					result.add(stanfordclass.get_Lemma().get(i));
-					JJ.add(stanfordclass.get_Lemma().get(i));
+					if(JJ.size()==0||(JJ.size()>0&&!JJ.contains(stanfordclass.get_Lemma().get(i))))
+					{JJ.add(stanfordclass.get_Lemma().get(i));}
 				}
 			}
 		}
-		this.output.String_One_ArrayListt_Save(this.FileName+"_JJList.txt", result, false);
+		this.output.String_One_ArrayListt_Save(this.FileName+"_JJList.txt", JJ, false);
 	}
 
 	public ArrayList<String> get_NNList()
