@@ -23,7 +23,7 @@ public class Entropy_Run
 {
 	String pos = "JJ";
 	String Change = ",";
-	String save_Name = "Ture__NNVBJJ.csv";
+	String save_Name = "D34___NNVBJJ.csv";
 	String XmlPath = "2011_CWE_SANS_Top25.xml";
 
 	Boolean have_same = false;
@@ -44,9 +44,9 @@ public class Entropy_Run
 	public void CWE_Check()
 	{
 		this.Extract_terms.set_FileName("CWE");
-		/*File vb = new File("CWE_VBList.txt");
+		File vb = new File("CWE_VBList.txt");
 		File jj = new File("CWE_JJList.txt");
-		if (!jj.exists() || !vb.exists())*/
+		if (!jj.exists() || !vb.exists())
 		{
 			this.ReadFile.input(this.XmlPath);
 			this.cwe_read.parse(this.ReadFile.get_input());
@@ -57,8 +57,8 @@ public class Entropy_Run
 	public void USCERT_Check()
 	{
 		this.Extract_terms.set_FileName("USCERT");
-		/*File jj = new File("USCERT_JJList.txt");
-		if (!jj.exists())*/
+		File jj = new File("USCERT_JJList.txt");
+		if (!jj.exists())
 		{
 			// set url
 			this.url_input.set_config("Config/US-CERT_List.json");
@@ -76,8 +76,8 @@ public class Entropy_Run
 
 	public void Start(String input)
 	{
-		CWE_Check();
-		USCERT_Check();
+		//CWE_Check();
+		//USCERT_Check();
 		int F = 0, T = 0;
 		Double dd = 0.0;
 		String rol1 = "", rol2 = "";
@@ -88,10 +88,6 @@ public class Entropy_Run
 		DecimalFormat df = new DecimalFormat("#.##");
 		for (int i = 0; i < TF_Files.size(); i++)
 		{
-			if(i==99)
-			{
-				dd = 0.0;
-			}
 			this.ReadFile.input(TF_Files.get(i));
 //			this.ioc.Check_IOC_Paragraph(this.ReadFile.get_input());
 //			if (this.ioc.get_Check())
@@ -118,10 +114,20 @@ public class Entropy_Run
 //					this.ioc.Check_IOC_Paragraph(this.ReadFile.get_input());
 //					if (this.ioc.get_Check())
 					{
+//						if(TF_Files.get(i)!=s)
+//						if((TF_Files.get(i).contains("F11")&&s.contains("T9"))
+//								||(TF_Files.get(i).contains("T/T")&&s.contains("T/T")&&!s.contains("T9"))&&TF_Files.get(i)!=s)
+						{
 						this.stanfordnlp.parse(this.ReadFile.get_input());
 //						this.stanfordnlp.parse(this.ioc.get_IOC_Paragraph());
 						T2 = Find_Terms_Sorting(this.stanfordnlp.get_parse());
+						
+//						result.clear();
+//						result.add("FileName: "+TF_Files.get(i)+" vs "+s);
+//						this.output.String_One_ArrayListt_Save("Ture_TwoSharedWords.txt", result, true);
+						
 						this.match.Start_Match(T1, T2);
+						}
 						if (this.match.get_Have_Same())
 						{
 							dd = similarity.Similarity_Calculate(this.match.get_Match(), T1, T2);
@@ -139,10 +145,10 @@ public class Entropy_Run
 							rol2 += "NA" + Change;
 						}
 					}
-//					else
-//					{
-//						rol2 += "NA" + Change;
-//					}
+					//else
+					//{
+					//	rol2 += "NA" + Change;
+					//}
 				}
 				// result.add(rol1);
 				result.add(rol2);
@@ -187,15 +193,15 @@ public class Entropy_Run
 				 * get_Lemma().get(i))))
 				 */
 				
-//				if(stanford_Class.get_Pos().get(i).contains("NN")||stanford_Class.get_Pos().get(i).contains("VB")||stanford_Class.get_Pos().get(i).contains("JJ"))
+				if(stanford_Class.get_Pos().get(i).contains("NN")||stanford_Class.get_Pos().get(i).contains("VB")||stanford_Class.get_Pos().get(i).contains("JJ"))
 				
-				if ((stanford_Class.get_Pos().get(i).contains("VB")
-						&& this.Extract_terms.get_VBList().contains(stanford_Class.get_Lemma().get(i)))
-						|| (stanford_Class.get_Pos().get(i).contains("JJ")
-								&& this.Extract_terms.get_JJList().contains(stanford_Class.get_Lemma().get(i))
-								|| (stanford_Class.get_Pos().get(i).contains("NN")
-										&& this.Extract_terms.get_NNList().contains(stanford_Class.get_Lemma().get(i))))
-						)
+//				if ((stanford_Class.get_Pos().get(i).contains("VB")
+//						&& this.Extract_terms.get_VBList().contains(stanford_Class.get_Lemma().get(i)))
+//						|| (stanford_Class.get_Pos().get(i).contains("JJ")
+//								&& this.Extract_terms.get_JJList().contains(stanford_Class.get_Lemma().get(i))
+//								|| (stanford_Class.get_Pos().get(i).contains("NN")
+//										&& this.Extract_terms.get_NNList().contains(stanford_Class.get_Lemma().get(i))))
+//						)
 				{
 					term_count.Contain_term(stanford_Class.get_Lemma().get(i));
 				}
@@ -210,8 +216,9 @@ public class Entropy_Run
 	{
 		Entropy_Run run = new Entropy_Run();
 //		run.Start("C:/Users/Islab/Desktop/test");
-//		run.Start("C:/Users/Islab/Desktop/Dataset/TF");
-		run.Start("Dataset/TF");
+		run.Start("C:/Users/Islab/Desktop/Dataset/TF");
+//		run.Start("Dataset/TF");
+//		run.Start("C:/Users/Islab/Desktop/case study/DT");
 		System.out.println("done");
 	}
 }

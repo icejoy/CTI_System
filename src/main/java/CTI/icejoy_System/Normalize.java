@@ -51,8 +51,13 @@ public class Normalize
 		}
 		for (int i = 0; i < this.number.get(0).size(); i++)
 		{
-			Normal(Find_MAX(i), i);
+			Normal(Find_MAX(i), i);	
 		}
+		
+//		for (int i = 0; i < this.number.size(); i++)
+//		{
+//			Normal(Find_MAX(i), i);	
+//		}
 
 		String rol = "label" + split_with;
 		for (int i = 0; i < this.number.get(0).size(); i++)
@@ -92,9 +97,9 @@ public class Normalize
 			}
 			this.result.add(rol);
 		}
-		this.output.String_One_ArrayListt_Save("done" + input_path, result, false);
+		this.output.String_One_ArrayListt_Save("Done" + input_path, result, false);
 	}
-
+	
 	public Double Find_MAX(int index)
 	{
 		Double max = Double.MIN_VALUE;
@@ -108,6 +113,19 @@ public class Normalize
 		return max;
 	}
 
+//	public Double Find_MAX(int index)
+//	{
+//		Double max = Double.MIN_VALUE;
+//		for (int i = 0; i < this.number.get(index).size(); i++)
+//		{
+//			if (this.number.get(index).get(i) != null && max < this.number.get(index).get(i))
+//			{
+//				max = this.number.get(index).get(i);
+//			}
+//		}
+//		return max;
+//	}
+	
 	public void Normal(Double max, int index)
 	{
 		for (int i = 0; i < this.number.size(); i++)
@@ -123,10 +141,25 @@ public class Normalize
 		}
 	}
 
+//	public void Normal(Double max, int index)
+//	{
+//		for (int i = 0; i < this.number.get(index).size(); i++)
+//		{
+//			if (this.number.get(index).get(i) != null)
+//			{
+//				this.number.get(index).set(i, this.number.get(index).get(i) / max);
+//			}
+//			else
+//			{
+//				this.number.get(index).set(i, 1.0);
+//			}
+//		}
+//	}
+
 	public static void main(String[] args)
 	{
 		Normalize normalize = new Normalize();
-		normalize.Start("Ture__NNVBJJ_NoD.csv");
+		normalize.Start("D34___NNVBJJ.csv");
 		System.out.println("done");
 	}
 

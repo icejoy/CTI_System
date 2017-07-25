@@ -11,7 +11,7 @@ public class Parser_IOC_Calculator
 	Boolean Haved = false;
 	ArrayList<String> result = new ArrayList<String>();
 	String URL, HOST, IP, EMAIL, MD5, SHA1, SHA256, CVE, REGISTRY;
-	String FILENAME, FILEPATH, DETECTED_MALWARENAME, EXTENSION, PATH;
+	String FILENAME, FILEPATH, PATH;//, DETECTED_MALWARENAME, EXTENSION
 	Read_Config read_Config = new Read_Config();
 
 	public void set_config(String Config_Path)
@@ -65,14 +65,14 @@ public class Parser_IOC_Calculator
 			{
 				this.FILEPATH = (String) settings.get("FILEPATH");
 			}
-			if (settings.containsKey("DETECTED_MALWARENAME"))
-			{
-				this.DETECTED_MALWARENAME = (String) settings.get("DETECTED_MALWARENAME");
-			}
-			if (settings.containsKey("EXTENSION"))
-			{
-				this.EXTENSION = (String) settings.get("EXTENSION");
-			}
+//			if (settings.containsKey("DETECTED_MALWARENAME")),"DETECTED_MALWARENAME":"[_]*[a-zA-Z0-9]{3,}[._/][a-zA-Z0-9]{3,}([._/][a-zA-Z0-9]*)*"
+//			{
+//				this.DETECTED_MALWARENAME = (String) settings.get("DETECTED_MALWARENAME");
+//			}
+//			if (settings.containsKey("EXTENSION")),"EXTENSION":"[.][a-z]{2,}"
+//			{
+//				this.EXTENSION = (String) settings.get("EXTENSION");
+//			}
 			if (settings.containsKey("PATH"))
 			{
 				this.PATH = (String) settings.get("PATH");
@@ -140,6 +140,7 @@ public class Parser_IOC_Calculator
 
 		for (String str : content.split(" "))
 		{
+			str = ClearString(str);
 			if (str.matches(this.URL))
 			{
 				if (temp == "")
@@ -276,30 +277,30 @@ public class Parser_IOC_Calculator
 				}
 				IOC = true;
 			}
-			else if (str.matches(this.DETECTED_MALWARENAME))
-			{
-				if (temp == "")
-				{
-					temp = "DETECTED_MALWARENAME";
-				}
-				else
-				{
-					temp += " DETECTED_MALWARENAME";
-				}
-				IOC = true;
-			}
-			else if (str.matches(this.EXTENSION))
-			{
-				if (temp == "")
-				{
-					temp = "EXTENSION";
-				}
-				else
-				{
-					temp += " EXTENSION";
-				}
-				IOC = true;
-			}
+//			else if (str.matches(this.DETECTED_MALWARENAME))
+//			{
+//				if (temp == "")
+//				{
+//					temp = "DETECTED_MALWARENAME";
+//				}
+//				else
+//				{
+//					temp += " DETECTED_MALWARENAME";
+//				}
+//				IOC = true;
+//			}
+//			else if (str.matches(this.EXTENSION))
+//			{
+//				if (temp == "")
+//				{
+//					temp = "EXTENSION";
+//				}
+//				else
+//				{
+//					temp += " EXTENSION";
+//				}
+//				IOC = true;
+//			}
 			else if (str.matches(this.PATH))
 			{
 				if (temp == "")
@@ -335,6 +336,27 @@ public class Parser_IOC_Calculator
 			r.add(temp);
 		}
 		return r;
+	}
+
+	public String ClearString(String str)
+	{
+		if (str.contains("\""))
+		{
+			str = str.replace("\"", "");
+		}
+		if (str.contains(","))
+		{
+			str = str.replace(",", "");
+		}
+		if (str.contains("("))
+		{
+			str = str.replace("(", "");
+		}
+		if (str.contains(")"))
+		{
+			str = str.replace(")", "");
+		}
+		return str;
 	}
 
 	public Boolean get_Check()
